@@ -17,7 +17,7 @@ const HomePage = () => {
             </div>
         </div>
 
-        <div className="p-16">
+        <div className="info-card-container">
             <SplitLayout>
                 <ImageCard image_path="../images/location.jpg" />
                 <div className="info-card">
@@ -40,7 +40,7 @@ const HomePage = () => {
             </SplitLayout>
         </div>
 
-        <div className="p-16 bg-slate-100">
+        <div className="info-card-container bg-slate-100">
             <SplitLayout>
                 <div className="info-card">
                     <div className="info-card-text">
@@ -63,7 +63,7 @@ const HomePage = () => {
             </SplitLayout>
         </div>
 
-        <div className="p-16">
+        <div className="info-card-container">
             <SplitLayout>
                 <ImageCard image_path="../images/room.jpg" />
                 <div className="info-card">
