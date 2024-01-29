@@ -13,3 +13,7 @@ li{
 li a{
     @apply text-lg font-bold 
 }
+
+.mobile > li {
+    @apply my-3
+}
