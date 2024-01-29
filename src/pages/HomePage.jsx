@@ -62,6 +62,29 @@ const HomePage = () => {
                 <ImageCard image_path="../images/pool.jpg" />
             </SplitLayout>
         </div>
+
+        <div className="p-16">
+            <SplitLayout>
+                <ImageCard image_path="../images/room.jpg" />
+                <div className="info-card">
+                    <div className="info-card-text">
+                        <p className="info-card-heading">Floor Plans</p>
+                        <p className="info-card-subheading">One-Bedroom Retreat</p>
+                        <p className="info-card-content">Discover the charm of our one-bedroom floor plans, offering a cozy retreat for individuals or couples. Thoughtful design and optimal use of space create a comfortable living experience</p>
+                    </div>
+
+                    <div className="info-card-text">
+                        <p className="info-card-subheading">Spacious Two-Bedroom Options</p>
+                        <p className="info-card-content">For those seeking more room, our spacious two-bedroom layouts provide ample space for families or individuals desiring extra versatility. Enjoy the flexibility of additional bedrooms for guests or home office space</p>
+                    </div>
+
+                    <div className="info-card-text">
+                        <p className="info-card-subheading">Luxurious Three-Bedroom Residences</p>
+                        <p className="info-card-content">Indulge in the luxury of our three-bedroom residences, where sophistication meets functionality. Ideal for families or those desiring a spacious home, these layouts offer an elevated living experience with room for every aspect of your lifestyle</p>
+                    </div>
+                </div>
+            </SplitLayout>
+        </div>
         </>
       
 
