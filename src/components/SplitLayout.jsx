@@ -5,7 +5,7 @@ export const SplitLayout = ({
     const [ left, right ] = children;
 
     return (
-        <div className="flex flex-col md:flex-row mx-8 mt-10 mb-48">
+        <div className="flex flex-col md:flex-row mx-8 mt-10">
             <>
                 {left}
             </>
