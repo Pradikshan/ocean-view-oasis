@@ -9,7 +9,7 @@ module.exports = {
         raleway: ['Raleway', 'sans']
       },
       backgroundImage: {
-        "main-img": "url(../public/images/main_img.jpg)"
+        "main-img": "url(../public/images/main_img2.jpg)"
       }
     },
   },
