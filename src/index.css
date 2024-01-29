@@ -5,3 +5,11 @@
 html {
     @apply font-raleway
 }
+
+li{
+    @apply mx-3 hover:scale-110 
+}
+
+li a{
+    @apply text-lg font-bold 
+}
