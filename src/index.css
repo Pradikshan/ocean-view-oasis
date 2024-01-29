@@ -17,3 +17,20 @@ li a{
 .mobile > li {
     @apply my-3
 }
+
+.info-card{
+    @apply mx-16
+}
+
+.info-card-text {
+    @apply mb-8
+}
+
+.info-card-heading {
+    @apply text-3xl font-bold
+}
+
+.info-card-subheading {
+    @apply text-xl font-bold mt-2
+}
+
