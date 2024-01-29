@@ -31,7 +31,7 @@ li a{
 }
 
 .info-card-heading {
-    @apply text-3xl font-bold
+    @apply text-2xl md:text-3xl font-bold mt-5 md:mt-0
 }
 
 .info-card-subheading {
