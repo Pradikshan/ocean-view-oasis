@@ -17,11 +17,32 @@ const HomePage = () => {
             </div>
         </div>
 
-        <div>
+        <div className="p-16">
             <SplitLayout>
-                <ImageCard image_path="../images/main_img2.jpg" />
-                <p>SHGHGS</p>
+                <ImageCard image_path="../images/location.jpg" />
+                <div className="info-card">
+                    <div className="info-card-text">
+                        <p className="info-card-heading">Location</p>
+                        <p className="info-card-subheading">Scenic Beauty</p>
+                        <p className="info-card-content">Experience the breathtaking views of the ocean and the natural beauty that surrounds our beachside apartments. Wake up to the sound of waves and enjoy unparalleled sunsets</p>
+                    </div>
+
+                    <div className="info-card-text">
+                        <p className="info-card-subheading">Convenient Access</p>
+                        <p className="info-card-content">Our location offers convenient access to local amenities, shopping centers, and dining options. Everything you need is within reach for a comfortable and enjoyable lifestyle</p>
+                    </div>
+
+                    <div className="info-card-text">
+                        <p className="info-card-subheading">Comunity Vibes</p>
+                        <p className="info-card-content">Immerse yourself in a vibrant local community. Connect with neighbors, participate in community events, and enjoy the sense of belonging that comes with our beachside living experience</p>
+                    </div>
+                </div>
             </SplitLayout>
+
+            
+
+
+
         </div>
         </>
       
