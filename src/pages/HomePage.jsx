@@ -19,10 +19,15 @@ const HomePage = () => {
 
         <div className="info-card-container">
             <SplitLayout>
+                {window.innerWidth >= 768 ? (
                 <ImageCard image_path="../images/location.jpg" />
+                ) : null}
                 <div className="info-card">
                     <div className="info-card-text">
                         <p className="info-card-heading">Location</p>
+                        {window.innerWidth <= 768 ? (
+                        <ImageCard image_path="../images/location.jpg" />
+                        ) : null}
                         <p className="info-card-subheading">Scenic Beauty</p>
                         <p className="info-card-content">Experience the breathtaking views of the ocean and the natural beauty that surrounds our beachside apartments. Wake up to the sound of waves and enjoy unparalleled sunsets</p>
                     </div>
@@ -45,6 +50,9 @@ const HomePage = () => {
                 <div className="info-card">
                     <div className="info-card-text">
                         <p className="info-card-heading">Facilities</p>
+                        {window.innerWidth <= 768 ? (
+                        <ImageCard image_path="../images/pool.jpg" /> 
+                        ) : null}
                         <p className="info-card-subheading">Modern Amenities</p>
                         <p className="info-card-content">Indulge in modern amenities designed to elevate your lifestyle. From state-of-the-art fitness centers to relaxing spa facilities, our apartments provide the comforts you deserve</p>
                     </div>
@@ -59,16 +67,24 @@ const HomePage = () => {
                         <p className="info-card-content">Experience a secure and convenient living environment with features like 24/7 security, smart home technology, and convenient parking options for residents and guests</p>
                     </div>
                 </div>
-                <ImageCard image_path="../images/pool.jpg" />
+                {window.innerWidth >= 768 ? (
+                <ImageCard image_path="../images/pool.jpg" /> 
+                ) : null}
+                
             </SplitLayout>
         </div>
 
         <div className="info-card-container">
             <SplitLayout>
+                {window.innerWidth >= 768 ? (
                 <ImageCard image_path="../images/room.jpg" />
+                ) : null}
                 <div className="info-card">
                     <div className="info-card-text">
                         <p className="info-card-heading">Floor Plans</p>
+                        {window.innerWidth <= 768 ? (
+                        <ImageCard image_path="../images/room.jpg" />
+                        ) : null}
                         <p className="info-card-subheading">One-Bedroom Retreat</p>
                         <p className="info-card-content">Discover the charm of our one-bedroom floor plans, offering a cozy retreat for individuals or couples. Thoughtful design and optimal use of space create a comfortable living experience</p>
                     </div>
