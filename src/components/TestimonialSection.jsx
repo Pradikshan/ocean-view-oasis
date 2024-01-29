@@ -8,7 +8,7 @@ const TestimonialSection = () => {
                 <p className="text-4xl font-bold">Testimonials</p>
                 <p>Testimonials from our residents</p>
             </div>
-            <div className="grid grid-cols-3 place-items-stretch">
+            <div className="grid grid-cols-1 md:grid-cols-3 place-items-stretch">
                 <TestimonialCard 
                 image={"../images/gandalf.jpg"}
                 name={"Gandalf the Grey"} 
