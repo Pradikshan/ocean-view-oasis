@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         raleway: ['Raleway', 'sans']
       },
+      backgroundImage: {
+        "main-img": "url(../public/images/main_img.jpg)"
+      }
     },
   },
   plugins: [],
