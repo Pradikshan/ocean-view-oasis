@@ -1,3 +1,5 @@
+import { ImageCard } from "../components/ImageCard";
+import { SplitLayout } from "../components/SplitLayout";
 
 const HomePage = () => {
     return (
@@ -16,7 +18,10 @@ const HomePage = () => {
         </div>
 
         <div>
-            
+            <SplitLayout>
+                <ImageCard image_path="../images/main_img2.jpg" />
+                <p>SHGHGS</p>
+            </SplitLayout>
         </div>
         </>
       
