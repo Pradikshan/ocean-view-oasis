@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
+import { fadeInLeft, fadeOutLeft, bounceInLeft } from 'react-animations';
+import Radium, { StyleRoot } from 'radium';
 
 const Navbar = () => {
 
@@ -8,6 +10,17 @@ const Navbar = () => {
 
     const toggleMenu = () => {
         setIsToggleMenu(!isToggleMenu);
+    }
+
+    const styles = {
+        fadeInLeft: {
+            animation: 'x 1s',
+            animationName: Radium.keyframes(fadeInLeft, 'fadeInLeft')
+        },
+        fadeOutLeft: {
+            animation: 'x 10s',
+            animationName: Radium.keyframes(fadeOutLeft, 'fadeOutLeft')
+        }
     }
 
     return (
@@ -73,35 +86,46 @@ const Navbar = () => {
                     className="fixed top-0 left-0 w-full h-full bg-black opacity-50 z-10"
                     onClick={toggleMenu}
                 ></div>
-                <div className="fixed top-0 left-0 w-2/3 h-full text-white bg-yellow-700 z-20">
-                    <button className="absolute right-0 p-2" style={{ fontSize: 24 }} onClick={toggleMenu}>
-                        <IoClose />
-                    </button>
+                
+                <StyleRoot>
+                    <div 
+                    className="fixed top-0 left-0 w-2/3 h-full text-white bg-yellow-700 z-20" 
+                    style={isToggleMenu ? styles.fadeInLeft : styles.fadeOutLeft}
+                    >
+                        <button 
+                        className="absolute right-0 p-2" 
+                        style={{ fontSize: 24 }} 
+                        onClick={toggleMenu}
+                        >
+                            <IoClose />
+                        </button>
 
-                    <ul className="flex flex-col mt-5 mobile">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Floor plan</a>
-                        </li>
-                        <li>
-                            <a href="#">Pricing</a>
-                        </li>
-                        <li>
-                            <a href="#">Photo gallery</a>
-                        </li>
-                        <li>
-                            <a href="#">FAQ</a>
-                        </li>
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact us</a>
-                        </li>
-                    </ul>
-                </div>
+                        <ul className="flex flex-col mt-5 mobile">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Floor plan</a>
+                            </li>
+                            <li>
+                                <a href="#">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#">Photo gallery</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </StyleRoot>
+                
                 </>
             )}
         </div>
