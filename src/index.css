@@ -18,8 +18,12 @@ li a{
     @apply my-3
 }
 
+.info-card-container{
+    @apply p-6 md:p-16
+}
+
 .info-card{
-    @apply mx-16
+    @apply mx-1 md:mx-16
 }
 
 .info-card-text {
