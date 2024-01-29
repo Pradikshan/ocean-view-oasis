@@ -38,11 +38,29 @@ const HomePage = () => {
                     </div>
                 </div>
             </SplitLayout>
+        </div>
 
-            
+        <div className="p-16">
+            <SplitLayout>
+                <div className="info-card">
+                    <div className="info-card-text">
+                        <p className="info-card-heading">Facilities</p>
+                        <p className="info-card-subheading">Modern Amenities</p>
+                        <p className="info-card-content">Indulge in modern amenities designed to elevate your lifestyle. From state-of-the-art fitness centers to relaxing spa facilities, our apartments provide the comforts you deserve</p>
+                    </div>
 
+                    <div className="info-card-text">
+                        <p className="info-card-subheading">Recreational Spaces</p>
+                        <p className="info-card-content">Enjoy a variety of recreational spaces within the community. Whether it's a refreshing swimming pool, lush green parks, or designated play areas, there's something for everyone</p>
+                    </div>
 
-
+                    <div className="info-card-text">
+                        <p className="info-card-subheading">Security and Convenience</p>
+                        <p className="info-card-content">Experience a secure and convenient living environment with features like 24/7 security, smart home technology, and convenient parking options for residents and guests</p>
+                    </div>
+                </div>
+                <ImageCard image_path="../images/pool.jpg" />
+            </SplitLayout>
         </div>
         </>
       
