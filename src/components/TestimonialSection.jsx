@@ -21,9 +21,7 @@ const TestimonialSection = () => {
                 image={"../images/legolas5.jpg"}
                 name={"Legolas Greenleaf"}
                 testimonial={"Ocean View Oasis, where rhythmic tides meet Elvish elegance. With graceful interiors, this dwelling bridges nature and modernity, resonating with woodland spirit. A haven to commune with the essence of the sea and ancient tales."}/>
-
-                
-                
+                {/* TODO: Add three more testimonial */}
             </div>
         </div>
     );
