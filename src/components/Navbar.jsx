@@ -1,11 +1,18 @@
 import { useState } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IoClose } from "react-icons/io5";
 
 const Navbar = () => {
 
     const [isToggleMenu, setIsToggleMenu] = useState(false);
 
+    const toggleMenu = () => {
+        setIsToggleMenu(!isToggleMenu);
+    }
+
     return (
-        <div className="hidden md:flex flex-row justify-between w-full px-4">
+        <>
+        <div className="hidden lg:flex flex-row justify-between w-full px-4">
             <div className="flex flex-row">
                 <img src="../images/logo.png" alt="logo" className="w-24 h-24"/>
                 <p className="self-center text-2xl font-bold">OCEAN VIEW OASIS</p>
@@ -45,8 +52,66 @@ const Navbar = () => {
                 </div>
                 <a href="#" className="bg-yellow-700 text-white p-3 rounded-full h-1/2 self-center">Discover Your New Home</a>
             </div>
-
         </div>
+        
+        
+        <div className="relative">
+            <div className="flex lg:hidden flex-row z-0">
+                <button className="-mt-2 ms-3" onClick={toggleMenu}>
+                    <GiHamburgerMenu style={{ fontSize: 24 }}/>
+                </button>
+
+                <div className="flex flex-row ms-8">
+                <img src="../images/logo.png" alt="logo" className="w-16 h-16"/>
+                <p className="self-center -ms-1 -mt-1 text-lg font-bold">OCEAN VIEW OASIS</p>
+                </div>
+            </div>
+
+            {isToggleMenu && (
+                <>
+                <div
+                    className="fixed top-0 left-0 w-full h-full bg-black opacity-50 z-10"
+                    onClick={toggleMenu}
+                ></div>
+                <div className="fixed top-0 left-0 w-2/3 h-full text-white bg-yellow-700 z-20">
+                    <button className="absolute right-0 p-2" style={{ fontSize: 24 }} onClick={toggleMenu}>
+                        <IoClose />
+                    </button>
+
+                    <ul className="flex flex-col mt-5 mobile">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Floor plan</a>
+                        </li>
+                        <li>
+                            <a href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#">Photo gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                </>
+            )}
+        </div>
+
+
+
+
+        </>
+
+
     );
 
 }
