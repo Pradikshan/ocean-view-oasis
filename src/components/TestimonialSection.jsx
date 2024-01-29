@@ -6,7 +6,7 @@ const TestimonialSection = () => {
         <div className="mt-28">
             <div className="flex flex-col justify-center items-center">
                 <p className="text-3xl md:text-4xl font-bold">Testimonials</p>
-                <p className="text-xl md:text-2xl font-semibold">Testimonials from our residents</p>
+                <p className="text-xl md:text-2xl font-semibold">Discover what our residents have to say about Ocean View Oasis.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 place-items-stretch">
                 <TestimonialCard 
