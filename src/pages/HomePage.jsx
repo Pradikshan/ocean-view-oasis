@@ -40,7 +40,7 @@ const HomePage = () => {
             </SplitLayout>
         </div>
 
-        <div className="p-16">
+        <div className="p-16 bg-slate-100">
             <SplitLayout>
                 <div className="info-card">
                     <div className="info-card-text">
