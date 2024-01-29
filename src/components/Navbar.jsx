@@ -1,7 +1,8 @@
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
-import { fadeInLeft, fadeOutLeft, bounceInLeft } from 'react-animations';
+import { fadeInLeft, fadeOutLeft } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
 
 const Navbar = () => {
@@ -35,25 +36,25 @@ const Navbar = () => {
             <div className="self-center">
                 <ul className="flex flex-row">
                     <li>
-                        <a href="#">Home</a>
+                        <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <a href="#">Floor plan</a>
+                        <Link to="/floor_plan">Floor plan</Link>
                     </li>
                     <li>
-                        <a href="#">Pricing</a>
+                        <Link to="/pricing">Pricing</Link>
                     </li>
                     <li>
-                        <a href="#">Photo gallery</a>
+                        <Link to="/photo_gallery">Photo gallery</Link> 
                     </li>
                     <li>
-                        <a href="#">FAQ</a>
+                        <Link to="/faq">FAQ</Link>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <Link to="/about">About</Link>
                     </li>
                     <li>
-                        <a href="#">Contact us</a>
+                        <Link to="/contact_us">Contact us</Link>
                     </li>
                 </ul>
             </div>
@@ -101,27 +102,27 @@ const Navbar = () => {
                         </button>
 
                         <ul className="flex flex-col mt-5 mobile">
-                            <li>
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <a href="#">Floor plan</a>
-                            </li>
-                            <li>
-                                <a href="#">Pricing</a>
-                            </li>
-                            <li>
-                                <a href="#">Photo gallery</a>
-                            </li>
-                            <li>
-                                <a href="#">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="#">About</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact us</a>
-                            </li>
+                        <li>
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/floor_plan">Floor plan</Link>
+                        </li>
+                        <li>
+                            <Link to="/pricing">Pricing</Link>
+                        </li>
+                        <li>
+                            <Link to="/photo_gallery">Photo gallery</Link> 
+                        </li>
+                        <li>
+                            <Link to="/faq">FAQ</Link>
+                        </li>
+                        <li>
+                            <Link to="/about">About</Link>
+                        </li>
+                        <li>
+                            <Link to="/contact_us">Contact us</Link>
+                        </li>
                         </ul>
                     </div>
                 </StyleRoot>
