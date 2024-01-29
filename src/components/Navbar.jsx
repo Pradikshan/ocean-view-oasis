@@ -26,7 +26,7 @@ const Navbar = () => {
 
     return (
         <>
-        <div className="hidden lg:flex flex-row justify-between w-full px-4">
+        <div className="hidden lg:flex flex-row justify-between w-full px-4 py-2">
             <div className="flex flex-row">
                 <img src="../images/logo.png" alt="logo" className="w-24 h-24"/>
                 <p className="self-center text-2xl font-bold">OCEAN VIEW OASIS</p>
