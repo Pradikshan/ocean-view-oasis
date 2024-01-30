@@ -19,12 +19,12 @@ li a{
 }
 
 .info-card-container.show{
-    @apply transition blur-none
+    @apply translate-x-0 transition ease-in delay-500
 }
 
 
 .info-card-container{
-    @apply p-6 md:p-16 
+    @apply p-6 md:p-16 -translate-x-full
 }
 
 
