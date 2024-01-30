@@ -40,8 +40,9 @@ const TestimonialSection = () => {
                image={"../images/pippin.jpg"}
                name={"Peregin Took"}
                testimonial={"Ocean View Oasis is a merry abode where the sea's tales mingle with the laughter of friends. The lively interiors, like a Hobbit's haven, exude joy and comfort. A testament to the perfect blend of sea and camaraderie, it offers a haven where one can revel in the ocean's melody and the cheer of good company. A home that sparks joy in every Hobbit's heart."} />
-               
             </div>
+
+           
         </div>
     );
 }
