@@ -18,9 +18,17 @@ li a{
     @apply my-3
 }
 
-.info-card-container{
-    @apply p-6 md:p-16
+.info-card-container.show{
+    @apply transition blur-none
 }
+
+
+.info-card-container{
+    @apply p-6 md:p-16 
+}
+
+
+
 
 .info-card-container:nth-child(even){
     @apply bg-slate-100
@@ -30,15 +38,19 @@ li a{
     @apply mx-1 md:mx-16
 }
 
-.info-card-text {
+.info-card-text{
     @apply mb-8
 }
 
-.info-card-heading {
+.info-card-heading{
     @apply text-2xl text-center md:text-start md:text-3xl font-bold mt-5 md:mt-0
 }
 
-.info-card-subheading {
+.info-card-subheading{
     @apply text-xl font-bold mt-2
+}
+
+.main-container{
+    @apply transition ease-in-out delay-150 hover:bg-rose-500
 }
 

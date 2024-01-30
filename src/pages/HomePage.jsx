@@ -1,10 +1,40 @@
+import { useState, useEffect, useRef } from 'react';
 import { ImageCard } from "../components/ImageCard";
 import { SplitLayout } from "../components/SplitLayout";
 import TestimonialSection from "../components/TestimonialSection";
 
 const HomePage = () => {
-    return (
 
+    // const observer = new IntersectionObserver((entries) => {
+    //     entries.forEach((entry) => {
+    //         console.log(entry);
+    //         if (entry.isIntersecting) {
+    //             entry.target.classList.add('show');
+    //         } else {
+    //             entry.target.classList.remove('show');
+    //         }
+    //     });
+    // });
+    
+    // const hiddenElements = document.querySelectorAll('.info-card-container');
+    
+    // hiddenElements.forEach((el) => observer.observe(el));
+    // const[isIntersecting, setIntersecting] = useState(false);
+    // const ref = useRef(null);
+
+    // useEffect(() => {
+    //     const observer = new IntersectionObserver(([entry]) => {
+    //         setIntersecting(entry.isIntersecting);
+    //     });
+
+    //     observer.observe(ref.current);
+
+    //     return () => {
+    //         observer.disconnect();
+    //     };
+    // }, []);
+
+    return (
         <>
         <div className="relative">
             <div className="flex flex-col justify-center items-center">
