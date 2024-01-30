@@ -45,6 +45,21 @@ const HomePage = () => {
     const [isVisible2, setIsVisible2] = useState(false);
     const [isVisible3, setIsVisible3] = useState(false);
 
+    useEffect(() => {
+        if (inView1) setIsVisible1(true);
+        else setIsVisible1(false);
+      }, [inView1]);
+    
+    useEffect(() => {
+        if (inView2) setIsVisible2(true);
+        else setIsVisible2(false);
+    }, [inView2]);
+
+    useEffect(() => {
+        if (inView3) setIsVisible3(true);
+        else setIsVisible3(false);
+    }, [inView3]);
+
     
     
 
@@ -148,17 +163,7 @@ const HomePage = () => {
         </div>
 
         <TestimonialSection />
-        {useEffect(() => {
-        if (inView1) setIsVisible1(true);
-        }, [inView1])}
 
-        {useEffect(() => {
-        if (inView2) setIsVisible2(true);
-        }, [inView2])}
-
-        {useEffect(() => {
-        if (inView3) setIsVisible3(true);
-        }, [inView3])}
         </>
       
 
