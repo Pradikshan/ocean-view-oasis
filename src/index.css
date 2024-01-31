@@ -89,4 +89,17 @@ li a{
 .main-container{
     @apply transition ease-in-out delay-150 hover:bg-rose-500
 }
+/* 
+.testimonial-scroller {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  } 
+  
+  .testimonial-card {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    padding: 0 10px; 
+  } */
 
