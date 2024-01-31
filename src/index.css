@@ -18,17 +18,21 @@ li a{
     @apply my-3
 }
 
+/* .info-card-container{
+    @apply p-6 md:p-16 -translate-x-full blur-sm transition ease-in-out
+}
+
 .info-card-container.show{
-    @apply translate-x-0 transition ease-in delay-500
+    @apply translate-x-0 blur-none transition ease-in-out delay-100 
+} */
+
+.info-card-container {
+    @apply p-6 md:p-16 -translate-x-full transition ease-in-out duration-700
 }
 
-
-.info-card-container{
-    @apply p-6 md:p-16 -translate-x-full
+.info-card-container.show {
+@apply translate-x-0 transition ease-in-out duration-3500 delay-200
 }
-
-
-
 
 .info-card-container:nth-child(even){
     @apply bg-slate-100
@@ -38,17 +42,42 @@ li a{
     @apply mx-1 md:mx-16
 }
 
-.info-card-text{
-    @apply mb-8
-}
+/* .info-card-heading{
+    @apply text-2xl text-center md:text-start md:text-3xl font-bold mt-5 md:mt-0 -translate-x-full blur-sm transition ease-in-out
+} */
 
 .info-card-heading{
-    @apply text-2xl text-center md:text-start md:text-3xl font-bold mt-5 md:mt-0
+    @apply text-2xl text-center md:text-start md:text-3xl font-bold mt-5 md:mt-0 opacity-0  transition ease-in-out
 }
+
+.info-card-container.show .info-card-text .info-card-heading{
+    @apply transition ease-in-out delay-200 blur-none opacity-100
+}
+
+/* .info-card-subheading{
+    @apply text-xl font-bold mt-2 -translate-x-full blur-sm transition ease-in-out
+} */
 
 .info-card-subheading{
     @apply text-xl font-bold mt-2
 }
+
+
+/* .info-card-container.show .info-card-text .info-card-subheading{
+    @apply transition ease-in-out delay-300 blur-none translate-x-0
+} */
+
+/* .info-card-text{
+    @apply mb-8 -translate-x-full blur-sm transition ease-in-out
+} */
+
+.info-card-text{
+    @apply mb-8  transition ease-in-out
+}
+
+/* .info-card-container.show .info-card-text .info-card-text{
+    @apply transition ease-in-out delay-500 blur-none translate-x-0
+} */
 
 .main-container{
     @apply transition ease-in-out delay-150 hover:bg-rose-500
