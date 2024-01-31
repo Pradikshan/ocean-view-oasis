@@ -7,7 +7,6 @@ const TestimonialCard = ({ image, name, testimonial}) => {
                 <p className="pt-4">{testimonial}</p>
             </div>
         </div>
-
     );
 }
 
