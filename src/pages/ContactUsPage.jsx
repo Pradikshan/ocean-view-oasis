@@ -33,10 +33,9 @@ const ContactUsPage = () => {
                             <p className="mx-2 font-bold">oceanview@oasis.com</p>
                         </div>
                     </div>
-
-                    <div className="ms-80 h-full w-0 border-2 border-black items-end"></div>
-                    
-
+                    {window.innerWidth >= 768 ? (
+                        <div className="ms-80 h-full w-0 border-2 border-black items-end"></div>
+                    ) : null}
                 </div>
 
                 <div className="ps-20">
