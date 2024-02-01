@@ -86,7 +86,7 @@ const TestimonialSection = () => {
                 <p className="text-xl md:text-2xl font-semibold">Discover what our residents have to say about Ocean View Oasis.</p>
             </div>
 
-            
+            {/* TODO: Add infinitely side scrolling testimonial */}
             {/* <ParallaxTestimonials baseVelocity={5}/> */}
             <div className="grid grid-cols-1 md:grid-cols-3 place-items-stretch">
                 <TestimonialCard 
