@@ -40,7 +40,6 @@ const HomePage = () => {
     const [ref2, inView2] = useInView();
     const [ref3, inView3] = useInView();
   
-    // Use state to track the visibility of each element
     const [isVisible1, setIsVisible1] = useState(false);
     const [isVisible2, setIsVisible2] = useState(false);
     const [isVisible3, setIsVisible3] = useState(false);
