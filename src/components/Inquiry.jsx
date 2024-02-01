@@ -14,7 +14,7 @@ const Inquiry = () => {
     return (
         <div>
             <p className="text-2xl md:text-3xl font-bold">Inquiry</p>
-            <p className="text-sm md:text-md mb-4 overflow-hidden">Send us your questions and inquiries, and we'll be delighted to assist you on your journey to discovering Ocean View Oasis.</p>
+            <p className="text-sm md:text-md mb-4">Send us your questions and inquiries, and we'll be delighted to assist you on your journey to discovering Ocean View Oasis.</p>
             <form ref={formRef} onSubmit={handleSubmit}>
                 <div className="label-group">
                     <label htmlFor="name" className="contact-label">Name:</label>
