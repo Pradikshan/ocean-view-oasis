@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 // import { motion, useSpring, useTransform, useMotionValue, useVelocity, useAnimationFrame } from "framer-motion";
 // import { wrap } from "@motionone/utils";
 import { useInView } from "react-intersection-observer";
@@ -9,25 +8,6 @@ const TestimonialSection = () => {
     const [ref1, inView1] = useInView();
     const [ref2, inView2] = useInView();
     const [ref3, inView3] = useInView();
-
-    const [isVisible1, setIsVisible1] = useState(false);
-    const [isVisible2, setIsVisible2] = useState(false);
-    const [isVisible3, setIsVisible3] = useState(false);
-
-    useEffect(() => {
-        if (inView1) setIsVisible1(true);
-        else setIsVisible1(false);
-    }, [inView1]);
-
-    useEffect(() => {
-        if (inView2) setIsVisible2(true);
-        else setIsVisible2(false);
-    }, [inView2]);
-
-    useEffect(() => {
-        if (inView3) setIsVisible3(true);
-        else setIsVisible3(false);
-    }, [inView3]);
 
     // const ParallaxTestimonials = ({ baseVelocity = 100 }) => {
     //     const baseX = useMotionValue(0);
@@ -111,22 +91,23 @@ const TestimonialSection = () => {
             
             {/* <ParallaxTestimonials baseVelocity={5}/> */}
             <div className="grid grid-cols-1 md:grid-cols-3 place-items-stretch">
+
                 <TestimonialCard 
-                className={`${isVisible1 ? 'show' : ''}`}
+                className={`${inView1 ? 'show' : ''}`}
                 ref={ref1}
                 image={"../images/gandalf.jpg"}
                 name={"Gandalf the Grey"} 
                 testimonial={"Ocean View Oasis is a marvel! The soothing ocean vistas, spacious interiors, and enchanting atmosphere make it a truly magical retreat. Whether you're a wizard or a mere mortal, this apartment is a haven by the sea."} />
 
                 <TestimonialCard 
-                className={`${isVisible2 ? 'show' : ''}`}
+                className={`${inView2 ? 'show' : ''}`}
                 ref={ref2}
                 image={"../images/aragorn5.jpg"}
                 name={"Aragorn, Son of Arathorn"}
                 testimonial={"In my journeys across realms and kingdoms, I have seldom found a residence as splendid as Ocean View Oasis. The majestic views of the vast ocean, the regal interiors, and the serene atmosphere create an abode fit for a king. Whether you seek respite or luxury, this apartment is a testament to the finer things in life."} />
 
                 <TestimonialCard 
-                className={`${isVisible3 ? 'show' : ''}`}
+                className={`${inView3 ? 'show' : ''}`}
                 ref={ref3}
                 image={"../images/legolas5.jpg"}
                 name={"Legolas Greenleaf"}
