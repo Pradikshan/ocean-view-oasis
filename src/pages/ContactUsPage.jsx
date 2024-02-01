@@ -20,24 +20,6 @@ const ContactUsPage = () => {
 
         <div className="pt-16">
             <SplitLayout>
-                {/* <div className="basis-1/2">
-                    <p className="text-3xl font-bold">Reach out to us at:</p>
-                    <div className="flex flex-row items-center mt-5">
-                        <img src="../images/telephone.png" alt="telephone" className="w-8 h-8"/>
-                        <p className="mx-2 font-bold">+94 76 5944 123</p>
-                    </div>
-
-                    <div className="flex flex-row items-center mt-5">
-                        <img src="../images/email.png" alt="telephone" className="w-8 h-8"/>
-                        <p className="mx-2 font-bold">oceanview@oasis.com</p>
-                    </div>
-                    <div className="flex flex-row">
-                        <div className="ms-10 h-full w-0 border-2 border-black"></div>
-
-                    </div>
-
-                </div> */}
-
                 <div className="grid grid-cols-2">
                     <div>
                         <p className="text-3xl font-bold">Reach out to us at:</p>
