@@ -1,6 +1,7 @@
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { SplitLayout } from "../components/SplitLayout";
+import ContactUs from "../components/ContactUs";
 
 
 const ContactUsPage = () => {
@@ -21,7 +22,7 @@ const ContactUsPage = () => {
 
         <div className="pt-16">
             <SplitLayout>
-                <div className="p-5">
+                <div className="p-5 basis-1/2">
                     <p className="text-3xl font-bold">Reach out to us at:</p>
                     <div className="flex flex-row items-center mt-5">
                         <img src="../images/telephone.png" alt="telephone" className="w-8 h-8"/>
@@ -34,7 +35,7 @@ const ContactUsPage = () => {
                     </div>
                 </div>
                 <div>
-
+                    <ContactUs />
                 </div>
             </SplitLayout>
         </div>
