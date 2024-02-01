@@ -1,7 +1,7 @@
 
 const ContactUs = () => {
     return (
-        <div className="my-16 py-10">
+        <div className="">
             <div>
                 <p className="text-3xl md:text-4xl font-bold mb-4">Contact us</p>
                 <form>
