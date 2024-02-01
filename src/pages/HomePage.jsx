@@ -52,6 +52,7 @@ const HomePage = () => {
                     <div className="flex flex-col justify-center items-center">
                         <p className="font-bold text-lg md:text-4xl text-white ps-3">OCEAN VIEW OASIS</p>
                         <p className="font-lg text-sm md:text-2xl text-white">Your Spacious Haven by the Shore</p>
+                        {/* TODO: add a CTA btn */}
                     </div>
                 </div>
             </div>
