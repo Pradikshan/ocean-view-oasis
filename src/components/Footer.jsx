@@ -1,6 +1,5 @@
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import { FaInstagram, FaYoutube, FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
 
