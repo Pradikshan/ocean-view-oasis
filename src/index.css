@@ -103,3 +103,7 @@ li a{
     padding: 0 10px; 
   } */
 
+.testimonial-card{
+    @apply rounded-3xl shadow-xl m-8
+}
+
