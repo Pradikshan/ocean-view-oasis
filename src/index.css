@@ -107,7 +107,20 @@ li a{
     @apply rounded-3xl shadow-xl m-8 translate-x-300 transition ease-in-out
 }
 
+.testimonial-card.left{
+    @apply rounded-3xl shadow-xl m-8 -translate-x-300 transition ease-in-out
+}
+
+
+.testimonial-section{
+    @apply mt-28
+}
+
 .testimonial-section .testimonial-card.show{
-    @apply transition ease-in-out translate-x-0 duration-4000
+    @apply transition ease-in-out translate-x-0 duration-9000
+}
+
+.testimonial-section .testimonial-card.left.show{
+    @apply transition ease-in-out translate-x-0 duration-9000
 }
 
