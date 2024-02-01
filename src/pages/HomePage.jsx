@@ -2,6 +2,7 @@ import { useInView } from 'react-intersection-observer';
 import { ImageCard } from "../components/ImageCard";
 import { SplitLayout } from "../components/SplitLayout";
 import TestimonialSection from "../components/TestimonialSection";
+import ContactUs from '../components/ContactUs';
 
 
 const HomePage = () => {
@@ -144,6 +145,8 @@ const HomePage = () => {
         </div>
 
         <TestimonialSection />
+
+        <ContactUs />
 
         </>
       
