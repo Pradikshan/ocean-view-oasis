@@ -3,7 +3,7 @@ import { SplitLayout } from "./SplitLayout";
 
 const ContactUs = () => {
     return (
-        <div className="my-16 py-10 bg-slate-100">
+        <div className="my-16 py-10">
             <SplitLayout>
                 <div className="basis-full md:basis-1/2 mx-5">
                     <img src="../images/service.jpg" alt="customer_service" className="rounded-lg"/>
