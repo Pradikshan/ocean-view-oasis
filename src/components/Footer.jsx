@@ -33,10 +33,14 @@ const Footer = () => {
 
             <div>
                 <p className="font-bold text-lg">Connect with us on:</p>
-                <div className="flex flex-row text-2xl ">
-                    <FaInstagram className="me-6"/>
+                <div className="flex flex-row text-2xl">
+                    <img src="../images/instagram.png" alt="instagram" className="w-9 h-9 me-3"/>
+                    <img src="../images/youtube.png" alt="youtube" className="w-9 h-9 me-3"/>
+                    <img src="../images/twitter.png" alt="twitter" className="w-9 h-9 me-3"/>
+                    <img src="../images/tik-tok.png" alt="tik-tok" className="w-9 h-9 me-3"/>
+                    {/* <FaInstagram className="me-6"/>
                     <FaYoutube className="me-6"/>
-                    <FaXTwitter className="me-6"/>
+                    <FaXTwitter className="me-6"/> */}
                 </div>
 
                 <p className="overflow-hidden mt-10">&copy; 2024 Ocean View Oasis, Inc. All Rights Reserved</p>
