@@ -1,5 +1,4 @@
 import { useInView } from 'react-intersection-observer';
-import { useState, useEffect } from 'react';
 import { ImageCard } from "../components/ImageCard";
 import { SplitLayout } from "../components/SplitLayout";
 import TestimonialSection from "../components/TestimonialSection";
@@ -39,25 +38,7 @@ const HomePage = () => {
     const [ref1, inView1] = useInView();
     const [ref2, inView2] = useInView();
     const [ref3, inView3] = useInView();
-  
-    const [isVisible1, setIsVisible1] = useState(false);
-    const [isVisible2, setIsVisible2] = useState(false);
-    const [isVisible3, setIsVisible3] = useState(false);
 
-    useEffect(() => {
-        if (inView1) setIsVisible1(true);
-        else setIsVisible1(false);
-      }, [inView1]);
-    
-    useEffect(() => {
-        if (inView2) setIsVisible2(true);
-        else setIsVisible2(false);
-    }, [inView2]);
-
-    useEffect(() => {
-        if (inView3) setIsVisible3(true);
-        else setIsVisible3(false);
-    }, [inView3]);
 
     
     
@@ -76,7 +57,7 @@ const HomePage = () => {
             </div>
         </div>
 
-        <div className={`info-card-container ${isVisible1 ? 'show' : ''}`} ref={ref1}>
+        <div className={`info-card-container ${inView1 ? 'show' : ''}`} ref={ref1}>
             <SplitLayout>
                 {window.innerWidth >= 768 ? (
                 <ImageCard image_path="../images/location.jpg" />
@@ -104,7 +85,7 @@ const HomePage = () => {
             </SplitLayout>
         </div>
 
-        <div className={`info-card-container ${isVisible2 ? 'show' : ''}`} ref={ref2}>
+        <div className={`info-card-container ${inView2 ? 'show' : ''}`} ref={ref2}>
             <SplitLayout>
                 <div className="info-card">
                     <div className="info-card-text">
@@ -133,7 +114,7 @@ const HomePage = () => {
             </SplitLayout>
         </div>
 
-        <div className={`info-card-container ${isVisible3 ? 'show' : ''}`} ref={ref3}>
+        <div className={`info-card-container ${inView3 ? 'show' : ''}`} ref={ref3}>
             <SplitLayout>
                 {window.innerWidth >= 768 ? (
                 <ImageCard image_path="../images/room.jpg" />
