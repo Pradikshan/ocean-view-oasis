@@ -108,19 +108,19 @@ const TestimonialSection = () => {
                 testimonial={"Ocean View Oasis, where rhythmic tides meet Elvish elegance. With graceful interiors, this dwelling bridges nature and modernity, resonating with woodland spirit. A haven to commune with the essence of the sea and ancient tales."} />
 
                <TestimonialCard
-               className={`left ${inView ? 'show' : ''}`}
+               className={`${inView ? 'show' : ''}`}
                image={"../images/gimli.jpg"}
                name={"Gimli, son of Glóin"}
                testimonial={"Ocean View Oasis, where sea meets stone, is a dwelling that befits both dwarf and elf alike. The sturdy interiors, reminiscent of the caverns of Khazad-dûm, provide a sense of security and comfort. It stands as a testament to the unity of sea and mountain, offering a haven to revel in both the vastness of the ocean and the enduring strength of the stone. A home worthy of any stout-hearted dweller."} />
 
                <TestimonialCard
-               className={`left ${inView ? 'show' : ''}`}
+               className={`${inView ? 'show' : ''}`}
                image={"../images/merry.jpg"}
                name={"Merry Brandybuck"}
                testimonial={"Ocean View Oasis echoes the warmth of the Shire. The cozy interiors, reminiscent of a Hobbit hole, offer unmatched comfort. It stands as a testament to the welcoming embrace of sea and home, a haven where one can enjoy the tranquility of the ocean and the camaraderie of the hearth. A Hobbit's perfect retreat."} />
 
                <TestimonialCard
-               className={`left ${inView ? 'show' : ''}`}
+               className={`${inView ? 'show' : ''}`}
                image={"../images/pippin.jpg"}
                name={"Peregin Took"}
                testimonial={"Ocean View Oasis is a merry abode where the sea's tales mingle with the laughter of friends. The lively interiors, like a Hobbit's haven, exude joy and comfort. A testament to the perfect blend of sea and camaraderie, it offers a haven where one can revel in the ocean's melody and the cheer of good company. A home that sparks joy in every Hobbit's heart."} />
