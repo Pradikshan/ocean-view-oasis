@@ -2,7 +2,8 @@
 const Inquiry = () => {
     return (
         <div>
-            <p className="text-2xl md:text-3xl font-bold mb-4">Contact us</p>
+            <p className="text-2xl md:text-3xl font-bold">Inquiry</p>
+            <p className="text-md md:text-xl mb-4">Inquiry</p>
             <form>
                 <div className="label-group">
                     <label htmlFor="name" className="contact-label">Name:</label>
