@@ -103,12 +103,20 @@ li a{
     padding: 0 10px; 
   } */
 
-.testimonial-card{
+/* .testimonial-card{
     @apply rounded-3xl shadow-xl m-8 translate-x-300 transition ease-in-out
 }
 
 .testimonial-card.left{
     @apply rounded-3xl shadow-xl m-8 -translate-x-300 transition ease-in-out
+} */
+
+.testimonial-card{
+    @apply rounded-3xl shadow-xl m-8 opacity-0 transition ease-in-out
+}
+
+.testimonial-card.left{
+    @apply rounded-3xl shadow-xl m-8 opacity-0 transition ease-in-out
 }
 
 
@@ -116,13 +124,38 @@ li a{
     @apply mt-28
 }
 
-.testimonial-section .testimonial-card.show{
+/* .testimonial-section .testimonial-card.show{
     @apply transition ease-in-out translate-x-0 duration-9000
 }
 
 .testimonial-section .testimonial-card.left.show{
     @apply transition ease-in-out translate-x-0 duration-9000
+} */
+
+.testimonial-section .testimonial-card.show:nth-child(1){
+    @apply transition ease-in-out opacity-100 duration-1500
 }
+
+.testimonial-section .testimonial-card.show:nth-child(2){
+    @apply transition ease-in-out opacity-100 delay-1500 duration-2500
+}
+
+.testimonial-section .testimonial-card.show:nth-child(3){
+    @apply transition ease-in-out opacity-100 delay-2500 duration-2500
+}
+
+.testimonial-section .testimonial-card.show:nth-child(4){
+    @apply transition ease-in-out opacity-100 delay-3500 duration-2500
+}
+
+.testimonial-section .testimonial-card.show:nth-child(5){
+    @apply transition ease-in-out opacity-100 delay-5000 duration-2500
+}
+
+.testimonial-section .testimonial-card.show:nth-child(6){
+    @apply transition ease-in-out opacity-100 delay-6000 duration-2500
+}
+
 
 .label-group{
     @apply flex flex-col mb-8 w-96
