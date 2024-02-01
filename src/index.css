@@ -124,3 +124,14 @@ li a{
     @apply transition ease-in-out translate-x-0 duration-9000
 }
 
+.label-group{
+    @apply flex flex-col mb-8 w-96
+}
+
+.contact-label{
+    @apply text-lg font-bold
+}
+
+.contact-input{
+    @apply rounded-md border-2 border-black
+}
