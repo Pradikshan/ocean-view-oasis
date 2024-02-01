@@ -20,7 +20,7 @@ const ContactUsPage = () => {
 
         <div className="pt-16">
             <SplitLayout>
-                <div className="p-5 basis-1/2">
+                <div className="basis-1/2">
                     <p className="text-3xl font-bold">Reach out to us at:</p>
                     <div className="flex flex-row items-center mt-5">
                         <img src="../images/telephone.png" alt="telephone" className="w-8 h-8"/>
