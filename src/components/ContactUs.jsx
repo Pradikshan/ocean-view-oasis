@@ -1,4 +1,3 @@
-import { ImageCard } from "./ImageCard";
 import { SplitLayout } from "./SplitLayout";
 
 const ContactUs = () => {
