@@ -1,5 +1,3 @@
-import { BsFillTelephoneFill } from "react-icons/bs";
-import { MdEmail } from "react-icons/md";
 import { SplitLayout } from "../components/SplitLayout";
 import ContactUs from "../components/ContactUs";
 
