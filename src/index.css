@@ -86,9 +86,9 @@ li a{
     @apply mb-8
 }
 
-.main-container{
+/* .main-container{
     @apply transition ease-in-out delay-150 hover:bg-rose-500
-}
+} */
 /* 
 .testimonial-scroller {
     display: flex;
@@ -104,6 +104,10 @@ li a{
   } */
 
 .testimonial-card{
-    @apply rounded-3xl shadow-xl m-8
+    @apply rounded-3xl shadow-xl m-8 translate-x-300 transition ease-in-out
+}
+
+.testimonial-section .testimonial-card.show{
+    @apply transition ease-in-out translate-x-0 duration-4000
 }
 
