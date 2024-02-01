@@ -146,7 +146,7 @@ const HomePage = () => {
 
         <TestimonialSection />
 
-        <ContactUs />
+        
 
         </>
       
