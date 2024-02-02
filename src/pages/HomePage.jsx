@@ -46,7 +46,11 @@ const HomePage = () => {
 
     return (
         <>
-        <ImageOverlay image_path={"../images/main_img2.jpg"} opacity={"opacity-80"} heading={"OCEAN VIEW OASIS"} subheading={"Your Spacious Haven by the Shore"} />
+        <ImageOverlay 
+        image_path={"../images/main_img2.jpg"} 
+        opacity={"opacity-80"} 
+        heading={"OCEAN VIEW OASIS"} 
+        subheading={"Your Spacious Haven by the Shore"} />
 
         <div className={`info-card-container ${inView1 ? 'show' : ''}`} ref={ref1}>
             <SplitLayout>
