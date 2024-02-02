@@ -6,7 +6,7 @@ const FloorPlanPage = () => {
         <>
         <ImageOverlay 
         image_path={"../images/plan2.jpg"} 
-        opacity={"opacity-80"} 
+        opacity={"opacity-90"} 
         heading={"Floor Plan"} 
         subheading={"Explore our meticulously designed floor plans, tailored for your lifestyle and comfort"} />
         </>
