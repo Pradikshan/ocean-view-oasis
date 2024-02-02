@@ -1,0 +1,7 @@
+
+
+const FloorPlanPage = () => {
+    return (
+        
+    );
+}
