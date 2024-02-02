@@ -8,7 +8,7 @@ const ContactUsPage = () => {
         <>
         <ImageOverlay 
         image_path={"../images/service.jpg"} 
-        opacity={"opacity-40"} heading={"Contact Us"} 
+        opacity={"opacity-90"} heading={"Contact Us"} 
         subheading={"Reach out to us – let's start a conversation about turning your dreams of coastal living into a reality"} />
         {/* <div className="relative">
             <div className="flex flex-col justify-center items-center">
