@@ -1,7 +1,7 @@
 
-const ImageCard = ({ image_path, rounded }) => {
+const ImageCard = ({ image_path, basis = "md:basis-5/6", rounded }) => {
     return (
-        <div className="basis-full md:basis-5/6">
+        <div className={`basis-full ${basis}`}>
             <img src={image_path} alt="info" className={`${rounded} h-full w-full object-cover`} />
         </div>
     );
