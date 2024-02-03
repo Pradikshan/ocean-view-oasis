@@ -112,7 +112,7 @@ const FloorPlanPage = () => {
             <div className="flex flex-col md:flex-row p-1 md:p-8">
                 { 
                 window.innerWidth >= 768 ? (
-                    <ImageCard image_path={"../images/bed1.png"} />
+                    <ImageCard image_path={"../images/bed2.png"} />
                 ) : null
                 }
 
