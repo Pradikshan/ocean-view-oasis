@@ -127,16 +127,16 @@ const FloorPlanPage = () => {
                     <p className="text-xl font-bold mt-4">Key features</p>
                     <IconText 
                     icon={<MdOutlineBedroomParent />} 
-                    text={" Enjoy the luxury of two well-designed and spacious bedrooms, each offering a private retreat for relaxation"} />
+                    text={" Enjoy the luxury of two well-designed and spacious bedrooms"} />
                     <IconText 
                     icon={<MdOutlineKitchen />} 
                     text={"A modern kitchen layout with high-end appliances"} />
                     <IconText 
                     icon={<MdOutlineBathroom />} 
-                    text={"Discover two thoughtfully crafted bathrooms, balancing elegance with functionality, featuring dual vanity spaces"} />
+                    text={"Discover two thoughtfully crafted bathrooms, featuring dual vanity spaces"} />
                     <IconText 
                     icon={<MdOutlineBalcony />} 
-                    text={"Each bedroom opens up to a personal balcony, providing a serene and secluded outdoor escape for both residents"} />
+                    text={"Each bedroom opens up to a personal balcony, providing a serene and secluded outdoor escape"} />
                     <IconText 
                     icon={<MdOutlineLocalLaundryService />} 
                     text={"Experience ultimate convenience with in-unit laundry facilities"} />
@@ -146,6 +146,51 @@ const FloorPlanPage = () => {
                     <IconText 
                     icon={<MdOutlineHeatPump />} 
                     text={"Enjoy year-round comfort with energy-efficient heating and cooling systems, individually controlled for each bedroom"} />
+                    <IconText 
+                    icon={<BiCctv />} 
+                    text={"Feel secure with controlled access and 24/7 surveillance"} />
+                </div>
+            </div>
+        </div>
+
+        <div className="m-2 md:m-10 rounded-xl shadow-xl">
+            <div className="flex flex-col md:flex-row p-1 md:p-8">
+                { 
+                window.innerWidth >= 768 ? (
+                    <ImageCard image_path={"../images/bed3.png"} />
+                ) : null
+                }
+
+                <div className="flex flex-col ms-8">
+                    <p className="text-2xl font-bold">3-Bedroom Grand Retreat</p>
+                    { 
+                    window.innerWidth <= 768 ? (
+                        <ImageCard image_path={"../images/bed3.png"} />
+                    ) : null
+                    }
+                    <p>Explore our 3-bedroom floor plan – a harmonious fusion of thoughtful design, expansive living areas, and three well-appointed bedrooms, creating a welcoming and spacious retreat tailored for your comfort</p>
+                    <p className="text-xl font-bold mt-4">Key features</p>
+                    <IconText 
+                    icon={<MdOutlineBedroomParent />} 
+                    text={"Experience the luxury of a generous living space with three well-designed bedrooms"} />
+                    <IconText 
+                    icon={<MdOutlineKitchen />} 
+                    text={"A modern kitchen layout with high-end appliances"} />
+                    <IconText 
+                    icon={<MdOutlineBathroom />} 
+                    text={" Enjoy the convenience of three thoughtfully crafted bathrooms"} />
+                    <IconText 
+                    icon={<MdOutlineBalcony />} 
+                    text={"Indulge in personal outdoor retreats as each bedroom opens up to its own private balcony"} />
+                    <IconText 
+                    icon={<MdOutlineLocalLaundryService />} 
+                    text={"Experience ultimate convenience with in-unit laundry facilities"} />
+                    <IconText 
+                    icon={<MdOutlineChair />} 
+                    text={"Embrace the flexibility of an open floor plan, allowing you to personalize your living space"} />
+                    <IconText 
+                    icon={<MdOutlineHeatPump />} 
+                    text={"Individualized comfort with energy-efficient heating and cooling systems, ensuring the perfect atmosphere in every bedroom"} />
                     <IconText 
                     icon={<BiCctv />} 
                     text={"Feel secure with controlled access and 24/7 surveillance"} />
