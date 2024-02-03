@@ -1,11 +1,7 @@
 import IconText from "../components/IconText";
 import ImageOverlay from "../components/ImageOverlay";
-import { MdOutlineLiving } from "react-icons/md";
-import { MdOutlineKitchen } from "react-icons/md";
-import { MdOutlineBedroomParent } from "react-icons/md";
-import { MdOutlineCheckroom } from "react-icons/md";
-import { MdOutlineBathroom } from "react-icons/md";
-import { MdOutlineBalcony } from "react-icons/md";
+import { MdOutlineLiving, MdOutlineKitchen, MdOutlineBedroomParent, MdOutlineCheckroom, MdOutlineBathroom, MdOutlineBalcony } from "react-icons/md";
+
 
 
 const FloorPlanPage = () => {
