@@ -80,9 +80,33 @@ const FloorPlanPage = () => {
                     }
                     <p>Explore our 1-bedroom floor plan – a harmonious blend of thoughtful design, spacious living areas, modern kitchens, and a well-appointed bedroom – creating an inviting and cozy living space for you</p>
                     <p className="text-xl font-bold mt-4">Key features</p>
-                    <IconText 
+                    {/* <IconText 
                     icon={<MdOutlineBedroomParent />} 
                     text={"A comfortable and well-designed bedroom space offering a private retreat for relaxation"} />
+                    <IconText 
+                    icon={<MdOutlineKitchen />} 
+                    text={"A modern kitchen layout with high-end appliances"} />
+                    <IconText 
+                    icon={<MdOutlineBathroom />} 
+                    text={"Thoughtfully crafted bathroom design, balancing elegance with functionality"} />
+                    <IconText 
+                    icon={<MdOutlineBalcony />} 
+                    text={"Enjoy a personal balcony, providing a secluded escape"} />
+                    <IconText 
+                    icon={<MdOutlineLocalLaundryService />} 
+                    text={"Experience ultimate convenience with in-unit laundry facilities"} />
+                    <IconText 
+                    icon={<MdOutlineChair />} 
+                    text={"Embrace the flexibility of an open floor plan, allowing you to personalize your living space"} />
+                    <IconText 
+                    icon={<MdOutlineHeatPump />} 
+                    text={"Year round comfort with energy-efficient heating and cooling systems"} />
+                    <IconText 
+                    icon={<BiCctv />} 
+                    text={"Feel secure with controlled access and 24/7 surveillance"} /> */}
+                    <IconText 
+                    icon={<MdOutlineBedroomParent />} 
+                    text={"Intimate bedroom retreat"} />
                     <IconText 
                     icon={<MdOutlineKitchen />} 
                     text={"A modern kitchen layout with high-end appliances"} />
@@ -125,7 +149,7 @@ const FloorPlanPage = () => {
                     }
                     <p>Discover our 2-bedroom floor plan – an inviting blend of thoughtful design, expansive living areas, contemporary kitchens, and two well-appointed bedrooms – crafting a warm and welcoming living space tailored just for you</p>
                     <p className="text-xl font-bold mt-4">Key features</p>
-                    <IconText 
+                    {/* <IconText 
                     icon={<MdOutlineBedroomParent />} 
                     text={"Enjoy the luxury of two well-designed and spacious bedrooms"} />
                     <IconText 
@@ -148,7 +172,31 @@ const FloorPlanPage = () => {
                     text={"Enjoy year-round comfort with energy-efficient heating and cooling systems, individually controlled for each bedroom"} />
                     <IconText 
                     icon={<BiCctv />} 
-                    text={"Feel secure with controlled access and 24/7 surveillance"} />
+                    text={"Feel secure with controlled access and 24/7 surveillance"} /> */}
+                     <IconText 
+                    icon={<MdOutlineBedroomParent />} 
+                    text={"Two comfortable bedrooms"} />
+                    <IconText 
+                    icon={<MdOutlineKitchen />} 
+                    text={"Gourmet kitchen space"} />
+                    <IconText 
+                    icon={<MdOutlineBathroom />} 
+                    text={"Dual vanity bathrooms"} />
+                    <IconText 
+                    icon={<MdOutlineBalcony />} 
+                    text={"Private balcony retreats"} />
+                    <IconText 
+                    icon={<MdOutlineLocalLaundryService />} 
+                    text={"Convinient in-unit laundry"} />
+                    <IconText 
+                    icon={<MdOutlineChair />} 
+                    text={"Flexible living areas"} />
+                    <IconText 
+                    icon={<MdOutlineHeatPump />} 
+                    text={"Climate control for bedroom"} />
+                    <IconText 
+                    icon={<BiCctv />} 
+                    text={"Controlled access and 24/7 surveillance"} />
                 </div>
             </div>
         </div>
@@ -217,7 +265,7 @@ const FloorPlanPage = () => {
                     text={"Climate control for each bedroom"} />
                     <IconText 
                     icon={<BiCctv />} 
-                    text={"Enhanced security measures"} />
+                    text={"Controlled access and 24/7 surveillance"} />
                 </div>
             </div>
         </div>
