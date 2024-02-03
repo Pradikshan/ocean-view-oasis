@@ -194,7 +194,7 @@ const FloorPlanPage = () => {
                     <IconText 
                     icon={<BiCctv />} 
                     text={"Feel secure with controlled access and 24/7 surveillance"} /> */}
-                    {/* <IconText 
+                    <IconText 
                     icon={<MdOutlineBedroomParent />} 
                     text={"Spacious three-bedroom layout"} />
                     <IconText 
@@ -217,7 +217,7 @@ const FloorPlanPage = () => {
                     text={"Climate control for each bedroom"} />
                     <IconText 
                     icon={<BiCctv />} 
-                    text={"Enhanced security measures"} /> */}
+                    text={"Enhanced security measures"} />
                 </div>
             </div>
         </div>
