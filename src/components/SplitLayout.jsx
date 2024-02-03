@@ -1,4 +1,4 @@
-export const SplitLayout = ({ 
+const SplitLayout = ({ 
     children 
 }) => {
     
@@ -15,3 +15,5 @@ export const SplitLayout = ({
         </div>
     );
 }
+
+export default SplitLayout;
