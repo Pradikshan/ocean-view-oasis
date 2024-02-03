@@ -17,10 +17,19 @@ const FloorPlanPage = () => {
 
         <div className="m-2 md:m-10 rounded-xl shadow-xl">
             <div className="flex flex-col md:flex-row p-1 md:p-8">
-                <ImageCard image_path={"../images/floor.png"} />
+                { 
+                window.innerWidth >= 768 ? (
+                    <ImageCard image_path={"../images/floor.png"} />
+                ) : null
+                }
 
                 <div className="flex flex-col ms-8">
                     <p className="text-2xl font-bold">Apartment floor plan</p>
+                    { 
+                    window.innerWidth <= 768 ? (
+                        <ImageCard image_path={"../images/floor.png"} />
+                    ) : null
+                    }
                     <p>Discover our floor plans, each hosting five carefully crafted apartments. Explore the spacious living areas, modern kitchens, well-appointed bedrooms, and more, all thoughtfully designed to create your ideal living space</p>
                     <p className="text-xl font-bold mt-4">Key features</p>
                     <IconText 
@@ -56,10 +65,19 @@ const FloorPlanPage = () => {
 
         <div className="m-2 md:m-10 rounded-xl shadow-xl">
             <div className="flex flex-col md:flex-row p-1 md:p-8">
-                <ImageCard image_path={"../images/bed1.png"} />
+                { 
+                window.innerWidth >= 768 ? (
+                    <ImageCard image_path={"../images/bed1.png"} />
+                ) : null
+                }
 
                 <div className="flex flex-col ms-8">
                     <p className="text-2xl font-bold">1-Bedroom Living at Its Finest</p>
+                    { 
+                    window.innerWidth <= 768 ? (
+                        <ImageCard image_path={"../images/bed1.png"} />
+                    ) : null
+                    }
                     <p>Explore our 1-bedroom floor plan – a harmonious blend of thoughtful design, spacious living areas, modern kitchens, and a well-appointed bedroom – creating an inviting and cozy living space for you</p>
                     <p className="text-xl font-bold mt-4">Key features</p>
                     <IconText 
