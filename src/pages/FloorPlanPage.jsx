@@ -127,7 +127,7 @@ const FloorPlanPage = () => {
                     <p className="text-xl font-bold mt-4">Key features</p>
                     <IconText 
                     icon={<MdOutlineBedroomParent />} 
-                    text={" Enjoy the luxury of two well-designed and spacious bedrooms"} />
+                    text={"Enjoy the luxury of two well-designed and spacious bedrooms"} />
                     <IconText 
                     icon={<MdOutlineKitchen />} 
                     text={"A modern kitchen layout with high-end appliances"} />
