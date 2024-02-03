@@ -170,6 +170,75 @@ const FloorPlanPage = () => {
                     }
                     <p>Explore our 3-bedroom floor plan – a harmonious fusion of thoughtful design, expansive living areas, and three well-appointed bedrooms, creating a welcoming and spacious retreat tailored for your comfort</p>
                     <p className="text-xl font-bold mt-4">Key features</p>
+                    {/* <IconText 
+                    icon={<MdOutlineBedroomParent />} 
+                    text={"Experience the luxury of a generous living space with three well-designed bedrooms"} />
+                    <IconText 
+                    icon={<MdOutlineKitchen />} 
+                    text={"A modern kitchen layout with high-end appliances"} />
+                    <IconText 
+                    icon={<MdOutlineBathroom />} 
+                    text={" Enjoy the convenience of three thoughtfully crafted bathrooms"} />
+                    <IconText 
+                    icon={<MdOutlineBalcony />} 
+                    text={"Indulge in personal outdoor retreats as each bedroom opens up to its own private balcony"} />
+                    <IconText 
+                    icon={<MdOutlineLocalLaundryService />} 
+                    text={"Experience ultimate convenience with in-unit laundry facilities"} />
+                    <IconText 
+                    icon={<MdOutlineChair />} 
+                    text={"Embrace the flexibility of an open floor plan, allowing you to personalize your living space"} />
+                    <IconText 
+                    icon={<MdOutlineHeatPump />} 
+                    text={"Individualized comfort with energy-efficient heating and cooling systems, ensuring the perfect atmosphere in every bedroom"} />
+                    <IconText 
+                    icon={<BiCctv />} 
+                    text={"Feel secure with controlled access and 24/7 surveillance"} /> */}
+                    {/* <IconText 
+                    icon={<MdOutlineBedroomParent />} 
+                    text={"Spacious three-bedroom layout"} />
+                    <IconText 
+                    icon={<MdOutlineKitchen />} 
+                    text={"Gourmet kitchen for culinary delights"} />
+                    <IconText 
+                    icon={<MdOutlineBathroom />} 
+                    text={"Three well appointed bathrooms"} />
+                    <IconText 
+                    icon={<MdOutlineBalcony />} 
+                    text={"Private balcony for each bedroom"} />
+                    <IconText 
+                    icon={<MdOutlineLocalLaundryService />} 
+                    text={"In-unit laundry service"} />
+                    <IconText 
+                    icon={<MdOutlineChair />} 
+                    text={"Versatile open floor plan"} />
+                    <IconText 
+                    icon={<MdOutlineHeatPump />} 
+                    text={"Climate control for each bedroom"} />
+                    <IconText 
+                    icon={<BiCctv />} 
+                    text={"Enhanced security measures"} /> */}
+                </div>
+            </div>
+        </div>
+
+        <div className="m-2 md:m-10 rounded-xl shadow-xl">
+            <div className="flex flex-col md:flex-row p-1 md:p-8">
+                { 
+                window.innerWidth >= 768 ? (
+                    <ImageCard image_path={"../images/luxury.png"} />
+                ) : null
+                }
+
+                <div className="flex flex-col ms-8">
+                    <p className="text-2xl font-bold">Luxury Living in Our Grand 3-Bedroom Residence</p>
+                    { 
+                    window.innerWidth <= 768 ? (
+                        <ImageCard image_path={"../images/luxury.png"} />
+                    ) : null
+                    }
+                    <p>Indulge in opulence with our grand 3-bedroom luxury apartment – an exquisite blend of sophisticated design, expansive living areas adorned with premium finishes, and an array of upscale amenities, crafting an unparalleled living experience for those who appreciate the finer things in life</p>
+                    <p className="text-xl font-bold mt-4">Key features</p>
                     <IconText 
                     icon={<MdOutlineBedroomParent />} 
                     text={"Experience the luxury of a generous living space with three well-designed bedrooms"} />
@@ -197,6 +266,7 @@ const FloorPlanPage = () => {
                 </div>
             </div>
         </div>
+
 
         
         </>
