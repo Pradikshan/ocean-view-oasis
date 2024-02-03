@@ -1,5 +1,11 @@
 import IconText from "../components/IconText";
 import ImageOverlay from "../components/ImageOverlay";
+import { MdOutlineLiving } from "react-icons/md";
+import { MdOutlineKitchen } from "react-icons/md";
+import { MdOutlineBedroomParent } from "react-icons/md";
+import { MdOutlineCheckroom } from "react-icons/md";
+import { MdOutlineBathroom } from "react-icons/md";
+import { MdOutlineBalcony } from "react-icons/md";
 
 
 const FloorPlanPage = () => {
@@ -21,7 +27,25 @@ const FloorPlanPage = () => {
                     <p className="text-2xl font-bold">Apartment floor plan</p>
                     <p>Uncover the intricacies of our apartment floor plan, revealing a blueprint that hosts five thoughtfully designed living spaces on each floor, harmonizing comfort and style seamlessly</p>
                     <p className="text-xl font-bold mt-4">Key features</p>
-                    <IconText icon={}
+                    <IconText 
+                    icon={<MdOutlineLiving />} 
+                    text={"Spacious living areas with abundant natural light"} />
+                    <IconText 
+                    icon={<MdOutlineKitchen />} 
+                    text={"Modern kitchen with high-end appliances"} />
+                    <IconText 
+                    icon={<MdOutlineBedroomParent />} 
+                    text={"Well-appointed bedrooms with ample closet space"} />
+                    <IconText 
+                    icon={<MdOutlineBathroom />} 
+                    text={"Elegant and functional bathroom designs"} />
+                    <IconText 
+                    icon={<MdOutlineBathroom />} 
+                    text={"Elegant and functional bathroom designs"} />
+                    <IconText 
+                    icon={<MdOutlineBalcony />} 
+                    text={"Private balcony or terrace options"} />
+                    
                 </div>
             </div>
 
