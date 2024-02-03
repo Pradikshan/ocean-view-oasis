@@ -109,25 +109,25 @@ const FloorPlanPage = () => {
                     text={"Intimate bedroom retreat"} />
                     <IconText 
                     icon={<MdOutlineKitchen />} 
-                    text={"A modern kitchen layout with high-end appliances"} />
+                    text={"Efficient kitchen setup"} />
                     <IconText 
                     icon={<MdOutlineBathroom />} 
-                    text={"Thoughtfully crafted bathroom design, balancing elegance with functionality"} />
+                    text={"Smart bathroom design"} />
                     <IconText 
                     icon={<MdOutlineBalcony />} 
-                    text={"Enjoy a personal balcony, providing a secluded escape"} />
+                    text={"Private balcony space"} />
                     <IconText 
                     icon={<MdOutlineLocalLaundryService />} 
-                    text={"Experience ultimate convenience with in-unit laundry facilities"} />
+                    text={"Convinient in-unit laundry service"} />
                     <IconText 
                     icon={<MdOutlineChair />} 
-                    text={"Embrace the flexibility of an open floor plan, allowing you to personalize your living space"} />
+                    text={"Adaptable living space"} />
                     <IconText 
                     icon={<MdOutlineHeatPump />} 
-                    text={"Year round comfort with energy-efficient heating and cooling systems"} />
+                    text={"Climate comfort"} />
                     <IconText 
                     icon={<BiCctv />} 
-                    text={"Feel secure with controlled access and 24/7 surveillance"} />
+                    text={"Controlled access and 24/7 surveillance"} />
                 </div>
             </div>
         </div>
