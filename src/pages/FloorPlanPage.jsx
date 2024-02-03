@@ -18,9 +18,6 @@ const FloorPlanPage = () => {
         <div className="m-10 rounded-xl shadow-xl">
             <div className="flex flex-row p-8">
                 <ImageCard image_path={"../images/floor.png"} />
-                {/* <div className="basis-1/2 border-2 border-black">
-                    <img src="../images/floor.png" alt="floor plan" className="w-full h-full object-cover" />
-                </div> */}
 
                 <div className="flex flex-col ms-8">
                     <p className="text-2xl font-bold">Apartment floor plan</p>
