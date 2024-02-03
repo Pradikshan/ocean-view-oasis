@@ -15,8 +15,8 @@ const FloorPlanPage = () => {
         heading={"Floor Plan"} 
         subheading={"Explore our meticulously designed floor plans, tailored for your lifestyle and comfort"} />
 
-        <div className="m-10 rounded-xl shadow-xl">
-            <div className="flex flex-row p-8">
+        <div className="m-2 md:m-10 rounded-xl shadow-xl">
+            <div className="flex flex-col md:flex-row p-1 md:p-8">
                 <ImageCard image_path={"../images/floor.png"} />
 
                 <div className="flex flex-col ms-8">
@@ -54,8 +54,8 @@ const FloorPlanPage = () => {
             </div>
         </div>
 
-        <div className="m-10 rounded-xl shadow-xl">
-            <div className="flex flex-row p-8">
+        <div className="m-2 md:m-10 rounded-xl shadow-xl">
+            <div className="flex flex-col md:flex-row p-1 md:p-8">
                 <ImageCard image_path={"../images/bed1.png"} />
 
                 <div className="flex flex-col ms-8">
