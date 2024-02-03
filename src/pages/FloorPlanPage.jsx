@@ -1,6 +1,6 @@
 import IconText from "../components/IconText";
 import ImageOverlay from "../components/ImageOverlay";
-import { MdOutlineLiving, MdOutlineKitchen, MdOutlineBedroomParent, MdOutlineCheckroom, MdOutlineBathroom, MdOutlineBalcony, MdOutlineLocalLaundryService, MdOutlineChair, MdOutlineHeatPump  } from "react-icons/md";
+import { MdOutlineLiving, MdOutlineKitchen, MdOutlineBedroomParent, MdOutlineBathroom, MdOutlineBalcony, MdOutlineLocalLaundryService, MdOutlineChair, MdOutlineHeatPump  } from "react-icons/md";
 import { BiCctv } from "react-icons/bi";
 import ImageCard from "../components/ImageCard";
 
