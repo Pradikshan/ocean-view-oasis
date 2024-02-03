@@ -94,7 +94,7 @@ const FloorPlanPage = () => {
                     text={"Enjoy a personal balcony, providing a secluded escape"} />
                     <IconText 
                     icon={<MdOutlineLocalLaundryService />} 
-                    text={"In-unit laundry facilities for convinience"} />
+                    text={"Experience ultimate convenience with in-unit laundry facilities"} />
                     <IconText 
                     icon={<MdOutlineChair />} 
                     text={"Embrace the flexibility of an open floor plan, allowing you to personalize your living space"} />
