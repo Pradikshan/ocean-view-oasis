@@ -108,6 +108,51 @@ const FloorPlanPage = () => {
             </div>
         </div>
 
+        <div className="m-2 md:m-10 rounded-xl shadow-xl">
+            <div className="flex flex-col md:flex-row p-1 md:p-8">
+                { 
+                window.innerWidth >= 768 ? (
+                    <ImageCard image_path={"../images/bed1.png"} />
+                ) : null
+                }
+
+                <div className="flex flex-col ms-8">
+                    <p className="text-2xl font-bold">2-Bedroom Comfort and Style</p>
+                    { 
+                    window.innerWidth <= 768 ? (
+                        <ImageCard image_path={"../images/bed2.png"} />
+                    ) : null
+                    }
+                    <p>Discover our 2-bedroom floor plan – an inviting blend of thoughtful design, expansive living areas, contemporary kitchens, and two well-appointed bedrooms – crafting a warm and welcoming living space tailored just for you</p>
+                    <p className="text-xl font-bold mt-4">Key features</p>
+                    <IconText 
+                    icon={<MdOutlineBedroomParent />} 
+                    text={" Enjoy the luxury of two well-designed and spacious bedrooms, each offering a private retreat for relaxation"} />
+                    <IconText 
+                    icon={<MdOutlineKitchen />} 
+                    text={"A modern kitchen layout with high-end appliances"} />
+                    <IconText 
+                    icon={<MdOutlineBathroom />} 
+                    text={"Discover two thoughtfully crafted bathrooms, balancing elegance with functionality, featuring dual vanity spaces"} />
+                    <IconText 
+                    icon={<MdOutlineBalcony />} 
+                    text={"Each bedroom opens up to a personal balcony, providing a serene and secluded outdoor escape for both residents"} />
+                    <IconText 
+                    icon={<MdOutlineLocalLaundryService />} 
+                    text={"Experience ultimate convenience with in-unit laundry facilities"} />
+                    <IconText 
+                    icon={<MdOutlineChair />} 
+                    text={"Embrace the flexibility of an open floor plan, allowing you to personalize your living space"} />
+                    <IconText 
+                    icon={<MdOutlineHeatPump />} 
+                    text={"Enjoy year-round comfort with energy-efficient heating and cooling systems, individually controlled for each bedroom"} />
+                    <IconText 
+                    icon={<BiCctv />} 
+                    text={"Feel secure with controlled access and 24/7 surveillance"} />
+                </div>
+            </div>
+        </div>
+
         
         </>
     );
