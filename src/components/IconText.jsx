@@ -1,4 +1,4 @@
-const IconText = () => {
+const IconText = ({ icon, text }) => {
     return (
 
     );
