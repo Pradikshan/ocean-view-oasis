@@ -50,13 +50,11 @@ const FloorPlanPage = () => {
                     <IconText 
                     icon={<BiCctv />} 
                     text={"Secure access and 24/7 surveillance"} />
-                    
                 </div>
             </div>
-
-
-
         </div>
+
+        
         </>
     );
 }
