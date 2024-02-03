@@ -23,7 +23,7 @@ const FloorPlanPage = () => {
             <div className="flex flex-col md:flex-row p-1 md:p-8">
                 { 
                 window.innerWidth >= 768 ? (
-                    <ImageCard image_path={"../images/floor.png"} />
+                    <ImageCard image_path={"../images/floor.png"} basis={"basis-none"}/>
                 ) : null
                 }
 
@@ -71,7 +71,7 @@ const FloorPlanPage = () => {
             <div className="flex flex-col md:flex-row p-1 md:p-8">
                 { 
                 window.innerWidth >= 768 ? (
-                    <ImageCard image_path={"../images/bed1.png"} />
+                    <ImageCard image_path={"../images/bed1.png"} basis={"basis-none"}/>
                 ) : null
                 }
 
@@ -140,7 +140,7 @@ const FloorPlanPage = () => {
             <div className="flex flex-col md:flex-row p-1 md:p-8">
                 { 
                 window.innerWidth >= 768 ? (
-                    <ImageCard image_path={"../images/bed2.png"} />
+                    <ImageCard image_path={"../images/bed2.png"} basis={"basis-none"}/>
                 ) : null
                 }
 
@@ -209,7 +209,7 @@ const FloorPlanPage = () => {
             <div className="flex flex-col md:flex-row p-1 md:p-8">
                 { 
                 window.innerWidth >= 768 ? (
-                    <ImageCard image_path={"../images/bed3.png"} />
+                    <ImageCard image_path={"../images/bed3.png"} basis={"basis-none"}/>
                 ) : null
                 }
 
@@ -278,7 +278,7 @@ const FloorPlanPage = () => {
             <div className="flex flex-col md:flex-row p-1 md:p-8">
                 { 
                 window.innerWidth >= 768 ? (
-                    <ImageCard image_path={"../images/luxury.png"} />
+                    <ImageCard image_path={"../images/luxury.png"} basis={"basis-none"}/>
                 ) : null
                 }
 
