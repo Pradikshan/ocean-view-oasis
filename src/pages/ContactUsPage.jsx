@@ -1,4 +1,4 @@
-import { SplitLayout } from "../components/SplitLayout";
+import SplitLayout from "../components/SplitLayout";
 import Inquiry from "../components/Inquiry";
 import ImageOverlay from "../components/ImageOverlay";
 
