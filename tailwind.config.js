@@ -11,6 +11,9 @@ module.exports = {
       backgroundImage: {
         "main-img": "url(../public/images/main_img2.jpg)"
       },
+      backgroundColor: {
+        "trans": "#000000e1",
+      },
       transitionDuration: {
         "1500": "1500ms",
         "2000": "2000ms",
