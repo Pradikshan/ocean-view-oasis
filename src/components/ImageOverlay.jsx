@@ -1,4 +1,4 @@
-export const ImageOverlay = ({ image_path, opacity, heading, subheading }) => {
+const ImageOverlay = ({ image_path, opacity, heading, subheading }) => {
     return (
         <div className="relative">
             <div className="flex flex-col justify-center items-center">
@@ -13,5 +13,6 @@ export const ImageOverlay = ({ image_path, opacity, heading, subheading }) => {
             </div>
         </div>
     );
-
 }
+
+export default ImageOverlay;
