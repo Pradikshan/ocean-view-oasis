@@ -1,6 +1,6 @@
 import { useInView } from 'react-intersection-observer';
 import ImageCard from "../components/ImageCard";
-import { SplitLayout } from "../components/SplitLayout";
+import SplitLayout from "../components/SplitLayout";
 import TestimonialSection from "../components/TestimonialSection";
 import { ImageOverlay } from '../components/ImageOverlay';
 
