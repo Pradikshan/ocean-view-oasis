@@ -1,7 +1,11 @@
 import IconText from "../components/IconText";
 import ImageOverlay from "../components/ImageOverlay";
-import { MdOutlineLiving, MdOutlineKitchen, MdOutlineBedroomParent, MdOutlineBathroom, MdOutlineBalcony, MdOutlineLocalLaundryService, MdOutlineChair, MdOutlineHeatPump  } from "react-icons/md";
+import { MdOutlineLiving, MdOutlineKitchen, MdOutlineBedroomParent, MdOutlineBathroom, MdOutlineBalcony, MdOutlineLocalLaundryService, MdOutlineChair, MdOutlineHeatPump, MdOutlineCleaningServices } from "react-icons/md";
 import { BiCctv } from "react-icons/bi";
+import { PiElevator } from "react-icons/pi";
+import { TbSettingsAutomation, TbParking } from "react-icons/tb";
+import { FaSpa } from "react-icons/fa6";
+import { SiClubhouse } from "react-icons/si";
 import ImageCard from "../components/ImageCard";
 
 
@@ -253,7 +257,7 @@ const FloorPlanPage = () => {
                     text={"Three well appointed bathrooms"} />
                     <IconText 
                     icon={<MdOutlineBalcony />} 
-                    text={"Private balcony for each bedroom"} />
+                    text={"Private balcony for each bedroom with a sea view"} />
                     <IconText 
                     icon={<MdOutlineLocalLaundryService />} 
                     text={"In-unit laundry service"} />
@@ -289,28 +293,28 @@ const FloorPlanPage = () => {
                     <p className="text-xl font-bold mt-4">Key features</p>
                     <IconText 
                     icon={<MdOutlineBedroomParent />} 
-                    text={"Experience the luxury of a generous living space with three well-designed bedrooms"} />
+                    text={"Grand master suite"} />
                     <IconText 
-                    icon={<MdOutlineKitchen />} 
-                    text={"A modern kitchen layout with high-end appliances"} />
-                    <IconText 
-                    icon={<MdOutlineBathroom />} 
-                    text={" Enjoy the convenience of three thoughtfully crafted bathrooms"} />
+                    icon={<PiElevator />} 
+                    text={"Private elevator access"} />
                     <IconText 
                     icon={<MdOutlineBalcony />} 
-                    text={"Indulge in personal outdoor retreats as each bedroom opens up to its own private balcony"} />
+                    text={"Private terrace with panoramic views"} />
                     <IconText 
-                    icon={<MdOutlineLocalLaundryService />} 
-                    text={"Experience ultimate convenience with in-unit laundry facilities"} />
+                    icon={<FaSpa />} 
+                    text={"In-home spa experience"} />
                     <IconText 
-                    icon={<MdOutlineChair />} 
-                    text={"Embrace the flexibility of an open floor plan, allowing you to personalize your living space"} />
+                    icon={<MdOutlineCleaningServices />} 
+                    text={"Dedicated concierge service"} />
                     <IconText 
-                    icon={<MdOutlineHeatPump />} 
-                    text={"Individualized comfort with energy-efficient heating and cooling systems, ensuring the perfect atmosphere in every bedroom"} />
+                    icon={<TbSettingsAutomation />} 
+                    text={"State-of-the-art home automation"} />
                     <IconText 
-                    icon={<BiCctv />} 
-                    text={"Feel secure with controlled access and 24/7 surveillance"} />
+                    icon={<SiClubhouse />} 
+                    text={"Exclusive access to clubhouse and amenities"} />
+                    <IconText 
+                    icon={<TbParking />} 
+                    text={"Secure valet parking"} />
                 </div>
             </div>
         </div>
