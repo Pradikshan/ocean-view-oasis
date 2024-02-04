@@ -7,7 +7,7 @@ const ContactUsPage = () => {
     return (
         <>
         <ImageOverlay 
-        image_path={"../images/service.jpg"} 
+        image_path={"../images/service-min.jpg"} 
         opacity={"opacity-90"} heading={"Contact Us"} 
         subheading={"Reach out to us – let's start a conversation about turning your dreams of coastal living into a reality"} />
 
