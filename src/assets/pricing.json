@@ -1,0 +1,406 @@
+[
+    {
+        "categoryId": 1,
+        "category": "renting options",
+        "options": [
+            {
+                "id": 1,
+                "title": "One bedroom apartment",
+                "info": [
+                    {
+                        "icon": "<FaRegMoneyBillAlt />",
+                        "text": "Monthly rent: $1,500"
+                    },
+                    {
+                        "icon": "<LiaFileContractSolid />",
+                        "text": "Lease term: 12 months"
+                    },
+                    {
+                        "icon": "<MdOutlineAccountBalanceWallet />",
+                        "text": "Deposit: $1,000"
+                    },
+                    {
+                        "icon": "<MdOutlineEventAvailable />",
+                        "text": "Availability: Available now"
+                    }
+                ],
+                "extended-info": [
+                    {
+                        "icon": "<MdOutlineBedroomParent />",
+                        "text": "Intimate bedroom retreat"
+                    },
+                    {
+                        "icon": "<MdOutlineKitchen />",
+                        "text": "Efficient kitchen setup"
+                    },
+                    {
+                        "icon": "<MdOutlineBathroom />",
+                        "text": "Smart bathroom design"
+                    },
+                    {
+                        "icon": "<MdOutlineBalcony />",
+                        "text": "Private balcony space"
+                    },
+                    {
+                        "icon": "<MdOutlineLocalLaundryService />",
+                        "text": "Convinient in-unit laundry service"
+                    },
+                    {
+                        "icon": "<MdOutlineChair />",
+                        "text": "Adaptable living space"
+                    },
+                    {
+                        "icon": "<MdOutlineHeatPump />",
+                        "text": "Climate comfort"
+                    },
+                    {
+                        "icon": "<BiCctv />",
+                        "text": "Controlled access and 24/7 surveillance"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Two bedroom apartment",
+                "info": [
+                    {
+                        "icon": "<FaRegMoneyBillAlt />",
+                        "text": "Monthly rent: $2,500"
+                    },
+                    {
+                        "icon": "<LiaFileContractSolid />",
+                        "text": "Lease term: 12 months"
+                    },
+                    {
+                        "icon": "<MdOutlineAccountBalanceWallet />",
+                        "text": "Deposit: $1,500"
+                    },
+                    {
+                        "icon": "<MdOutlineEventAvailable />",
+                        "text": "Availability: Available now"
+                    }
+                ],
+                "extended-info": [
+                    {
+                        "icon": "<MdOutlineBedroomParent />",
+                        "text": "Two comfortable bedrooms"
+                    },
+                    {
+                        "icon": "<MdOutlineKitchen />",
+                        "text": "Gourmet kitchen space"
+                    },
+                    {
+                        "icon": "<MdOutlineBathroom />",
+                        "text": "Dual vanity bathrooms"
+                    },
+                    {
+                        "icon": "<MdOutlineBalcony />",
+                        "text": "Private balcony retreats"
+                    },
+                    {
+                        "icon": "<MdOutlineLocalLaundryService />",
+                        "text": "Convinient in-unit laundry service"
+                    },
+                    {
+                        "icon": "<MdOutlineChair />",
+                        "text": "Flexible living areas"
+                    },
+                    {
+                        "icon": "<MdOutlineHeatPump />",
+                        "text": "Climate comfort for bedrooms"
+                    },
+                    {
+                        "icon": "<BiCctv />",
+                        "text": "Controlled access and 24/7 surveillance"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Three bedroom apartment",
+                "info": [
+                    {
+                        "icon": "<FaRegMoneyBillAlt />",
+                        "text": "Monthly rent: $3,500"
+                    },
+                    {
+                        "icon": "<LiaFileContractSolid />",
+                        "text": "Lease term: 12 months"
+                    },
+                    {
+                        "icon": "<MdOutlineAccountBalanceWallet />",
+                        "text": "Deposit: $2,000"
+                    },
+                    {
+                        "icon": "<MdOutlineEventAvailable />",
+                        "text": "Availability: Available now"
+                    }
+                ],
+                "extended-info": [
+                    {
+                        "icon": "<MdOutlineBedroomParent />",
+                        "text": "Spacious three-bedroom layout"
+                    },
+                    {
+                        "icon": "<MdOutlineKitchen />",
+                        "text": "Gourmet kitchen for culinary delights"
+                    },
+                    {
+                        "icon": "<MdOutlineBathroom />",
+                        "text": "Three well appointed bathrooms"
+                    },
+                    {
+                        "icon": "<MdOutlineBalcony />",
+                        "text": "Private balcony for each bedroom with a sea view"
+                    },
+                    {
+                        "icon": "<MdOutlineLocalLaundryService />",
+                        "text": "Convinient in-unit laundry service"
+                    },
+                    {
+                        "icon": "<MdOutlineChair />",
+                        "text": "Versatile open floor plan"
+                    },
+                    {
+                        "icon": "<MdOutlineHeatPump />",
+                        "text": "Climate comfort for bedrooms"
+                    },
+                    {
+                        "icon": "<BiCctv />",
+                        "text": "Controlled access and 24/7 surveillance"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "categoryId": 2,
+        "category": "buying options",
+        "options": [
+            {
+                "id": 1,
+                "title": "One bedroom apartment",
+                "info": [
+                    {
+                        "icon": "<FaRegMoneyBillAlt />",
+                        "text": "Price: $200,000"
+                    },
+                    {
+                        "icon": "<MdOutlineHouse />",
+                        "text": "Property type: Condominium"
+                    },
+                    {
+                        "icon": "<MdOutlineSquare />",
+                        "text": "800 sq. ft."
+                    },
+                    {
+                        "icon": "<MdOutlineAttachMoney />",
+                        "text": "Financing option: Mortgage/Cash"
+                    }
+                ],
+                "extended-info": [
+                    {
+                        "icon": "<MdOutlineBedroomParent />",
+                        "text": "Intimate bedroom retreat"
+                    },
+                    {
+                        "icon": "<MdOutlineKitchen />",
+                        "text": "Efficient kitchen setup"
+                    },
+                    {
+                        "icon": "<MdOutlineBathroom />",
+                        "text": "Smart bathroom design"
+                    },
+                    {
+                        "icon": "<MdOutlineBalcony />",
+                        "text": "Private balcony space"
+                    },
+                    {
+                        "icon": "<MdOutlineLocalLaundryService />",
+                        "text": "Convinient in-unit laundry service"
+                    },
+                    {
+                        "icon": "<MdOutlineChair />",
+                        "text": "Adaptable living space"
+                    },
+                    {
+                        "icon": "<MdOutlineHeatPump />",
+                        "text": "Climate comfort"
+                    },
+                    {
+                        "icon": "<BiCctv />",
+                        "text": "Controlled access and 24/7 surveillance"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Two bedroom apartment",
+                "info": [
+                    {
+                        "icon": "<FaRegMoneyBillAlt />",
+                        "text": "Price: $350,000"
+                    },
+                    {
+                        "icon": "<MdOutlineHouse />",
+                        "text": "Property type: Condominium"
+                    },
+                    {
+                        "icon": "<MdOutlineSquare />",
+                        "text": "1200 sq. ft."
+                    },
+                    {
+                        "icon": "<MdOutlineAttachMoney />",
+                        "text": "Financing option: Mortgage/Cash"
+                    }
+                ],
+                "extended-info": [
+                    {
+                        "icon": "<MdOutlineBedroomParent />",
+                        "text": "Two comfortable bedrooms"
+                    },
+                    {
+                        "icon": "<MdOutlineKitchen />",
+                        "text": "Gourmet kitchen space"
+                    },
+                    {
+                        "icon": "<MdOutlineBathroom />",
+                        "text": "Dual vanity bathrooms"
+                    },
+                    {
+                        "icon": "<MdOutlineBalcony />",
+                        "text": "Private balcony retreats"
+                    },
+                    {
+                        "icon": "<MdOutlineLocalLaundryService />",
+                        "text": "Convinient in-unit laundry service"
+                    },
+                    {
+                        "icon": "<MdOutlineChair />",
+                        "text": "Flexible living areas"
+                    },
+                    {
+                        "icon": "<MdOutlineHeatPump />",
+                        "text": "Climate comfort for bedrooms"
+                    },
+                    {
+                        "icon": "<BiCctv />",
+                        "text": "Controlled access and 24/7 surveillance"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Three bedroom apartment",
+                "info": [
+                    {
+                        "icon": "<FaRegMoneyBillAlt />",
+                        "text": "Price: $600,000"
+                    },
+                    {
+                        "icon": "<MdOutlineHouse />",
+                        "text": "Property type: Condominium"
+                    },
+                    {
+                        "icon": "<MdOutlineSquare />",
+                        "text": "1600 sq. ft."
+                    },
+                    {
+                        "icon": "<MdOutlineAttachMoney />",
+                        "text": "Financing option: Mortgage/Cash"
+                    }
+                ],
+                "extended-info": [
+                    {
+                        "icon": "<MdOutlineBedroomParent />",
+                        "text": "Spacious three-bedroom layout"
+                    },
+                    {
+                        "icon": "<MdOutlineKitchen />",
+                        "text": "Gourmet kitchen for culinary delights"
+                    },
+                    {
+                        "icon": "<MdOutlineBathroom />",
+                        "text": "Three well appointed bathrooms"
+                    },
+                    {
+                        "icon": "<MdOutlineBalcony />",
+                        "text": "Private balcony for each bedroom with a sea view"
+                    },
+                    {
+                        "icon": "<MdOutlineLocalLaundryService />",
+                        "text": "Convinient in-unit laundry service"
+                    },
+                    {
+                        "icon": "<MdOutlineChair />",
+                        "text": "Versatile open floor plan"
+                    },
+                    {
+                        "icon": "<MdOutlineHeatPump />",
+                        "text": "Climate comfort for bedrooms"
+                    },
+                    {
+                        "icon": "<BiCctv />",
+                        "text": "Controlled access and 24/7 surveillance"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Luxury apartment",
+                "info": [
+                    {
+                        "icon": "<FaRegMoneyBillAlt />",
+                        "text": "Price: $1,000,000"
+                    },
+                    {
+                        "icon": "<MdOutlineHouse />",
+                        "text": "Property type: luxury condominium"
+                    },
+                    {
+                        "icon": "<MdOutlineSquare />",
+                        "text": "2200 sq. ft."
+                    },
+                    {
+                        "icon": "<MdOutlineAttachMoney />",
+                        "text": "Financing option: Mortgage/Cash"
+                    }
+                ],
+                "extended-info": [
+                    {
+                        "icon": "<MdOutlineBedroomParent />",
+                        "text": "Grand master suite"
+                    },
+                    {
+                        "icon": "<PiElevator />",
+                        "text": "Private elevator access"
+                    },
+                    {
+                        "icon": "<MdOutlineBalcony />",
+                        "text": "Private terrace with panoramic views"
+                    },
+                    {
+                        "icon": "<FaSpa />",
+                        "text": "In-home spa experience"
+                    },
+                    {
+                        "icon": "<MdOutlineCleaningServices />",
+                        "text": "Dedicated concierge service"
+                    },
+                    {
+                        "icon": "<TbSettingsAutomation />",
+                        "text": "State-of-the-art home automation"
+                    },
+                    {
+                        "icon": "<SiClubhouse />",
+                        "text": "Exclusive access to clubhouse and amenities"
+                    },
+                    {
+                        "icon": "<TbParking />",
+                        "text": "Secure valet parking"
+                    }
+                ]
+            }
+        ]
+    }
+]
