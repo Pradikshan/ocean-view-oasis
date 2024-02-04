@@ -14,7 +14,9 @@ export const useFetch = (path) => {
                 setData(data);
             } catch (error) {
                 setError(error);
-            } 
+            } finally {
+                setLoading(false);
+            }
         };
 
         fetchData();
