@@ -2,6 +2,7 @@ import { MdOutlineLiving, MdOutlineKitchen, MdOutlineBedroomParent, MdOutlineBat
 import { FaRegMoneyBillAlt } from "react-icons/fa";
 import { LiaFileContractSolid } from "react-icons/lia";
 import IconText from "./IconText";
+import { motion } from "framer-motion";
 
 const PricingCard = () => {
     return (
@@ -31,7 +32,7 @@ const PricingCard = () => {
             </div>
 
             <div className="flex flex-row justify-center mt-3">
-                <button className="p-4 w-full font-bold rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">See details</button>
+                <button className="p-4 w-full font-bold rounded-full bg-gradient-to-r ">See details</button>
             </div>
 
 
