@@ -1,4 +1,4 @@
-import { MdOutlineLiving, MdOutlineKitchen, MdOutlineBedroomParent, MdOutlineBathroom, MdOutlineBalcony, MdOutlineLocalLaundryService, MdOutlineChair, MdOutlineHeatPump, MdOutlineCleaningServices, MdOutlineSpaceDashboard, MdSpaceDashboard } from "react-icons/md";
+import { MdOutlineLiving, MdOutlineKitchen, MdOutlineBedroomParent, MdOutlineBathroom, MdOutlineBalcony, MdOutlineLocalLaundryService, MdOutlineChair, MdOutlineHeatPump, MdOutlineCleaningServices, MdOutlineSpaceDashboard, MdSpaceDashboard, MdOutlineAccountBalanceWallet, MdOutlineEventAvailable } from "react-icons/md";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
 import { LiaFileContractSolid } from "react-icons/lia";
 import IconText from "./IconText";
@@ -15,15 +15,11 @@ const PricingCard = () => {
                 <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $1,500"} />
                 <IconText icon={<LiaFileContractSolid />} text={"Lease term: 12 months"} />
                 <IconText icon={<MdSpaceDashboard />} text={"800 sq. ft."} />
-                <p>Square footage: 800 sq. ft.</p>
                 <IconText icon={<MdOutlineBedroomParent />} text={"1 bedroom"} />
-                    
-                 
-                <p>Bedrooms: 1</p>
-                <p>Bathrooms: 1</p>
-                <p>Amenities: Balcony</p>
-                <p>Deposit: $1,000</p>
-                <p>Availability: Available now</p>
+                <IconText icon={<MdOutlineBathroom />} text={"1 bathroom"} />
+                <IconText icon={<MdOutlineBalcony />} text={"Private balcony"} />
+                <IconText icon={<MdOutlineAccountBalanceWallet />} text={"Deposit: $1,000"} />
+                <IconText icon={<MdOutlineEventAvailable />} text={"Availability: Available now"} />
             </div>
 
             {/* TOD: add a CTA */}
