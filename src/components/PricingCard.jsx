@@ -30,7 +30,10 @@ const PricingCard = () => {
                 <IconText icon={<MdOutlineEventAvailable />} text={"Availability: Available now"} />
             </div>
 
-            {/* TOD: add a CTA */}
+            <div className="flex flex-row justify-center mt-3">
+                <button className="p-4 w-full font-bold rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">See details</button>
+            </div>
+
 
         </div>
 
