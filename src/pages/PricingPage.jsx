@@ -17,11 +17,24 @@ const PricingPage = () => {
 
     return (
         <>
-        <div className="flex flex-row">
-            <PricingCard />
-            <PricingCard />
-            <PricingCard />
-            <PricingCard />
+        <div>
+            <p className="text-center text-3xl font-bold mt-4">Renting options</p>
+            <div className="flex flex-row">
+                <PricingCard />
+                <PricingCard />
+                <PricingCard />
+                <PricingCard />
+            </div>
+        </div>
+
+        <div className="mt-16">
+            <p className="text-center text-3xl font-bold mt-4">Buying options</p>
+            <div className="flex flex-row">
+                <PricingCard />
+                <PricingCard />
+                <PricingCard />
+                <PricingCard />
+            </div>
         </div>
         
         {/* <motion.button 
