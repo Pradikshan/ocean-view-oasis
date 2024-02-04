@@ -32,7 +32,10 @@ const PricingCard = () => {
             </div>
 
             <div className="flex flex-row justify-center mt-3">
-                <button className="p-4 w-full font-bold rounded-full bg-gradient-to-r ">See details</button>
+                <motion.button 
+                className="p-3 w-full font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500"
+                whileHover={{ scale: 1.1}}
+                whileTap={{ scale: 0.9}}>See details</motion.button>
             </div>
 
 
