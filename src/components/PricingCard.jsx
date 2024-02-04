@@ -10,7 +10,7 @@ const PricingCard = () => {
                 <img src="../images/1bed_ap-min.jpg" alt="apartment" className="w-full h-full object-cover" />
             </div>
 
-            <div className="mt-5">
+            {/* <div className="mt-5">
                 <p className="text-xl font-bold">One bedroom apartment</p>
                 <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $1,500"} />
                 <IconText icon={<LiaFileContractSolid />} text={"Lease term: 12 months"} />
@@ -18,6 +18,14 @@ const PricingCard = () => {
                 <IconText icon={<MdOutlineBedroomParent />} text={"1 bedroom"} />
                 <IconText icon={<MdOutlineBathroom />} text={"1 bathroom"} />
                 <IconText icon={<MdOutlineBalcony />} text={"Private balcony"} />
+                <IconText icon={<MdOutlineAccountBalanceWallet />} text={"Deposit: $1,000"} />
+                <IconText icon={<MdOutlineEventAvailable />} text={"Availability: Available now"} />
+            </div> */}
+
+            <div className="mt-5">
+                <p className="text-xl font-bold">One bedroom apartment</p>
+                <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $1,500"} />
+                <IconText icon={<LiaFileContractSolid />} text={"Lease term: 12 months"} />
                 <IconText icon={<MdOutlineAccountBalanceWallet />} text={"Deposit: $1,000"} />
                 <IconText icon={<MdOutlineEventAvailable />} text={"Availability: Available now"} />
             </div>
