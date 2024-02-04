@@ -21,4 +21,6 @@ export const useFetch = (path) => {
 
         fetchData();
     }, [path]);
+
+    return { data, loading, error };
 }
