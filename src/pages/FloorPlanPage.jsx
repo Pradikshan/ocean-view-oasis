@@ -191,13 +191,13 @@ const FloorPlanPage = () => {
                     text={"Private balcony retreats"} />
                     <IconText 
                     icon={<MdOutlineLocalLaundryService />} 
-                    text={"Convinient in-unit laundry"} />
+                    text={"Convinient in-unit laundry service"} />
                     <IconText 
                     icon={<MdOutlineChair />} 
                     text={"Flexible living areas"} />
                     <IconText 
                     icon={<MdOutlineHeatPump />} 
-                    text={"Climate control for bedroom"} />
+                    text={"Climate control for bedrooms"} />
                     <IconText 
                     icon={<BiCctv />} 
                     text={"Controlled access and 24/7 surveillance"} />
@@ -260,7 +260,7 @@ const FloorPlanPage = () => {
                     text={"Private balcony for each bedroom with a sea view"} />
                     <IconText 
                     icon={<MdOutlineLocalLaundryService />} 
-                    text={"In-unit laundry service"} />
+                    text={"Convinient in-unit laundry service"} />
                     <IconText 
                     icon={<MdOutlineChair />} 
                     text={"Versatile open floor plan"} />
