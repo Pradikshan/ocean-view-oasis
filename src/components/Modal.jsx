@@ -11,7 +11,7 @@ const dropIn = {
         y: "0vh",
         opacity: 1,
         transition: {
-            duration: 5,
+            duration: 0.5,
             type: "spring",
             damping: 25,
             stiffness: 500,
@@ -29,7 +29,6 @@ const Modal = ({ handleClose, text }) => {
             <AnimatePresence>
                 <Backdrop onClick={handleClose}>
                     <motion.div
-                    drag
                     key="modal"
                     className="flex flex-col items-center bg-rose-300 rounded-xl p-20"
                     onClick={(e) => e.stopPropagation()}
