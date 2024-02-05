@@ -1,6 +1,3 @@
-import { MdOutlineLiving, MdOutlineKitchen, MdOutlineBedroomParent, MdOutlineBathroom, MdOutlineBalcony, MdOutlineLocalLaundryService, MdOutlineChair, MdOutlineHeatPump, MdOutlineCleaningServices, MdOutlineSpaceDashboard, MdSpaceDashboard, MdOutlineAccountBalanceWallet, MdOutlineEventAvailable } from "react-icons/md";
-import { FaRegMoneyBillAlt } from "react-icons/fa";
-import { LiaFileContractSolid } from "react-icons/lia";
 import IconText from "./IconText";
 import { motion } from "framer-motion";
 
