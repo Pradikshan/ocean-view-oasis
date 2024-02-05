@@ -1,9 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import Backdrop from "../components/Backdrop";
 import { useState } from "react";
-import { useFetch } from "../utils/hooks/useFetch";
-import Modal from "../components/Modal";
-import PricingCard from "../components/PricingCard";
 
 import { MdOutlineLiving, MdOutlineKitchen, MdOutlineBedroomParent, MdOutlineBathroom, MdOutlineBalcony, MdOutlineLocalLaundryService, MdOutlineChair, MdOutlineHeatPump, MdOutlineCleaningServices, MdOutlineSpaceDashboard, MdSpaceDashboard, MdOutlineAccountBalanceWallet, MdOutlineEventAvailable } from "react-icons/md";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
