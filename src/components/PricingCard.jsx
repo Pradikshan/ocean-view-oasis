@@ -1,6 +1,7 @@
 import IconText from "./IconText";
 import { motion } from "framer-motion";
 
+
 const PricingCard = ({ image, title, icon, text }) => {
     return (
         <div className="rounded-lg shadow-2xl w-full h-full m-5 p-5">
