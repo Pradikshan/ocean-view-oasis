@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { Link } from 'react-router-dom';
 
-import { MdOutlineLiving, MdOutlineKitchen, MdOutlineBedroomParent, MdOutlineBathroom, MdOutlineBalcony, MdOutlineLocalLaundryService, MdOutlineChair, MdOutlineHeatPump, MdOutlineCleaningServices, MdOutlineSpaceDashboard, MdSpaceDashboard, MdOutlineAccountBalanceWallet, MdOutlineEventAvailable } from "react-icons/md";
+import { MdOutlineLiving, MdOutlineKitchen, MdOutlineBedroomParent, MdOutlineBathroom, MdOutlineBalcony, MdOutlineLocalLaundryService, MdOutlineChair, MdOutlineHeatPump, MdOutlineCleaningServices, MdOutlineSpaceDashboard, MdSpaceDashboard, MdOutlineAccountBalanceWallet, MdOutlineEventAvailable, MdOutlineHouse, MdOutlineSquare, MdOutlineAttachMoney } from "react-icons/md";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
 import { LiaFileContractSolid } from "react-icons/lia";
 import { BiCctv } from "react-icons/bi";
@@ -152,6 +152,106 @@ const PricingPage = () => {
                     </div>
                 )} */}
 
+            </div>
+
+            <p className="text-center text-3xl font-bold mt-10">Buying options</p>
+            <div className="flex flex-row justify-around">
+
+                <div className="rounded-lg shadow-2xl w-1/4 h-full m-5 p-5">
+                    <div className="flex-shrink-0">
+                        <img src="../images/1bed_buy-min.jpg" alt="apartment" className="w-full h-full object-cover" />
+                    </div>
+
+                    <div className="mt-5">
+                        <p className="text-xl font-bold">One bedroom apartment</p>
+                        <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $200,000"} />
+                        <IconText icon={<MdOutlineHouse />} text={"Property type: Condominium"} />
+                        <IconText icon={<MdOutlineSquare />} text={"800 sq. ft."} />
+                        <IconText icon={<MdOutlineAttachMoney />} text={"Financing option: Mortgage/Cash"} />
+                    </div>
+
+                    <div className="flex flex-row justify-center mt-3">
+                        <motion.a 
+                        href="/floor_plan" 
+                        className="p-3 w-full text-center font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500" 
+                        whileHover={{ scale: 1.1}}
+                        whileTap={{ scale: 0.9}}>
+                            See details
+                        </motion.a>
+                    </div>
+                </div>
+
+                <div className="rounded-lg shadow-2xl w-1/4 h-full m-5 p-5">
+                    <div>
+                        <img src="../images/2bed_buy-min.jpg" alt="apartment" className="w-full h-full object-cover" />
+                    </div>
+
+                    <div className="mt-5">
+                        <p className="text-xl font-bold">Two bedroom apartment</p>
+                        <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $350,000"} />
+                        <IconText icon={<MdOutlineHouse />} text={"Property type: Condominium"} />
+                        <IconText icon={<MdOutlineSquare />} text={"1200 sq. ft."} />
+                        <IconText icon={<MdOutlineAttachMoney />} text={"Financing option: Mortgage/Cash"} />
+                    </div>
+
+                    <div className="flex flex-row justify-center mt-3">
+                        <motion.a 
+                        href="/floor_plan" 
+                        className="p-3 w-full text-center font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500" 
+                        whileHover={{ scale: 1.1}}
+                        whileTap={{ scale: 0.9}}>
+                            See details
+                        </motion.a>
+                    </div>
+                </div>
+                
+                <div className="rounded-lg shadow-2xl w-1/4 h-full m-5 p-5">
+                    <div>
+                        <img src="../images/3bed_buy-min.jpg" alt="apartment" className="w-full h-full object-cover" />
+                    </div>
+
+                    <div className="mt-5">
+                        <p className="text-xl font-bold">Three bedroom apartment</p>
+                        <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $600,000"} />
+                        <IconText icon={<MdOutlineHouse />} text={"Property type: Condominium"} />
+                        <IconText icon={<MdOutlineSquare />} text={"1600 sq. ft."} />
+                        <IconText icon={<MdOutlineAttachMoney />} text={"Financing option: Mortgage/Cash"} />
+                    </div>
+
+                    <div className="flex flex-row justify-center mt-3">
+                        <motion.a 
+                        href="/floor_plan" 
+                        className="p-3 w-full text-center font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500" 
+                        whileHover={{ scale: 1.1}}
+                        whileTap={{ scale: 0.9}}>
+                            See details
+                        </motion.a>
+                    </div>
+                </div>
+
+                <div className="rounded-lg shadow-2xl w-1/4 h-full m-5 p-5">
+                    <div>
+                        <img src="../images/luxury_buy-min.jpg" alt="apartment" className="w-full h-full object-cover" />
+                    </div>
+
+                    <div className="mt-5">
+                        <p className="text-xl font-bold">Luxury apartment</p>
+                        <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $1,000,000"} />
+                        <IconText icon={<MdOutlineHouse />} text={"Property type: Luxury condominium"} />
+                        <IconText icon={<MdOutlineSquare />} text={"2200 sq. ft."} />
+                        <IconText icon={<MdOutlineAttachMoney />} text={"Financing option: Mortgage/Cash"} />
+                    </div>
+
+                    <div className="flex flex-row justify-center mt-3">
+                        <motion.a 
+                        href="/floor_plan" 
+                        className="p-3 w-full text-center font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500" 
+                        whileHover={{ scale: 1.1}}
+                        whileTap={{ scale: 0.9}}>
+                            See details
+                        </motion.a>
+                    </div>
+                </div>
             </div>
         </div>
 
