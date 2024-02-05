@@ -4,7 +4,7 @@ import { LiaFileContractSolid } from "react-icons/lia";
 import IconText from "./IconText";
 import { motion } from "framer-motion";
 
-const PricingCard = () => {
+const PricingCard = ({ title, icon, text }) => {
     return (
         <div className="rounded-lg shadow-2xl w-full h-full m-5 p-5">
             <div className="">
