@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { Link } from 'react-router-dom';
 
-import { MdOutlineLiving, MdOutlineKitchen, MdOutlineBedroomParent, MdOutlineBathroom, MdOutlineBalcony, MdOutlineLocalLaundryService, MdOutlineChair, MdOutlineHeatPump, MdOutlineCleaningServices, MdOutlineSpaceDashboard, MdSpaceDashboard, MdOutlineAccountBalanceWallet, MdOutlineEventAvailable, MdOutlineHouse, MdOutlineSquare, MdOutlineAttachMoney } from "react-icons/md";
+import { MdOutlineAccountBalanceWallet, MdOutlineEventAvailable, MdOutlineHouse, MdOutlineSquare, MdOutlineAttachMoney } from "react-icons/md";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
 import { LiaFileContractSolid } from "react-icons/lia";
 import { BiCctv } from "react-icons/bi";
