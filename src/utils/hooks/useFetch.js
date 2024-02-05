@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 
 export const useFetch = (path) => {
-    const [data, setData] = useState(null);
+    const [data, setData] = useState('');
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
 
@@ -24,6 +24,12 @@ export const useFetch = (path) => {
 
         fetchData();
     }, [path]);
+
+    useEffect(() => {
+        console.log("Component mounted");
+    }, []); // Empty dependency array for component mount
+
+    console.log("Rendering hook with data:", data);
 
     return { data, loading, error };
 }
