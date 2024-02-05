@@ -6,6 +6,7 @@
             {
                 "id": 1,
                 "title": "One bedroom apartment",
+                "image": "../images/1bed_ap-min.jpg",
                 "info": [
                     {
                         "icon": "<FaRegMoneyBillAlt />",
@@ -62,6 +63,7 @@
             {
                 "id": 2,
                 "title": "Two bedroom apartment",
+                "image": "../images/2bed_ap-min.jpg",
                 "info": [
                     {
                         "icon": "<FaRegMoneyBillAlt />",
@@ -118,6 +120,7 @@
             {
                 "id": 3,
                 "title": "Three bedroom apartment",
+                "image": "../images/3bed_ap-min.jpg",
                 "info": [
                     {
                         "icon": "<FaRegMoneyBillAlt />",
@@ -180,6 +183,7 @@
             {
                 "id": 1,
                 "title": "One bedroom apartment",
+                "image": "../images/1bed_ap-min.jpg",
                 "info": [
                     {
                         "icon": "<FaRegMoneyBillAlt />",
@@ -236,6 +240,7 @@
             {
                 "id": 2,
                 "title": "Two bedroom apartment",
+                "image": "../images/1bed_ap-min.jpg",
                 "info": [
                     {
                         "icon": "<FaRegMoneyBillAlt />",
@@ -292,6 +297,7 @@
             {
                 "id": 3,
                 "title": "Three bedroom apartment",
+                "image": "../images/1bed_ap-min.jpg",
                 "info": [
                     {
                         "icon": "<FaRegMoneyBillAlt />",
@@ -348,6 +354,7 @@
             {
                 "id": 3,
                 "title": "Luxury apartment",
+                "image": "../images/luxury_ap-min.jpg",
                 "info": [
                     {
                         "icon": "<FaRegMoneyBillAlt />",
