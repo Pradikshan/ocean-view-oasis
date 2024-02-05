@@ -25,11 +25,11 @@ export const useFetch = (path) => {
         fetchData();
     }, [path]);
 
-    useEffect(() => {
-        console.log("Component mounted");
-    }, []); // Empty dependency array for component mount
+    // useEffect(() => {
+    //     console.log("Component mounted");
+    // }, []); // Empty dependency array for component mount
 
-    console.log("Rendering hook with data:", data);
+    // console.log("Rendering hook with data:", data);
 
     return { data, loading, error };
 }
