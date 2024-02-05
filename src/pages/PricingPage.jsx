@@ -41,13 +41,20 @@ const PricingPage = () => {
                     </div>
 
                     <div className="flex flex-row justify-center mt-3">
-                        <motion.button 
+                        <motion.a 
+                        href="/floor_plan" 
+                        className="p-3 w-full text-center font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500" 
+                        whileHover={{ scale: 1.1}}
+                        whileTap={{ scale: 0.9}}>
+                            See details
+                        {/* <motion.button 
                         className="p-3 w-full font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500"
                         whileHover={{ scale: 1.1}}
                         whileTap={{ scale: 0.9}}
                         >
-                           <a href="/floor_plan">See details</a>
-                        </motion.button>
+                           See details
+                        </motion.button> */}
+                        </motion.a>
                     </div>
                 </div>
 
@@ -65,13 +72,13 @@ const PricingPage = () => {
                     </div>
 
                     <div className="flex flex-row justify-center mt-3">
-                        <motion.button 
-                        className="p-3 w-full font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500"
+                        <motion.a 
+                        href="/floor_plan" 
+                        className="p-3 w-full text-center font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500" 
                         whileHover={{ scale: 1.1}}
-                        whileTap={{ scale: 0.9}}
-                        >
-                            <Link to="/floor_plan">See details</Link>
-                        </motion.button>
+                        whileTap={{ scale: 0.9}}>
+                            See details
+                        </motion.a>
                     </div>
                 </div>
                 
@@ -89,13 +96,13 @@ const PricingPage = () => {
                     </div>
 
                     <div className="flex flex-row justify-center mt-3">
-                        <motion.button 
-                        className="p-3 w-full font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500"
+                        <motion.a 
+                        href="/floor_plan" 
+                        className="p-3 w-full text-center font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500" 
                         whileHover={{ scale: 1.1}}
-                        whileTap={{ scale: 0.9}}
-                        >
-                           <Link to="/floor_plan">See details</Link>
-                        </motion.button>
+                        whileTap={{ scale: 0.9}}>
+                            See details
+                        </motion.a>
                     </div>
                 </div>
 
