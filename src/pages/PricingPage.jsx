@@ -17,6 +17,98 @@ const PricingPage = () => {
    
 
     const closeModal = () => setIsModalOpen(false);
+
+    return (
+        <div>
+            <p className="text-center text-3xl font-bold mt-4">Renting options</p>
+            <div className="flex flex-row justify-around">
+                {/* <div className="rounded-lg shadow-2xl w-1/4 h-full m-5 p-5">
+                    <div>
+                        <img src="../images/1bed_ap.jpg" alt="apartment" className="w-full h-full object-cover" />
+                    </div>
+
+                    <div className="mt-5">
+                        <p className="text-xl font-bold"></p>
+                        <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $1,500"} />
+                        <IconText icon={<LiaFileContractSolid />} text={"Lease term: 12 months"} />
+                        <IconText icon={<MdOutlineAccountBalanceWallet />} text={"Deposit: $1,000"} />
+                        <IconText icon={<MdOutlineEventAvailable />} text={"Availability: Available now"} />
+                    </div>
+
+                    <div className="flex flex-row justify-center mt-3">
+                        <motion.button 
+                        className="p-3 w-full font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500"
+                        whileHover={{ scale: 1.1}}
+                        whileTap={{ scale: 0.9}}>See details</motion.button>
+                    </div>
+                </div> */}
+
+                <div className="rounded-lg shadow-2xl w-1/4 h-full m-5 p-5">
+                    <div className="flex-shrink-0">
+                        <img src="../images/1bed_ap-min.jpg" alt="apartment" className="w-full h-full object-cover" />
+                    </div>
+
+                    <div className="mt-5">
+                        <p className="text-xl font-bold"></p>
+                        <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $1,500"} />
+                        <IconText icon={<LiaFileContractSolid />} text={"Lease term: 12 months"} />
+                        <IconText icon={<MdOutlineAccountBalanceWallet />} text={"Deposit: $1,000"} />
+                        <IconText icon={<MdOutlineEventAvailable />} text={"Availability: Available now"} />
+                    </div>
+
+                    <div className="flex flex-row justify-center mt-3">
+                        <motion.button 
+                        className="p-3 w-full font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500"
+                        whileHover={{ scale: 1.1}}
+                        whileTap={{ scale: 0.9}}>See details</motion.button>
+                    </div>
+                </div>
+
+                <div className="rounded-lg shadow-2xl w-1/4 h-full m-5 p-5">
+                    <div>
+                        <img src="../images/2bed_ap-min.jpg" alt="apartment" className="w-full h-full object-cover" />
+                    </div>
+
+                    <div className="mt-5">
+                        <p className="text-xl font-bold"></p>
+                        <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $1,500"} />
+                        <IconText icon={<LiaFileContractSolid />} text={"Lease term: 12 months"} />
+                        <IconText icon={<MdOutlineAccountBalanceWallet />} text={"Deposit: $1,000"} />
+                        <IconText icon={<MdOutlineEventAvailable />} text={"Availability: Available now"} />
+                    </div>
+
+                    <div className="flex flex-row justify-center mt-3">
+                        <motion.button 
+                        className="p-3 w-full font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500"
+                        whileHover={{ scale: 1.1}}
+                        whileTap={{ scale: 0.9}}>See details</motion.button>
+                    </div>
+                </div>
+                
+                <div className="rounded-lg shadow-2xl w-1/4 h-full m-5 p-5">
+                    <div>
+                        <img src="../images/3bed_ap-min.jpg" alt="apartment" className="w-full h-full object-cover" />
+                    </div>
+
+                    <div className="mt-5">
+                        <p className="text-xl font-bold"></p>
+                        <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $1,500"} />
+                        <IconText icon={<LiaFileContractSolid />} text={"Lease term: 12 months"} />
+                        <IconText icon={<MdOutlineAccountBalanceWallet />} text={"Deposit: $1,000"} />
+                        <IconText icon={<MdOutlineEventAvailable />} text={"Availability: Available now"} />
+                    </div>
+
+                    <div className="flex flex-row justify-center mt-3">
+                        <motion.button 
+                        className="p-3 w-full font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500"
+                        whileHover={{ scale: 1.1}}
+                        whileTap={{ scale: 0.9}}>See details</motion.button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    );
     
 
     // console.log(isModalOpen);
@@ -36,11 +128,6 @@ const PricingPage = () => {
     //     //     <p>{category.categoryId}</p>
     //     // ))
     // );
-
-
-    
-
-
     
     // return (
     //     <>
