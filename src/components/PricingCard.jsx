@@ -1,11 +1,11 @@
 import IconText from "./IconText";
 import { motion } from "framer-motion";
 
-const PricingCard = ({ title, icon, text }) => {
+const PricingCard = ({ image, title, icon, text }) => {
     return (
         <div className="rounded-lg shadow-2xl w-full h-full m-5 p-5">
-            <div className="">
-                <img src="../images/1bed_ap-min.jpg" alt="apartment" className="w-full h-full object-cover" />
+            <div>
+                <img src={image} alt="apartment" className="w-full h-full object-cover" />
             </div>
 
             {/* <div className="mt-5">
@@ -22,7 +22,7 @@ const PricingCard = ({ title, icon, text }) => {
 
             <div className="mt-5">
                 <p className="text-xl font-bold">{title}</p>
-                <IconText icon={{ icon }} text={{ text }} />
+                <IconText icon={ icon } text={ text } />
                 {/* <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $1,500"} />
                 <IconText icon={<LiaFileContractSolid />} text={"Lease term: 12 months"} />
                 <IconText icon={<MdOutlineAccountBalanceWallet />} text={"Deposit: $1,000"} />
