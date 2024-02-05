@@ -2,6 +2,9 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import Modal from "../components/Modal";
 import PricingCard from "../components/PricingCard";
+import { MdOutlineLiving, MdOutlineKitchen, MdOutlineBedroomParent, MdOutlineBathroom, MdOutlineBalcony, MdOutlineLocalLaundryService, MdOutlineChair, MdOutlineHeatPump, MdOutlineCleaningServices, MdOutlineSpaceDashboard, MdSpaceDashboard, MdOutlineAccountBalanceWallet, MdOutlineEventAvailable } from "react-icons/md";
+import { FaRegMoneyBillAlt } from "react-icons/fa";
+import { LiaFileContractSolid } from "react-icons/lia";
 
 const PricingPage = () => {
 
