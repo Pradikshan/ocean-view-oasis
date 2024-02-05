@@ -24,11 +24,12 @@ const PricingCard = ({ title, icon, text }) => {
             </div> */}
 
             <div className="mt-5">
-                <p className="text-xl font-bold">One bedroom apartment</p>
-                <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $1,500"} />
+                <p className="text-xl font-bold">{title}</p>
+                <IconText icon={{ icon }} text={{ text }} />
+                {/* <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $1,500"} />
                 <IconText icon={<LiaFileContractSolid />} text={"Lease term: 12 months"} />
                 <IconText icon={<MdOutlineAccountBalanceWallet />} text={"Deposit: $1,000"} />
-                <IconText icon={<MdOutlineEventAvailable />} text={"Availability: Available now"} />
+                <IconText icon={<MdOutlineEventAvailable />} text={"Availability: Available now"} /> */}
             </div>
 
             <div className="flex flex-row justify-center mt-3">
