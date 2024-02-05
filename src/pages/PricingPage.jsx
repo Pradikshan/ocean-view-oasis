@@ -1,11 +1,7 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
-import { Link } from 'react-router-dom';
-
 import { MdOutlineAccountBalanceWallet, MdOutlineEventAvailable, MdOutlineHouse, MdOutlineSquare, MdOutlineAttachMoney } from "react-icons/md";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
 import { LiaFileContractSolid } from "react-icons/lia";
-import { BiCctv } from "react-icons/bi";
 import IconText from "../components/IconText";
 
 
