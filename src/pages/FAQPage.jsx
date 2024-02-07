@@ -4,7 +4,7 @@ import FAQ from "../components/FAQ";
 const FAQPage = () => {
     return (
         <>
-        <div className="mt-16">
+        <div className="mt-10">
            <p className="text-3xl font-bold text-center">FAQ</p>
            {/* <p className="text-xl font-bold text-center">We have got answers</p> */}
         </div>
