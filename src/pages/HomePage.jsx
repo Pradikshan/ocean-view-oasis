@@ -49,6 +49,7 @@ const HomePage = () => {
         <ImageOverlay 
         image_path={"../images/main_img2-min.jpg"} 
         opacity={"opacity-80"} 
+        margin_top={"-mt-28"}
         heading={"OCEAN VIEW OASIS"} 
         subheading={"Your Spacious Haven by the Shore"} />
 
