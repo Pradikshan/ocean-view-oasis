@@ -1,4 +1,4 @@
-const ImageOverlay = ({ image_path, opacity, heading, subheading }) => {
+const ImageOverlay = ({ image_path, opacity, heading, subheading, margin_top }) => {
     return (
         <div className="relative">
             <div className="flex flex-col justify-center items-center">
