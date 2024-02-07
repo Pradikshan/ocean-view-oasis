@@ -18,7 +18,9 @@ const FAQPage = () => {
 
         <div className="mt-5">
             <p className="text-3xl font-bold mx-2">Apartment</p>
-            <FAQ question={"Skibidi"} answer={"Ohio skibidi rizz"}/>
+            <FAQ 
+            question={"Can I schedule a tour of available properties?"} 
+            answer={"Absolutely! You can schedule a tour of our available properties by contacting our leasing office. We'll be happy to show you around and answer any questions you may have."}/>
         </div>
 
         
