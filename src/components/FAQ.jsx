@@ -1,8 +1,11 @@
+import { useState } from "react";
 import { FaPlus } from "react-icons/fa6";
 
 const FAQ = ({ question, answer }) => {
 
-    const style ={fontSize: 30};
+    // const [selected, setSelected] = useState(false);
+
+    const style ={fontSize: 25};
 
     return (
         <div>
