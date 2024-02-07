@@ -151,3 +151,7 @@ li a{
 .contact-input{
     @apply rounded-md border-2 border-black
 }
+
+.pricing-btn{
+    @apply p-3 w-full text-center font-bold rounded-full bg-gradient-to-r from-slate-600 to-gray-700
+}
