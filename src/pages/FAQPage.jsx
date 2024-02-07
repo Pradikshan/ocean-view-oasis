@@ -15,6 +15,12 @@ const FAQPage = () => {
             <Badge text={"Services"} />
         </div>
 
+        <div className="flex flex-row mt-5">
+            <div className="w-28 border-b-2 border-black"></div>
+            <p className="text-2xl font-bold mx-2">Apartment</p>
+            <div className="w-3/4 border-b-2 border-black"></div>
+        </div>
+
         
 
         </>
