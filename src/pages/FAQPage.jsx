@@ -16,7 +16,7 @@ const FAQPage = () => {
             <Badge text={"Services"} />
         </div>
 
-        <div className="flex flex-row mt-5">
+        <div className="mt-5">
             <p className="text-3xl font-bold mx-2">Apartment</p>
             <FAQ question={""} answer={""}/>
         </div>
