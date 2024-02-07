@@ -9,7 +9,10 @@ const FAQPage = () => {
         </div>
 
         <div className="flex flex-row justify-center">
-            <Badge text={"Service"} />
+            <Badge text={"Apartment"} />
+            <Badge text={"Customer service"} />
+            <Badge text={"Buying/Renting"} />
+            <Badge text={"Services"} />
         </div>
 
         
