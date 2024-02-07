@@ -16,7 +16,7 @@ const FAQPage = () => {
             <Badge text={"Services"} />
         </div>
 
-        <div className="mt-5">
+        <div className="my-12">
             <p className="text-3xl font-bold mx-2">Apartment</p>
             <FAQ 
             question={"Can I schedule a tour of available properties?"} 
@@ -35,7 +35,7 @@ const FAQPage = () => {
             answer={"Our properties may offer a range of amenities such as fitness centers, swimming pools, community spaces, and more. Specific amenities vary by location, so please inquire about the amenities available at the property you're interested in."} />
         </div>
 
-        <div className="mt-5">
+        <div className="my-12">
             <p className="text-3xl font-bold mx-2">Buying/Renting</p>
             <FAQ 
             question={"What are the benefits of renting with your company?"} 
@@ -63,14 +63,14 @@ const FAQPage = () => {
             answer={"Our lease termination policy varies depending on the terms of your lease agreement. In some cases, early termination may incur fees or penalties. Please review your lease agreement or contact our leasing team for details on lease termination options."} />
         </div>  
 
-        <div className="mt-5">
+        <div className="my-12">
             <p className="text-3xl font-bold mx-2">Customer support</p>
             <FAQ 
             question={"How can I contact customer support?"} 
             answer={"You can contact our customer support team by phone at +94-751542-123 or by email at oceanview@support.com. We're available Monday through Friday from 09.00am to 05.00pm."} />
         </div>        
 
-        <div className="mt-5">
+        <div className="my-12">
             <p className="text-3xl font-bold mx-2">Services</p>
             <FAQ 
             question={"What services do you offer?"} 
