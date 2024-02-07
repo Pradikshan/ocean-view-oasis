@@ -21,9 +21,9 @@ const PricingPage = () => {
     return (
         <div>
             <p className="text-center text-3xl font-bold mt-4">Renting options</p>
-            <div className="flex flex-row justify-around">
+            <div className="flex flex-col md:flex-row items-center md:justify-around">
 
-                <div className="rounded-lg shadow-2xl w-1/4 h-full m-5 p-5">
+                <div className="rounded-lg shadow-2xl w-3/4 md:w-1/4 h-full m-2 md:m-5 p-4 md:p-5">
                     <div className="flex-shrink-0">
                         <img src="../images/1bed_ap-min.jpg" alt="apartment" className="w-full h-full object-cover" />
                     </div>
@@ -54,7 +54,7 @@ const PricingPage = () => {
                     </div>
                 </div>
 
-                <div className="rounded-lg shadow-2xl w-1/4 h-full m-5 p-5">
+                <div className="rounded-lg shadow-2xl w-3/4 md:w-1/4 h-full m-2 md:m-5 p-4 md:p-5">
                     <div>
                         <img src="../images/2bed_ap-min.jpg" alt="apartment" className="w-full h-full object-cover" />
                     </div>
@@ -78,7 +78,7 @@ const PricingPage = () => {
                     </div>
                 </div>
                 
-                <div className="rounded-lg shadow-2xl w-1/4 h-full m-5 p-5">
+                <div className="rounded-lg shadow-2xl w-3/4 md:w-1/4 h-full m-2 md:m-5 p-4 md:p-5">
                     <div>
                         <img src="../images/3bed_ap-min.jpg" alt="apartment" className="w-full h-full object-cover" />
                     </div>
@@ -150,10 +150,10 @@ const PricingPage = () => {
 
             </div>
 
-            <p className="text-center text-3xl font-bold mt-10">Buying options</p>
-            <div className="flex flex-row justify-around">
+            <p className="text-center text-3xl font-bold mt-16">Buying options</p>
+            <div className="flex flex-col md:flex-row items-center md:justify-around">
 
-                <div className="rounded-lg shadow-2xl w-1/4 h-full m-5 p-5">
+                <div className="rounded-lg shadow-2xl w-3/4 md:w-1/4 h-full m-2 md:m-5 p-4 md:p-5">
                     <div className="flex-shrink-0">
                         <img src="../images/1bed_buy-min.jpg" alt="apartment" className="w-full h-full object-cover" />
                     </div>
@@ -177,7 +177,7 @@ const PricingPage = () => {
                     </div>
                 </div>
 
-                <div className="rounded-lg shadow-2xl w-1/4 h-full m-5 p-5">
+                <div className="rounded-lg shadow-2xl w-3/4 md:w-1/4 h-full m-2 md:m-5 p-4 md:p-5">
                     <div>
                         <img src="../images/2bed_buy-min.jpg" alt="apartment" className="w-full h-full object-cover" />
                     </div>
@@ -201,7 +201,7 @@ const PricingPage = () => {
                     </div>
                 </div>
                 
-                <div className="rounded-lg shadow-2xl w-1/4 h-full m-5 p-5">
+                <div className="rounded-lg shadow-2xl w-3/4 md:w-1/4 h-full m-2 md:m-5 p-4 md:p-5">
                     <div>
                         <img src="../images/3bed_buy-min.jpg" alt="apartment" className="w-full h-full object-cover" />
                     </div>
@@ -225,7 +225,7 @@ const PricingPage = () => {
                     </div>
                 </div>
 
-                <div className="rounded-lg shadow-2xl w-1/4 h-full m-5 p-5">
+                <div className="rounded-lg shadow-2xl w-3/4 md:w-1/4 h-full m-2 md:m-5 p-4 md:p-5">
                     <div>
                         <img src="../images/luxury_buy-min.jpg" alt="apartment" className="w-full h-full object-cover" />
                     </div>
