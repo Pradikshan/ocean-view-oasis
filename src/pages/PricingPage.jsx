@@ -39,7 +39,7 @@ const PricingPage = () => {
                     <div className="flex flex-row justify-center mt-3">
                         <motion.a 
                         href="/floor_plan" 
-                        className="p-3 w-full text-center font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500" 
+                        className="pricing-btn" 
                         whileHover={{ scale: 1.1}}
                         whileTap={{ scale: 0.9}}>
                             See details
@@ -70,7 +70,7 @@ const PricingPage = () => {
                     <div className="flex flex-row justify-center mt-3">
                         <motion.a 
                         href="/floor_plan" 
-                        className="p-3 w-full text-center font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500" 
+                        className="pricing-btn" 
                         whileHover={{ scale: 1.1}}
                         whileTap={{ scale: 0.9}}>
                             See details
@@ -94,7 +94,7 @@ const PricingPage = () => {
                     <div className="flex flex-row justify-center mt-3">
                         <motion.a 
                         href="/floor_plan" 
-                        className="p-3 w-full text-center font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500" 
+                        className="pricing-btn" 
                         whileHover={{ scale: 1.1}}
                         whileTap={{ scale: 0.9}}>
                             See details
@@ -169,7 +169,7 @@ const PricingPage = () => {
                     <div className="flex flex-row justify-center mt-3">
                         <motion.a 
                         href="/floor_plan" 
-                        className="p-3 w-full text-center font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500" 
+                        className="pricing-btn" 
                         whileHover={{ scale: 1.1}}
                         whileTap={{ scale: 0.9}}>
                             See details
@@ -193,7 +193,7 @@ const PricingPage = () => {
                     <div className="flex flex-row justify-center mt-3">
                         <motion.a 
                         href="/floor_plan" 
-                        className="p-3 w-full text-center font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500" 
+                        className="pricing-btn" 
                         whileHover={{ scale: 1.1}}
                         whileTap={{ scale: 0.9}}>
                             See details
@@ -217,7 +217,7 @@ const PricingPage = () => {
                     <div className="flex flex-row justify-center mt-3">
                         <motion.a 
                         href="/floor_plan" 
-                        className="p-3 w-full text-center font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500" 
+                        className="pricing-btn" 
                         whileHover={{ scale: 1.1}}
                         whileTap={{ scale: 0.9}}>
                             See details
@@ -241,7 +241,7 @@ const PricingPage = () => {
                     <div className="flex flex-row justify-center mt-3">
                         <motion.a 
                         href="/floor_plan" 
-                        className="p-3 w-full text-center font-bold rounded-full bg-gradient-to-r from-yellow-500 via-amber-500 to-orange-500" 
+                        className="pricing-btn" 
                         whileHover={{ scale: 1.1}}
                         whileTap={{ scale: 0.9}}>
                             See details
