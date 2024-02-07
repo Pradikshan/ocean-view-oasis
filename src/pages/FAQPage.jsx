@@ -18,7 +18,7 @@ const FAQPage = () => {
 
         <div className="mt-5">
             <p className="text-3xl font-bold mx-2">Apartment</p>
-            <FAQ question={""} answer={""}/>
+            <FAQ question={"Skibidi"} answer={"Ohio skibidi rizz"}/>
         </div>
 
         
