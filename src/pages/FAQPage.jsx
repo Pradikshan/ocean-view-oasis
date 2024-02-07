@@ -1,4 +1,5 @@
 import Badge from "../components/Badge";
+import FAQ from "../components/FAQ";
 
 const FAQPage = () => {
     return (
@@ -16,7 +17,8 @@ const FAQPage = () => {
         </div>
 
         <div className="flex flex-row mt-5">
-            <p className="text-2xl font-bold mx-2">Apartment</p>
+            <p className="text-3xl font-bold mx-2">Apartment</p>
+            <FAQ question={""} answer={""}/>
         </div>
 
         
