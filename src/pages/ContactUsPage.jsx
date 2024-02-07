@@ -8,8 +8,8 @@ const ContactUsPage = () => {
         <>
         <ImageOverlay 
         image_path={"../images/service-min.jpg"} 
-        opacity={"opacity-80"} 
-        margin_top={"-mt-28"}
+        opacity={"opacity-90"} 
+        margin_top={"-mt-8"}
         heading={"Contact Us"} 
         subheading={"Reach out to us – let's start a conversation about turning your dreams of coastal living into a reality"} />
 
