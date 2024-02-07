@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaPlus } from "react-icons/fa6";
+import { FaPlus, FaMinus } from "react-icons/fa6";
 
 const FAQ = ({ question, answer }) => {
 
@@ -13,13 +13,12 @@ const FAQ = ({ question, answer }) => {
     const style ={fontSize: 25};
 
     return (
-        <div className="mx-2" onClick={handleClick}>
-            <div className="flex flex-row justify-between">
+        <div className="mx-2 my-5 cursor-pointer border-2 border-white border-b-slate-600" onClick={handleClick}>
+            <div className="flex flex-row justify-between my-2">
                 <p className="text-xl font-bold">{question}</p>
-                <FaPlus style={style}/>
-                
+                {selected ? <FaMinus style={style}/> : <FaPlus style={style}/>}
             </div>
-            <p>{answer}</p>
+            { selected ? <p className="-mt-1 text-lg">{answer}</p> : null}
         </div>
     );
 }
