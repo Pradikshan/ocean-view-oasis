@@ -6,12 +6,12 @@ import ImageOverlay from "../components/ImageOverlay";
 const ContactUsPage = () => {
     return (
         <>
-        <ImageOverlay 
+        {/* <ImageOverlay 
         image_path={"../images/service-min.jpg"} 
         opacity={"opacity-90"} 
         margin_top={"-mt-8"}
         heading={"Contact Us"} 
-        subheading={"Reach out to us – let's start a conversation about turning your dreams of coastal living into a reality"} />
+        subheading={"Reach out to us – let's start a conversation about turning your dreams of coastal living into a reality"} /> */}
 
         <div className="pt-8 md:pt-16">
             <SplitLayout>
