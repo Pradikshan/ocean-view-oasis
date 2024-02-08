@@ -139,17 +139,16 @@ const TestimonialSection = () => {
                 <p className="text-xl md:text-2xl font-semibold">Discover what our residents have to say about Ocean View Oasis.</p>
             </div>
 
-            <div className="grid grid-cols-4">
+            <div className="grid grid-cols-1 md:grid-cols-4">
             <TestimonialCard 
-            className={""}
             image={"../images/gandalf.jpg"}
             name={"Gandalf"} 
             title={"The Grey"}
             testimonial={"Ocean View Oasis is a marvel! The soothing ocean vistas, spacious interiors, and enchanting atmosphere make it a truly magical retreat. Whether you're a wizard or a mere mortal, this apartment is a haven by the sea."} />
 
             <TestimonialCard 
-            className={"col-span-2 h-full"}
-            content_style={"text-xl font-bold"}
+            className={"md:col-span-2 md:h-full"}
+            content_style={"text-lg md:text-xl font-bold"}
             image={"../images/aragorn5.jpg"}
             name={"Aragorn, Son of Arathorn"}
             title={"King of Gondor"}
@@ -162,7 +161,7 @@ const TestimonialSection = () => {
             testimonial={"Ocean View Oasis, where rhythmic tides meet Elvish elegance. With graceful interiors, this dwelling bridges nature and modernity, resonating with woodland spirit. A haven to commune with the essence of the sea and ancient tales."} />
 
             <TestimonialCard
-            className={"col-span-2"}
+            className={"md:col-span-2"}
             content_style={"text-xl font-bold"}
             image={"../images/gimli.jpg"}
             name={"Gimli, son of Glóin"}
@@ -170,7 +169,6 @@ const TestimonialSection = () => {
             testimonial={"Ocean View Oasis, where sea meets stone, is a dwelling that befits both dwarf and elf alike. The sturdy interiors, reminiscent of the caverns of Khazad-dûm, provide a sense of security and comfort. It stands as a testament to the unity of sea and mountain, offering a haven to revel in both the vastness of the ocean and the enduring strength of the stone. A home worthy of any stout-hearted dweller."} />
 
             <TestimonialCard
-            className={`${inView ? 'show' : ''}`}
             image={"../images/merry.jpg"}
             name={"Merry Brandybuck"}
             title={"Master of Buckland"}
