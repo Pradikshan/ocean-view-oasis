@@ -324,30 +324,6 @@ const PricingPage = () => {
                         </motion.a>
                     </div>
                 </div>
-                
-                {/* <div className="rounded-lg shadow-2xl w-3/4 md:w-1/4 h-full m-2 md:m-5 p-4 md:p-5">
-                    <div>
-                        <img src="../images/3bed_ap-min.jpg" alt="apartment" className="w-full h-full object-cover" />
-                    </div>
-
-                    <div className="mt-5">
-                        <p className="text-xl font-bold">Three bedroom aprtment</p>
-                        <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $3,500"} />
-                        <IconText icon={<LiaFileContractSolid />} text={"Lease term: 12 months"} />
-                        <IconText icon={<MdOutlineAccountBalanceWallet />} text={"Deposit: $2,000"} />
-                        <IconText icon={<MdOutlineEventAvailable />} text={"Availability: Available now"} />
-                    </div>
-
-                    <div className="flex flex-row justify-center mt-3">
-                        <motion.a 
-                        href="/floor_plan" 
-                        className="pricing-btn" 
-                        whileHover={{ scale: 1.1}}
-                        whileTap={{ scale: 0.9}}>
-                            See details
-                        </motion.a>
-                    </div>
-                </div> */}
 
             </div>
 
