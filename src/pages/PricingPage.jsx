@@ -20,6 +20,7 @@ const PricingPage = () => {
 
     return (
         // THIS IS THE OLD DESIGN FOR THIS PAGE
+
         // <div>
         //     <p className="text-center text-3xl font-bold mt-4">Renting options</p>
         //     <div className="flex flex-col md:flex-row items-center md:justify-around">
@@ -328,7 +329,93 @@ const PricingPage = () => {
             </div>
 
             <p className="text-center text-3xl font-bold mt-16">Buying options</p>
-            <div className="flex flex-col md:flex-row items-center md:justify-around">
+            <div className="mt-8">
+                <div className="flex flex-row rounded-lg shadow-2xl mx-8 mb-16">    
+                    <img src="../images/1bed_buy-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
+                    
+                    <div className="flex flex-col mx-5 p-3">
+                        <p className="text-xl font-bold">One bedroom apartment</p>
+                        <p>Explore our 1-bedroom floor plan – a harmonious blend of thoughtful design, spacious living areas, modern kitchens, and a well-appointed bedroom – creating an inviting and cozy living space for you</p>
+                        <p className="font-bold mt-3">What's included:</p>
+                        <IconText icon={<FaRegMoneyBillAlt />} text={"Price: $200,000"} />
+                        <IconText icon={<MdOutlineHouse />} text={"Property type: Condominium"} />
+                        <IconText icon={<MdOutlineSquare />} text={"800 sq. ft."} />
+                        <IconText icon={<MdOutlineAttachMoney />} text={"Financing option: Mortgage/Cash"} />
+                        <motion.a 
+                        href="/floor_plan" 
+                        className="pricing-btn" 
+                        whileHover={{ scale: 1.1}}
+                        whileTap={{ scale: 0.9}}>
+                            See details
+                        </motion.a>
+                    </div>
+                </div>
+
+                <div className="flex flex-row rounded-lg shadow-2xl mx-8 mb-16">    
+                    <img src="../images/2bed_buy-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
+                    
+                    <div className="flex flex-col mx-5 p-3">
+                        <p className="text-xl font-bold">Two bedroom apartment</p>
+                        <p>Discover our 2-bedroom floor plan – an inviting blend of thoughtful design, expansive living areas, contemporary kitchens, and two well-appointed bedrooms – crafting a warm and welcoming living space tailored just for you</p>
+                        <p className="font-bold mt-3">What's included:</p>
+                        <IconText icon={<FaRegMoneyBillAlt />} text={"Price: $350,000"} />
+                        <IconText icon={<MdOutlineHouse />} text={"Property type: Condominium"} />
+                        <IconText icon={<MdOutlineSquare />} text={"1200 sq. ft."} />
+                        <IconText icon={<MdOutlineAttachMoney />} text={"Financing option: Mortgage/Cash"} />
+                        <motion.a 
+                        href="/floor_plan" 
+                        className="pricing-btn" 
+                        whileHover={{ scale: 1.1}}
+                        whileTap={{ scale: 0.9}}>
+                            See details
+                        </motion.a>
+                    </div>
+                </div>
+
+                <div className="flex flex-row rounded-lg shadow-2xl mx-8 mb-16">    
+                    <img src="../images/3bed_buy-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
+                    
+                    <div className="flex flex-col mx-5 p-3">
+                        <p className="text-xl font-bold">Three bedroom apartment</p>
+                        <p>Explore our 3-bedroom floor plan – a harmonious fusion of thoughtful design, expansive living areas, and three well-appointed bedrooms, creating a welcoming and spacious retreat tailored for your comfort</p>
+                        <p className="font-bold mt-3">What's included:</p>
+                        <IconText icon={<FaRegMoneyBillAlt />} text={"Price: $600,000"} />
+                        <IconText icon={<MdOutlineHouse />} text={"Property type: Condominium"} />
+                        <IconText icon={<MdOutlineSquare />} text={"1600 sq. ft."} />
+                        <IconText icon={<MdOutlineAttachMoney />} text={"Financing option: Mortgage/Cash"} />
+                        <motion.a 
+                        href="/floor_plan" 
+                        className="pricing-btn" 
+                        whileHover={{ scale: 1.1}}
+                        whileTap={{ scale: 0.9}}>
+                            See details
+                        </motion.a>
+                    </div>
+                </div>
+
+                <div className="flex flex-row rounded-lg shadow-2xl mx-8 mb-16">    
+                    <img src="../images/luxury_buy-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
+                    
+                    <div className="flex flex-col mx-5 p-3">
+                        <p className="text-xl font-bold">Luxury apartment</p>
+                        <p>Indulge in opulence with our grand 3-bedroom luxury apartment – an exquisite blend of sophisticated design, expansive living areas adorned with premium finishes, and an array of upscale amenities, crafting an unparalleled living experience for those who appreciate the finer things in life</p>
+                        <p className="font-bold mt-3">What's included:</p>
+                        <IconText icon={<FaRegMoneyBillAlt />} text={"Price: $1,000,000"} />
+                        <IconText icon={<MdOutlineHouse />} text={"Property type: Luxury condominium"} />
+                        <IconText icon={<MdOutlineSquare />} text={"2200 sq. ft."} />
+                        <IconText icon={<MdOutlineAttachMoney />} text={"Financing option: Mortgage/Cash"} />
+                        <motion.a 
+                        href="/floor_plan" 
+                        className="pricing-btn" 
+                        whileHover={{ scale: 1.1}}
+                        whileTap={{ scale: 0.9}}>
+                            See details
+                        </motion.a>
+                    </div>
+                </div>
+
+            </div>
+            {/* <div className="flex flex-col md:flex-row items-center md:justify-around">
 
                 <div className="rounded-lg shadow-2xl w-3/4 md:w-1/4 h-full m-2 md:m-5 p-4 md:p-5">
                     <div className="flex-shrink-0">
@@ -425,7 +512,7 @@ const PricingPage = () => {
                         </motion.a>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
 
         
