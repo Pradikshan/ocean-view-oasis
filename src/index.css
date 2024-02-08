@@ -112,12 +112,12 @@ li a{
 } */
 
 .testimonial-card{
-    @apply rounded-3xl shadow-xl m-8 h-fit
+    @apply flex flex-col rounded-3xl shadow-xl m-4 
 }
 
-.testimonial-card.left{
+/* .testimonial-card.left{
     @apply rounded-3xl shadow-xl m-8 h-fit
-}
+} */
 
 
 .testimonial-section{
