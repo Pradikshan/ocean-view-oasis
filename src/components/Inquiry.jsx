@@ -37,7 +37,7 @@ const Inquiry = () => {
                     <textarea name="inquiry" type="text" className="contact-input"/>
                 </div>
 
-                <button className="p-2 bg-yellow-700 rounded-full w-36 font-bold text-lg mb-8 text-white hover:scale-110">
+                <button className="p-2 bg-cta-color rounded-full w-36 font-bold text-lg mb-8 text-white hover:scale-110">
                     Submit
                 </button>
             </form>
