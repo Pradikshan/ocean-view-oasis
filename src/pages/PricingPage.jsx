@@ -305,15 +305,15 @@ const PricingPage = () => {
                 </div>
 
                 <div className="flex flex-row rounded-lg shadow-2xl m-2">    
-                    <img src="../images/2bed_ap-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
+                    <img src="../images/3bed_ap-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
                     
                     <div className="flex flex-col mx-5 p-3">
-                        <p className="text-xl font-bold">Two bedroom apartment</p>
-                        <p>Discover our 2-bedroom floor plan – an inviting blend of thoughtful design, expansive living areas, contemporary kitchens, and two well-appointed bedrooms – crafting a warm and welcoming living space tailored just for you</p>
+                        <p className="text-xl font-bold">Three bedroom apartment</p>
+                        <p>Explore our 3-bedroom floor plan – a harmonious fusion of thoughtful design, expansive living areas, and three well-appointed bedrooms, creating a welcoming and spacious retreat tailored for your comfort</p>
                         <p className="font-bold mt-3">What's included:</p>
-                        <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $2,500"} />
+                        <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $3,500"} />
                         <IconText icon={<LiaFileContractSolid />} text={"Lease term: 12 months"} />
-                        <IconText icon={<MdOutlineAccountBalanceWallet />} text={"Deposit: $1,500"} />
+                        <IconText icon={<MdOutlineAccountBalanceWallet />} text={"Deposit: $2,000"} />
                         <IconText icon={<MdOutlineEventAvailable />} text={"Availability: Available now"} />
                         <motion.a 
                         href="/floor_plan" 
