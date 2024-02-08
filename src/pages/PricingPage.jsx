@@ -272,6 +272,26 @@ const PricingPage = () => {
                     </div>
 
                 </div> */}
+                <div className="flex flex-row rounded-lg shadow-2xl m-2">    
+                    <img src="../images/1bed_ap-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
+                    
+                    <div className="flex flex-col mx-5 p-3">
+                        <p className="text-xl font-bold">One bedroom apartment</p>
+                        <p>Explore our 1-bedroom floor plan – a harmonious blend of thoughtful design, spacious living areas, modern kitchens, and a well-appointed bedroom – creating an inviting and cozy living space for you</p>
+                        <p className="font-bold mt-3">What's included:</p>
+                        <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $1,500"} />
+                        <IconText icon={<LiaFileContractSolid />} text={"Lease term: 12 months"} />
+                        <IconText icon={<MdOutlineAccountBalanceWallet />} text={"Deposit: $1,000"} />
+                        <IconText icon={<MdOutlineEventAvailable />} text={"Availability: Available now"} />
+                        <motion.a 
+                        href="/floor_plan" 
+                        className="pricing-btn" 
+                        whileHover={{ scale: 1.1}}
+                        whileTap={{ scale: 0.9}}>
+                            See details
+                        </motion.a>
+                    </div>
+                </div>
 
                 <div className="flex flex-row rounded-lg shadow-2xl m-2">    
                     <img src="../images/2bed_ap-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
@@ -296,6 +316,27 @@ const PricingPage = () => {
                     {/* <div className="flex flex-row justify-center mt-3">
                         
                     </div> */}
+                </div>
+
+                <div className="flex flex-row rounded-lg shadow-2xl m-2">    
+                    <img src="../images/2bed_ap-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
+                    
+                    <div className="flex flex-col mx-5 p-3">
+                        <p className="text-xl font-bold">Two bedroom apartment</p>
+                        <p>Discover our 2-bedroom floor plan – an inviting blend of thoughtful design, expansive living areas, contemporary kitchens, and two well-appointed bedrooms – crafting a warm and welcoming living space tailored just for you</p>
+                        <p className="font-bold mt-3">What's included:</p>
+                        <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $2,500"} />
+                        <IconText icon={<LiaFileContractSolid />} text={"Lease term: 12 months"} />
+                        <IconText icon={<MdOutlineAccountBalanceWallet />} text={"Deposit: $1,500"} />
+                        <IconText icon={<MdOutlineEventAvailable />} text={"Availability: Available now"} />
+                        <motion.a 
+                        href="/floor_plan" 
+                        className="pricing-btn" 
+                        whileHover={{ scale: 1.1}}
+                        whileTap={{ scale: 0.9}}>
+                            See details
+                        </motion.a>
+                    </div>
                 </div>
                 
                 {/* <div className="rounded-lg shadow-2xl w-3/4 md:w-1/4 h-full m-2 md:m-5 p-4 md:p-5">
