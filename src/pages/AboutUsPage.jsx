@@ -2,7 +2,7 @@
 
 const AboutUsPage = () => {
     return (
-        
+        <></>
     );
 
 }
