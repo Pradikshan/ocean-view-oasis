@@ -16,6 +16,7 @@ const FAQPage = () => {
             <Badge text={"Services"} />
         </div>
 
+
         <div className="mt-12 mb-16 mx-10">
             <p className="text-3xl font-bold mx-2">Apartment</p>
             <FAQ 
