@@ -258,20 +258,6 @@ const PricingPage = () => {
         <div>
             <p className="text-center text-3xl font-bold mt-4">Renting options</p>
             <div className="mt-5">
-                {/* <div className="rounded-lg shadow-2xl w-3/4 md:w-1/4 h-full m-2 md:m-5 p-4 md:p-5">
-                    <div className="">
-                        <img src="../images/1bed_ap-min.jpg" alt="apartment" className="w-full h-full object-cover" />
-                    </div>
-
-                    <div className="mt-5">
-                        <p className="text-xl font-bold">One bedroom apartment</p>
-                        <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $1,500"} />
-                        <IconText icon={<LiaFileContractSolid />} text={"Lease term: 12 months"} />
-                        <IconText icon={<MdOutlineAccountBalanceWallet />} text={"Deposit: $1,000"} />
-                        <IconText icon={<MdOutlineEventAvailable />} text={"Availability: Available now"} />
-                    </div>
-
-                </div> */}
                 <div className="flex flex-row rounded-lg shadow-2xl m-2">    
                     <img src="../images/1bed_ap-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
                     
