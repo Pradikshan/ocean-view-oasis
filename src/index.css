@@ -103,20 +103,28 @@ li a{
     padding: 0 10px; 
   } */
 
-.testimonial-card{
+/* .testimonial-card{
     @apply rounded-3xl shadow-xl m-8 opacity-0 transition ease-in-out
 }
 
 .testimonial-card.left{
     @apply rounded-3xl shadow-xl m-8 opacity-0 transition ease-in-out
+} */
+
+.testimonial-card{
+    @apply rounded-3xl shadow-xl m-8 h-fit
+}
+
+.testimonial-card.left{
+    @apply rounded-3xl shadow-xl m-8 h-fit
 }
 
 
 .testimonial-section{
-    @apply mt-28
+    @apply mt-12
 }
 
-.testimonial-section .testimonial-card.show:nth-child(1){
+/* .testimonial-section .testimonial-card.show:nth-child(1){
     @apply transition ease-in-out opacity-100 duration-1500
 }
 
@@ -138,7 +146,7 @@ li a{
 
 .testimonial-section .testimonial-card.show:nth-child(6){
     @apply transition ease-in-out opacity-100 delay-6000 duration-2500
-}
+} */
 
 .label-group{
     @apply flex flex-col mb-8 md:w-96 overflow-hidden
