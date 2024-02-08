@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 import { fadeInLeft, fadeOutLeft } from 'react-animations';
-import Radium, { StyleRoot } from 'radium';
+// import Radium, { StyleRoot } from 'radium';
 
 const Navbar = () => {
 
@@ -13,16 +13,16 @@ const Navbar = () => {
         setIsToggleMenu(!isToggleMenu);
     }
 
-    const styles = {
-        fadeInLeft: {
-            animation: 'x 1s',
-            animationName: Radium.keyframes(fadeInLeft, 'fadeInLeft')
-        },
-        fadeOutLeft: {
-            animation: 'x 10s',
-            animationName: Radium.keyframes(fadeOutLeft, 'fadeOutLeft')
-        }
-    }
+    // const styles = {
+    //     fadeInLeft: {
+    //         animation: 'x 1s',
+    //         animationName: Radium.keyframes(fadeInLeft, 'fadeInLeft')
+    //     },
+    //     fadeOutLeft: {
+    //         animation: 'x 10s',
+    //         animationName: Radium.keyframes(fadeOutLeft, 'fadeOutLeft')
+    //     }
+    // }
 
     return (
         <>
@@ -88,7 +88,7 @@ const Navbar = () => {
                     onClick={toggleMenu}
                 ></div>
                 
-                <StyleRoot>
+                {/* <StyleRoot>
                     <div 
                     className="fixed top-0 left-0 w-2/3 h-full text-white bg-yellow-700 z-20" 
                     style={isToggleMenu ? styles.fadeInLeft : styles.fadeOutLeft}
@@ -125,7 +125,7 @@ const Navbar = () => {
                         </li>
                         </ul>
                     </div>
-                </StyleRoot>
+                </StyleRoot> */}
                 
                 </>
             )}
