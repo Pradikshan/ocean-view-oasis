@@ -13,6 +13,8 @@ module.exports = {
       },
       backgroundColor: {
         "trans": "#000000e1",
+        "secondary-color": "#A16107",
+        "cta-color": "#2F4858",
       },
       transitionDuration: {
         "1500": "1500ms",
