@@ -5,6 +5,7 @@ import HomePage from '../pages/HomePage';
 import ContactUsPage from '../pages/ContactUsPage';
 import FloorPlanPage from '../pages/FloorPlanPage';
 import PricingPage from '../pages/PricingPage';
+import AboutUsPage from '../pages/AboutUsPage';
 
 export const AppRoutes = () => {
   return (
@@ -14,6 +15,7 @@ export const AppRoutes = () => {
         <Route path='/pricing' element={<PricingPage />} />
         <Route path='/faq' element={<FAQPage />} />
         <Route path='/contact_us' element={<ContactUsPage />} />
+        <Route path='/about' element={<AboutUsPage />} />
     </Routes>
   );
 };
