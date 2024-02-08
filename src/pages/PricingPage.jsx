@@ -328,7 +328,7 @@ const PricingPage = () => {
 
             </div>
 
-            <p className="text-center text-3xl font-bold mt-16">Buying options</p>
+            <p className="text-center text-3xl font-bold mt-28">Buying options</p>
             <div className="mt-8">
                 <div className="flex flex-row rounded-lg shadow-2xl mx-8 mb-16">    
                     <img src="../images/1bed_buy-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
