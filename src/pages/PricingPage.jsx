@@ -257,8 +257,8 @@ const PricingPage = () => {
         
         <div>
             <p className="text-center text-3xl font-bold mt-4">Renting options</p>
-            <div className="mt-5">
-                <div className="flex flex-row rounded-lg shadow-2xl m-2">    
+            <div className="mt-8">
+                <div className="flex flex-row rounded-lg shadow-2xl mx-8 mb-16">    
                     <img src="../images/1bed_ap-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
                     
                     <div className="flex flex-col mx-5 p-3">
@@ -279,7 +279,7 @@ const PricingPage = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-row rounded-lg shadow-2xl m-2">    
+                <div className="flex flex-row rounded-lg shadow-2xl mx-8 mb-16">    
                     <img src="../images/2bed_ap-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
                     
                     <div className="flex flex-col mx-5 p-3">
@@ -304,7 +304,7 @@ const PricingPage = () => {
                     </div> */}
                 </div>
 
-                <div className="flex flex-row rounded-lg shadow-2xl m-2">    
+                <div className="flex flex-row rounded-lg shadow-2xl mx-8 mb-16">    
                     <img src="../images/3bed_ap-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
                     
                     <div className="flex flex-col mx-5 p-3">
