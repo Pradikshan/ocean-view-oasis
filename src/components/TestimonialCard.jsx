@@ -12,8 +12,8 @@ const TestimonialCard = ({ className, content_style, image, name, title, testimo
             <div className="px-8 py-3">
                 <p className={`pt-4 ${content_style}`}>{testimonial}</p>
             </div>
-            <div className="flex-grow"></div>
-            <div className="px-8 py-3">
+            
+            <div className="px-8 py-3 mt-auto">
                 <div className="flex flex-row mt-8">
                     <img src={image} alt="resident" className="rounded-full object-cover w-14 h-14" />
                     <div className="flex flex-col ms-5">
