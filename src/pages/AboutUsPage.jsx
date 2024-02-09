@@ -83,15 +83,36 @@ const AboutUsPage = () => {
             <div className="px-12 mt-28">
                 <p className="text-3xl font-bold">Our values</p>
                 <p className="mt-2">Guided by our core values, Ocean View Oasis is more than just a place to live; it's a reflection of our commitment to excellence, integrity, and community. These values shape every aspect of our operations, from the design of our residences to the experiences we create for our residents.</p>
-                <div className="grid grid-cols-3">
-                    <div>
-                        <TextCard 
-                        heading={"Excellence"}
-                        text={"We strive for excellence in all that we do, from the meticulous craftsmanship of our apartments to the attentive service we provide to our residents."} />
-                    </div>
+                <div className="grid grid-cols-3 mt-8">   
+                    <TextCard 
+                    heading={"Excellence"}
+                    text={"We strive for excellence in all that we do, from the meticulous craftsmanship of our apartments to the attentive service we provide to our residents."} />
+
+                    <TextCard 
+                    heading={"Integrity"}
+                    text={"We conduct ourselves with honesty, transparency, and ethical behavior, ensuring that our residents trust us to always act in their best interests"} />
+
+                    <TextCard 
+                    heading={"Community"}
+                    text={"We believe in the power of community and actively cultivate a welcoming and inclusive environment where residents feel connected, supported, and valued."} />
+
+                    <TextCard 
+                    heading={"Sustainability"}
+                    text={"We are dedicated to sustainable practices that minimize our environmental impact and contribute to the well-being of both our residents and the planet."} />
+
+                    <TextCard 
+                    heading={"Innovation"}
+                    text={"We embrace innovation and continuously seek new ways to enhance the living experience for our residents, whether through technology, design, or amenities."} />
+
+                    <TextCard 
+                    heading={"Collaboration"}
+                    text={"We foster a culture of collaboration and teamwork, working closely with our residents, staff, and partners to create a thriving community where everyone can flourish."} />
+                    
                 </div>
 
             </div>
+
+            
         </div>
         </>
     );
