@@ -78,6 +78,17 @@ const AboutUsPage = () => {
                         subtext={"Ample space for relaxation"} />
                     </div>
             </div>
+
+            <div className="px-12 mt-28">
+                <p className="text-3xl font-bold">Our values</p>
+                <p className="mt-2">Guided by our core values, Ocean View Oasis is more than just a place to live; it's a reflection of our commitment to excellence, integrity, and community. These values shape every aspect of our operations, from the design of our residences to the experiences we create for our residents.</p>
+                <div className="grid grid-cols-3">
+                    <div>
+                        <p className=""></p>
+                    </div>
+                </div>
+
+            </div>
         </div>
         </>
     );
