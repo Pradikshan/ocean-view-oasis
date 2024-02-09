@@ -9,9 +9,13 @@ const AboutUsPage = () => {
         <>
         <div className="mt-4 md:mt-28">
             
-            <div className="flex flex-col md:flex-row relative">
+            <div className="flex flex-col md:flex-row relative bg-about-img">
                 <div className="flex flex-col md:w-1/2 py-12 md:py-72 px-5 md:px-12">
                     <p className="text-2xl md:text-3xl font-bold">Transforming Living Spaces: Redefining Comfort and Community</p>
+                    {window.innerWidth <= 768 ? (
+                    <img src="../images/tile-min.jpg" alt="tile" className="my-4"/>
+                    )
+                    : null }
                     <p>Discover a new era of living at our apartment community, where innovation intertwines seamlessly with comfort. We're dedicated to shaping spaces that inspire connection, offering residents a haven where modern amenities and a vibrant atmosphere converge to create unforgettable experiences.</p>
                 </div>
                 {window.innerWidth >= 768 ? (
