@@ -164,3 +164,19 @@ li a{
 .pricing-btn{
     @apply p-3 mt-10 mx-10 w-11/12 place-self-center text-center font-bold rounded-full bg-gradient-to-r from-slate-600 to-gray-700 text-white
 }
+
+/* .spacer {
+    aspect-ratio: 900/450;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer {
+    background-image: url(../public/svg/layered-waves.svg);
+} */
+
+/* .spacer {
+    @apply bg-center bg-cover aspect-w-2 aspect-h-1
+} */
