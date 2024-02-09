@@ -8,6 +8,7 @@ const AboutUsPage = () => {
     return (
         <>
         <div className="mt-4 md:mt-28">
+            
             <div className="flex flex-col md:flex-row">
                 <div className="flex flex-col md:w-1/2 py-12 md:py-72 px-5 md:px-12">
                     <p className="text-2xl md:text-3xl font-bold">Transforming Living Spaces: Redefining Comfort and Community</p>
@@ -49,8 +50,9 @@ const AboutUsPage = () => {
                     
                 </div>
             </div>
+            
 
-            <div className="flex flex-row px-12 mt-28 justify-between">
+            <div className="flex flex-row px-12 mt-28">
                     <div className="flex flex-col w-1/2">
                         <p className="text-3xl font-bold">Our Mission</p>
                         <p className="text-lg mt-2">At Ocean View Oasis, our mission is to provide a sanctuary by the sea, where residents can embrace the beauty of coastal living while enjoying modern comforts and fostering a strong sense of community. We are committed to creating an environment that promotes well-being, connection, and sustainable living.</p>
@@ -62,7 +64,7 @@ const AboutUsPage = () => {
                         <p>Our commitment extends beyond providing a place to live; it encompasses creating a lifestyle where residents can thrive, find joy in everyday moments, and forge lasting connections. We invite you to join us on this journey towards coastal living at its finest.</p>
                     </div>
 
-                    <div className="flex flex-col w-1/3">
+                    <div className="flex flex-col w-1/3 ms-auto">
                         <StatsCard 
                         stat={"$44 Million in Assets"}
                         subtext={"Reflecting our substantial investment"} />
@@ -112,6 +114,8 @@ const AboutUsPage = () => {
                 </div>
 
             </div>
+
+            {/* <div className="spacer layer"></div> */}
 
             <div className="px-12 mt-28 mb-32">
                 <p className="text-3xl font-bold">Our team</p>
