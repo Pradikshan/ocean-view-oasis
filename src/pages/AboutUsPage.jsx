@@ -29,7 +29,7 @@ const AboutUsPage = () => {
                         <ImageTile image_path={"../images/tile-min.jpg"} />
                     </div>
 
-                    <div className="absolute top-0 right-0 md:top-12 md:left-112">
+                    <div className="absolute top-0 right-0 md:top-12 md:left-[448px]">
                         <ImageTile image_path={"../images/tile4-min.jpg"} />
                     </div> 
 
