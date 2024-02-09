@@ -49,7 +49,6 @@ const AboutUsPage = () => {
             </div>
 
             <div className="flex flex-row px-12 mt-28 justify-between">
-                
                     <div className="flex flex-col w-1/2">
                         <p className="text-3xl font-bold">Our Mission</p>
                         <p className="text-lg mt-2">At Ocean View Oasis, our mission is to provide a sanctuary by the sea, where residents can embrace the beauty of coastal living while enjoying modern comforts and fostering a strong sense of community. We are committed to creating an environment that promotes well-being, connection, and sustainable living.</p>
@@ -64,12 +63,20 @@ const AboutUsPage = () => {
                     <div className="flex flex-col w-1/3">
                         <StatsCard 
                         stat={"$44 Million in Assets"}
-                        subtext={"Reflecting our substantial investment in creating top-notch living spaces and amenities"} />
+                        subtext={"Reflecting our substantial investment"} />
+
+                        <StatsCard 
+                        stat={"99% Occupancy Rate"}
+                        subtext={"High demand for our premium apartments"} />   
+
+                        <StatsCard 
+                        stat={"10 Years of Excellence"}
+                        subtext={"A decade of dedicated service"} />
+                        
+                        <StatsCard 
+                        stat={"25,000 Square Feet of Green Space"}
+                        subtext={"Ample space for relaxation"} />
                     </div>
-                
-
-
-
             </div>
         </div>
         </>
