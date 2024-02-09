@@ -8,7 +8,7 @@ const AboutUsPage = () => {
     return (
         <>
         <div className="mt-4 md:mt-28">
-            
+            {/* TODO ADD BG IMG WITHOUT REPEATING */}
             <div className="flex flex-col md:flex-row relative bg-about-img">
                 <div className="flex flex-col md:w-1/2 py-12 md:py-72 px-5 md:px-12">
                     <p className="text-2xl md:text-3xl font-bold">Transforming Living Spaces: Redefining Comfort and Community</p>
