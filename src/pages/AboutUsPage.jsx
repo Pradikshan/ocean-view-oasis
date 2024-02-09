@@ -1,5 +1,6 @@
 import ImageTile from "../components/ImageTile";
 import StatsCard from "../components/StatsCard";
+import TextCard from "../components/TextCard";
 
 
 const AboutUsPage = () => {
@@ -84,7 +85,9 @@ const AboutUsPage = () => {
                 <p className="mt-2">Guided by our core values, Ocean View Oasis is more than just a place to live; it's a reflection of our commitment to excellence, integrity, and community. These values shape every aspect of our operations, from the design of our residences to the experiences we create for our residents.</p>
                 <div className="grid grid-cols-3">
                     <div>
-                        <p className=""></p>
+                        <TextCard 
+                        heading={"Excellence"}
+                        text={"We strive for excellence in all that we do, from the meticulous craftsmanship of our apartments to the attentive service we provide to our residents."} />
                     </div>
                 </div>
 
