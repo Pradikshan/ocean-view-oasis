@@ -1,4 +1,5 @@
 import ImageTile from "../components/ImageTile";
+import ProfileCard from "../components/ProfileCard";
 import StatsCard from "../components/StatsCard";
 import TextCard from "../components/TextCard";
 
@@ -115,6 +116,58 @@ const AboutUsPage = () => {
             <div className="px-12 mt-28">
                 <p className="text-3xl font-bold">Our team</p>
                 <p className="mt-2">Our dedicated team at Ocean View Oasis is committed to providing exceptional service and creating an unparalleled living experience for our residents, ensuring that every interaction is infused with warmth, professionalism, and genuine care.</p>
+
+                <div className="grid grid-cols-5 mt-12">
+                    <ProfileCard 
+                    image_path={"../images/rust.jpg"} 
+                    name={"Rustin Spencer Cohle"} 
+                    position={"Community Manager"} />
+
+                    <ProfileCard 
+                    image_path={"../images/marty.jpg"} 
+                    name={"Martin Hart"} 
+                    position={"Facilities Technician"} />   
+
+                    <ProfileCard 
+                    image_path={"../images/django.jpg"} 
+                    name={"Django Freeman"} 
+                    position={"Maintenance Supervisor"} />
+
+                    <ProfileCard 
+                    image_path={"../images/mills.jpg"} 
+                    name={"David Mills"} 
+                    position={"Leasing Consultant"} />
+
+                    <ProfileCard 
+                    image_path={"../images/somerset.jpg"} 
+                    name={"William Somerset"} 
+                    position={"Operations Coordinator"} />
+
+                    <ProfileCard 
+                    image_path={"../images/steve.jpg"} 
+                    name={"Steve Harrington"} 
+                    position={"Customer Experience Specialist"} />
+
+                    <ProfileCard 
+                    image_path={"../images/fox.jpg"} 
+                    name={"Fox Mulder"} 
+                    position={"Sustainability Coordinator"} />
+
+                    <ProfileCard 
+                    image_path={"../images/dana.jpg"} 
+                    name={"Dana Scully"} 
+                    position={"Administrative Assistant"} />     
+
+                    <ProfileCard 
+                    image_path={"../images/scooby.jpg"} 
+                    name={"Scooby Doo"} 
+                    position={"Marketing Specilaist"} />
+
+                    <ProfileCard 
+                    image_path={"../images/balrog.jpg"} 
+                    name={"The Balrog"} 
+                    position={"Human Resources Manager"} />
+                </div>
 
             </div>
         </div>
