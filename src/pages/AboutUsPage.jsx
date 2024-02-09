@@ -35,7 +35,7 @@ const AboutUsPage = () => {
 
                     {window.innerWidth >= 768 ? (
                     <>
-                    <div className="absolute md:top-96 md:left-112">
+                    <div className="absolute md:top-96 md:left-[448px]">
                         <ImageTile image_path={"../images/tile5.jpg"} />
                     </div> 
                     </>
