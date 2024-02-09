@@ -10,7 +10,7 @@ const AboutUsPage = () => {
                     <p className="text-2xl md:text-3xl font-bold">Transforming Living Spaces: Redefining Comfort and Community</p>
                     <p>Discover a new era of living at our apartment community, where innovation intertwines seamlessly with comfort. We're dedicated to shaping spaces that inspire connection, offering residents a haven where modern amenities and a vibrant atmosphere converge to create unforgettable experiences.</p>
                 </div>
-                <div className="relative md:w-1/2 border-2 border-black">
+                <div className="relative md:w-1/2">
                     {window.innerWidth >= 768 ? (
                     <>
                     <div className="absolute md:top-48 md:left-0">
@@ -45,6 +45,18 @@ const AboutUsPage = () => {
 
                     
                 </div>
+            </div>
+
+            <div className="flex flex-row px-12">
+                <div className="flex flex-col">
+                    <p className="text-3xl font-bold">Our Mission</p>
+                    <p>At Ocean View Oasis, our mission is to provide a sanctuary by the sea, where residents can embrace the beauty of coastal living while enjoying modern comforts and fostering a strong sense of community. We are committed to creating an environment that promotes well-being, connection, and sustainable living.</p>
+                </div>
+
+                
+
+
+
             </div>
         </div>
         </>
