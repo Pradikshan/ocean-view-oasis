@@ -69,7 +69,7 @@ const Navbar = () => {
         </div>
         
         
-        <div className="relative">
+        {/* <div className="relative">
             <div className="flex lg:hidden flex-row z-0">
                 <button className="-mt-2 ms-3" onClick={toggleMenu}>
                     <GiHamburgerMenu style={{ fontSize: 24 }}/>
@@ -86,7 +86,7 @@ const Navbar = () => {
                 <div
                     className="fixed top-0 left-0 w-full h-full bg-black opacity-50 z-10"
                     onClick={toggleMenu}
-                ></div>
+                ></div> */}
                 
                 {/* <StyleRoot>
                     <div 
@@ -127,9 +127,9 @@ const Navbar = () => {
                     </div>
                 </StyleRoot> */}
                 
-                </>
+                {/* </>
             )}
-        </div>
+        </div> */}
 
 
 
