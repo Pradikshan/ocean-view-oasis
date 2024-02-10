@@ -30,7 +30,8 @@ const FAQ = ({ question, answer }) => {
     }
 
     return (
-        <div className="mx-2 my-5 cursor-pointer border-2 border-white border-b-slate-600" onClick={handleClick}>
+        <>
+        <div className="mx-2 my-5 cursor-pointer" onClick={handleClick}>
             <div className="flex flex-row justify-between my-2">
                 <p className="text-xl font-bold">{question}</p>
                 {selected ? 
@@ -48,6 +49,8 @@ const FAQ = ({ question, answer }) => {
             </motion.p> 
             : null}
         </div>
+        <div className="w-full h-0 border-2 border-slate-600"></div>
+        </>
     );
 }
 
