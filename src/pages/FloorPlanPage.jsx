@@ -279,7 +279,7 @@ const FloorPlanPage = () => {
                     </div>
                 </div>
 
-                <div className="">
+                <div className="m-2 md:mt-10 md:mx-10 rounded-xl shadow-xl bg-white">
                     <div className="flex flex-col md:flex-row p-1 md:p-8">
                         { 
                         window.innerWidth >= 768 ? (
