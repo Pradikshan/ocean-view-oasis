@@ -19,6 +19,11 @@ const FloorPlanPage = () => {
         heading={"Floor Plan"} 
         subheading={"Explore our meticulously designed floor plans, tailored for your lifestyle and comfort"} /> */}
 
+        <div className="py-16 text-center">
+            <p className="text-2xl md:text-3xl font-bold">Floor Plan</p>
+            <p className="text-xl">Explore our meticulously designed floor plans, tailored for your lifestyle and comfort</p>
+        </div>
+
         <div className="m-2 md:m-10 rounded-xl shadow-xl">
             <div className="flex flex-col md:flex-row p-1 md:p-8">
                 { 
