@@ -18,7 +18,7 @@ const FloorPlanPage = () => {
         opacity={"opacity-90"} 
         heading={"Floor Plan"} 
         subheading={"Explore our meticulously designed floor plans, tailored for your lifestyle and comfort"} /> */}
-        <div className="relative bg-floor-img bg-cover">
+        <div className="relative bg-faq-img bg-cover">
             <div className="absolute inset-x-0 top-0 h-20">
                 <div className="h-full w-full bg-gradient-to-b from-white from-10% to-transparent to-65%"></div>
             </div>
