@@ -13,7 +13,7 @@ const ContactUsPage = () => {
         heading={"Contact Us"} 
         subheading={"Reach out to us – let's start a conversation about turning your dreams of coastal living into a reality"} /> */}
 
-        <div className="pt-8 md:pt-16">
+        <div className="pt-8 pb-5 md:pt-16 md:pb-20">
             <SplitLayout>
                 <div className="grid grid-cols-1 md:grid-cols-2">
                     <div className="px-6 mb-10">
