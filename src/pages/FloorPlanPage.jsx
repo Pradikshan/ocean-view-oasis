@@ -27,7 +27,7 @@ const FloorPlanPage = () => {
                 <p className="text-xl">Explore our meticulously designed floor plans, tailored for your lifestyle and comfort</p>
             </div>
             <div className="py-10">
-                <div className="m-2 md:mt-10 md:mx-36 rounded-xl shadow-xl bg-white">
+                <div className="m-2 md:mt-10 md:mx-36 rounded-xl shadow-xl bg-[#e9e9df]">
                     <div className="flex flex-col md:flex-row p-1 md:p-8">
                         { 
                         window.innerWidth >= 768 ? (
@@ -75,7 +75,7 @@ const FloorPlanPage = () => {
                     </div>
                 </div>
 
-                <div className="m-2 md:mt-10 md:mx-36 rounded-xl shadow-xl bg-white">
+                <div className="m-2 md:mt-10 md:mx-36 rounded-xl shadow-xl bg-[#e9e9df]">
                     <div className="flex flex-col md:flex-row p-1 md:p-8">
                         { 
                         window.innerWidth >= 768 ? (
@@ -144,7 +144,7 @@ const FloorPlanPage = () => {
                     </div>
                 </div>
 
-                <div className="m-2 md:mt-10 md:mx-36 rounded-xl shadow-xl bg-white">
+                <div className="m-2 md:mt-10 md:mx-36 rounded-xl shadow-xl bg-[#e9e9df]">
                     <div className="flex flex-col md:flex-row p-1 md:p-8">
                         { 
                         window.innerWidth >= 768 ? (
@@ -213,7 +213,7 @@ const FloorPlanPage = () => {
                     </div>
                 </div>
 
-                <div className="m-2 md:mt-10 md:mx-36 rounded-xl shadow-xl bg-white">
+                <div className="m-2 md:mt-10 md:mx-36 rounded-xl shadow-xl bg-[#e9e9df]">
                     <div className="flex flex-col md:flex-row p-1 md:p-8">
                         { 
                         window.innerWidth >= 768 ? (
@@ -282,7 +282,7 @@ const FloorPlanPage = () => {
                     </div>
                 </div>
 
-                <div className="m-2 md:mt-10 md:mx-36 rounded-xl shadow-xl bg-white">
+                <div className="m-2 md:mt-10 md:mx-36 rounded-xl shadow-xl bg-[#e9e9df]">
                     <div className="flex flex-col md:flex-row p-1 md:p-8">
                         { 
                         window.innerWidth >= 768 ? (
