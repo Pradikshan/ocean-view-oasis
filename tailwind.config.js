@@ -11,11 +11,12 @@ module.exports = {
       backgroundImage: {
         "main-img": "url(../public/images/main_img2-min.jpg)",
         "about-img": "url(../public/images/background-img-about.svg)",
+        "about-img2": "url(../public/images/background-img-about2.svg)",
       },
       backgroundColor: {
         "trans": "#000000e1",
-        "secondary-color": "#A16107",
-        "cta-color": "#2F4858",
+        "secondary-color": "#f5f5de",
+        "cta-color": "#474838",
       },
       transitionDuration: {
         "1500": "1500ms",
