@@ -13,11 +13,11 @@ import ImageCard from "../components/ImageCard";
 const FloorPlanPage = () => {
     return (
         <>
-        <ImageOverlay 
+        {/* <ImageOverlay 
         image_path={"../images/plan2-min.jpg"} 
         opacity={"opacity-90"} 
         heading={"Floor Plan"} 
-        subheading={"Explore our meticulously designed floor plans, tailored for your lifestyle and comfort"} />
+        subheading={"Explore our meticulously designed floor plans, tailored for your lifestyle and comfort"} /> */}
 
         <div className="m-2 md:m-10 rounded-xl shadow-xl">
             <div className="flex flex-col md:flex-row p-1 md:p-8">
