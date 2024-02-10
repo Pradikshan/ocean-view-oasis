@@ -13,7 +13,9 @@ const ContactUsPage = () => {
         heading={"Contact Us"} 
         subheading={"Reach out to us – let's start a conversation about turning your dreams of coastal living into a reality"} /> */}
         <div className="relative bg-contact-img bg-cover">
-            
+            <div className="absolute inset-x-0 top-0 h-20">
+                <div className="w-full h-full bg-gradient-to-b from-white from-10% to-transaparent to-65%"></div>
+            </div>
             <div className="pt-8 pb-5 md:pt-16 md:pb-20">
                 <SplitLayout>
                     <div className="grid grid-cols-1 md:grid-cols-2">
