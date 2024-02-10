@@ -8,9 +8,9 @@ const AboutUsPage = () => {
     return (
         <>
         <div>
-            <div className="relative mt-4 md:py-28 bg-about-img bg-cover">
+            <div className="relative mt-4 md:py-28 bg-about-img2 bg-cover">
                 <div className="absolute inset-x-0 top-0 h-20">
-                    <div className="h-full w-full bg-gradient-to-b from-white to-transparent"></div>
+                    <div className="h-full w-full bg-gradient-to-b from-white from-1% to-transparent to-65%"></div>
                 </div>
                 <div className="flex flex-col md:flex-row relative">
                     <div className="flex flex-col md:w-1/2 py-12 md:py-72 px-5 md:px-12">
