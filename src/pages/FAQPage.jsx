@@ -72,7 +72,7 @@ const FAQPage = () => {
                 answer={"You can contact our customer support team by phone at +94-751542-123 or by email at oceanview@support.com. We're available Monday through Friday from 09.00am to 05.00pm."} />
             </div>        
 
-            <div className="my-16 mx-10">
+            <div className="mt-16 mx-10">
                 <p className="text-3xl font-bold mx-2">Services</p>
                 <FAQ 
                 question={"What services do you offer?"} 
