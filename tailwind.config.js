@@ -13,7 +13,8 @@ module.exports = {
         "about-img": "url(../public/images/background-img-about2.svg)",
         "faq-img": "url(../public/images/background-img-faq.svg)",
         "contact-img": "url(../public/images/background-img-contact.svg)", 
-        "floor-img": "url(../public/images/background-img-floor.svg)",  
+        "floor-img": "url(../public/images/background-img-floor.svg)", 
+        "pricing-img": "url(../public/images/background-img-pricing.svg)",  
       },
       backgroundColor: {
         "trans": "#000000e1",
