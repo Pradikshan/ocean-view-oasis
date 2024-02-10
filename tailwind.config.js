@@ -12,7 +12,7 @@ module.exports = {
         "main-img": "url(../public/images/main_img2-min.jpg)",
         "about-img": "url(../public/images/background-img-about2.svg)",
         "faq-img": "url(../public/images/background-img-faq.svg)",
-        "contact-img": "url(../public/images/background-img-contact.svg)",
+        "contact-img": "url(../public/images/background-img-contact.svg)",  
       },
       backgroundColor: {
         "trans": "#000000e1",
