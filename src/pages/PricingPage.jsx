@@ -257,13 +257,16 @@ const PricingPage = () => {
 
         
         <div className="relative bg-pricing-img bg-cover">
-            <p className="text-center text-3xl font-bold pt-4">Renting options</p>
+            <div className="absolute inset-x-0 top-0 h-20">
+                <div className="w-full h-full bg-gradient-to-b from-white 10% to-transparent to-65%"></div>
+            </div>
+            <p className="text-center text-[2.0625rem] font-bold pt-16">Renting options</p>
             <div className="mt-8">
                 <div className="flex flex-row rounded-lg shadow-2xl mx-8 mb-16 bg-[#e9e9df]">    
                     <img src="../images/1bed_ap-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
                     
                     <div className="flex flex-col mx-5 p-3">
-                        <p className="text-xl font-bold">One bedroom apartment</p>
+                        <p className="text-2xl font-bold">One bedroom apartment</p>
                         <p>Explore our 1-bedroom floor plan – a harmonious blend of thoughtful design, spacious living areas, modern kitchens, and a well-appointed bedroom – creating an inviting and cozy living space for you</p>
                         <p className="font-bold mt-3">What's included:</p>
                         <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $1,500"} />
@@ -284,7 +287,7 @@ const PricingPage = () => {
                     <img src="../images/2bed_ap-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
                     
                     <div className="flex flex-col mx-5 p-3">
-                        <p className="text-xl font-bold">Two bedroom apartment</p>
+                        <p className="text-2xl font-bold">Two bedroom apartment</p>
                         <p>Discover our 2-bedroom floor plan – an inviting blend of thoughtful design, expansive living areas, contemporary kitchens, and two well-appointed bedrooms – crafting a warm and welcoming living space tailored just for you</p>
                         <p className="font-bold mt-3">What's included:</p>
                         <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $2,500"} />
@@ -309,7 +312,7 @@ const PricingPage = () => {
                     <img src="../images/3bed_ap-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
                     
                     <div className="flex flex-col mx-5 p-3">
-                        <p className="text-xl font-bold">Three bedroom apartment</p>
+                        <p className="text-2xl font-bold">Three bedroom apartment</p>
                         <p>Explore our 3-bedroom floor plan – a harmonious fusion of thoughtful design, expansive living areas, and three well-appointed bedrooms, creating a welcoming and spacious retreat tailored for your comfort</p>
                         <p className="font-bold mt-3">What's included:</p>
                         <IconText icon={<FaRegMoneyBillAlt />} text={"Monthly rent: $3,500"} />
@@ -328,13 +331,13 @@ const PricingPage = () => {
 
             </div>
 
-            <p className="text-center text-3xl font-bold mt-28">Buying options</p>
+            <p className="text-center text-[2.0625rem] font-bold mt-28">Buying options</p>
             <div className="mt-8 pb-28">
                 <div className="flex flex-row rounded-lg shadow-2xl mx-8 mb-16 bg-[#e9e9df]">    
                     <img src="../images/1bed_buy-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
                     
                     <div className="flex flex-col mx-5 p-3">
-                        <p className="text-xl font-bold">One bedroom apartment</p>
+                        <p className="text-2xl font-bold">One bedroom apartment</p>
                         <p>Explore our 1-bedroom floor plan – a harmonious blend of thoughtful design, spacious living areas, modern kitchens, and a well-appointed bedroom – creating an inviting and cozy living space for you</p>
                         <p className="font-bold mt-3">What's included:</p>
                         <IconText icon={<FaRegMoneyBillAlt />} text={"Price: $200,000"} />
@@ -355,7 +358,7 @@ const PricingPage = () => {
                     <img src="../images/2bed_buy-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
                     
                     <div className="flex flex-col mx-5 p-3">
-                        <p className="text-xl font-bold">Two bedroom apartment</p>
+                        <p className="text-2xl font-bold">Two bedroom apartment</p>
                         <p>Discover our 2-bedroom floor plan – an inviting blend of thoughtful design, expansive living areas, contemporary kitchens, and two well-appointed bedrooms – crafting a warm and welcoming living space tailored just for you</p>
                         <p className="font-bold mt-3">What's included:</p>
                         <IconText icon={<FaRegMoneyBillAlt />} text={"Price: $350,000"} />
@@ -376,7 +379,7 @@ const PricingPage = () => {
                     <img src="../images/3bed_buy-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
                     
                     <div className="flex flex-col mx-5 p-3">
-                        <p className="text-xl font-bold">Three bedroom apartment</p>
+                        <p className="text-2xl font-bold">Three bedroom apartment</p>
                         <p>Explore our 3-bedroom floor plan – a harmonious fusion of thoughtful design, expansive living areas, and three well-appointed bedrooms, creating a welcoming and spacious retreat tailored for your comfort</p>
                         <p className="font-bold mt-3">What's included:</p>
                         <IconText icon={<FaRegMoneyBillAlt />} text={"Price: $600,000"} />
@@ -397,7 +400,7 @@ const PricingPage = () => {
                     <img src="../images/luxury_buy-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
                     
                     <div className="flex flex-col mx-5 p-3">
-                        <p className="text-xl font-bold">Luxury apartment</p>
+                        <p className="text-2xl font-bold">Luxury apartment</p>
                         <p>Indulge in opulence with our grand 3-bedroom luxury apartment – an exquisite blend of sophisticated design, expansive living areas adorned with premium finishes, and an array of upscale amenities, crafting an unparalleled living experience for those who appreciate the finer things in life</p>
                         <p className="font-bold mt-3">What's included:</p>
                         <IconText icon={<FaRegMoneyBillAlt />} text={"Price: $1,000,000"} />
