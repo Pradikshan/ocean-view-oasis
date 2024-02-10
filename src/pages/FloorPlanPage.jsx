@@ -19,6 +19,9 @@ const FloorPlanPage = () => {
         heading={"Floor Plan"} 
         subheading={"Explore our meticulously designed floor plans, tailored for your lifestyle and comfort"} /> */}
         <div className="relative bg-floor-img bg-cover">
+            <div className="absolute inset-x-0 top-0 h-20">
+                <div className="h-full w-full bg-gradient-to-b from-white from-10% to-transparent to-65%"></div>
+            </div>
             <div className="py-16 text-center">
                 <p className="text-2xl md:text-3xl font-bold">Floor Plan</p>
                 <p className="text-xl">Explore our meticulously designed floor plans, tailored for your lifestyle and comfort</p>
