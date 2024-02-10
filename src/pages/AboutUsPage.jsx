@@ -7,41 +7,50 @@ import TextCard from "../components/TextCard";
 const AboutUsPage = () => {
     return (
         <>
-        <div className="mt-4 md:mt-16">
+        <div>
             {/* TODO ADD BG IMG WITHOUT REPEATING */}
-            <div className="flex flex-col md:flex-row relative bg-about-img">
-                <div className="flex flex-col md:w-1/2 py-12 md:py-72 px-5 md:px-12">
-                    <p className="text-2xl md:text-3xl font-bold">Transforming Living Spaces: Redefining Comfort and Community</p>
-                    {window.innerWidth <= 768 ? (
-                    <img src="../images/tile-min.jpg" alt="tile" className="my-4"/>
+            <div className="relative mt-4 md:py-28 bg-about-img bg-cover">
+                <div className="absolute inset-x-0 top-0 h-20">
+                    <div className="h-full w-full bg-gradient-to-b from-white to-transparent"></div>
+                </div>
+                <div className="flex flex-col md:flex-row relative">
+                    <div className="flex flex-col md:w-1/2 py-12 md:py-72 px-5 md:px-12">
+                        <p className="text-2xl md:text-3xl font-bold">Transforming Living Spaces: Redefining Comfort and Community</p>
+                        {window.innerWidth <= 768 ? (
+                        <img src="../images/tile-min.jpg" alt="tile" className="my-4"/>
+                        )
+                        : null }
+                        <p>Discover a new era of living at our apartment community, where innovation intertwines seamlessly with comfort. We're dedicated to shaping spaces that inspire connection, offering residents a haven where modern amenities and a vibrant atmosphere converge to create unforgettable experiences.</p>
+                    </div>
+                    {window.innerWidth >= 768 ? (
+                    <div className="relative md:w-1/2">
+                        <div className="absolute md:top-48 md:left-0">
+                            <ImageTile image_path={"../images/tile3-min.jpg"} />
+                        </div>
+
+                        <div className="absolute md:bottom-0 md:left-56">
+                            <ImageTile image_path={"../images/tile2-min.jpg"} />
+                        </div>
+
+                        <div className="absolute -top-5 -left-20 md:top-20 md:left-56">
+                            <ImageTile image_path={"../images/tile-min.jpg"} />
+                        </div>
+
+                        <div className="absolute top-0 right-0 md:top-12 md:left-[448px]">
+                            <ImageTile image_path={"../images/tile4-min.jpg"} />
+                        </div> 
+
+                        <div className="absolute md:top-96 md:left-[448px]">
+                            <ImageTile image_path={"../images/tile5.jpg"} />
+                        </div>                     
+                    </div>
                     )
-                    : null }
-                    <p>Discover a new era of living at our apartment community, where innovation intertwines seamlessly with comfort. We're dedicated to shaping spaces that inspire connection, offering residents a haven where modern amenities and a vibrant atmosphere converge to create unforgettable experiences.</p>
+                    : null }     
                 </div>
-                {window.innerWidth >= 768 ? (
-                <div className="relative md:w-1/2">
-                    <div className="absolute md:top-48 md:left-0">
-                        <ImageTile image_path={"../images/tile3-min.jpg"} />
-                    </div>
 
-                    <div className="absolute md:bottom-0 md:left-56">
-                        <ImageTile image_path={"../images/tile2-min.jpg"} />
-                    </div>
-
-                    <div className="absolute -top-5 -left-20 md:top-20 md:left-56">
-                        <ImageTile image_path={"../images/tile-min.jpg"} />
-                    </div>
-
-                    <div className="absolute top-0 right-0 md:top-12 md:left-[448px]">
-                        <ImageTile image_path={"../images/tile4-min.jpg"} />
-                    </div> 
-
-                    <div className="absolute md:top-96 md:left-[448px]">
-                        <ImageTile image_path={"../images/tile5.jpg"} />
-                    </div>                     
+                <div className="absolute inset-x-0 bottom-0 h-20">
+                    <div className="h-full w-full bg-gradient-to-t from-white to-transparent"></div>
                 </div>
-                 )
-                 : null }     
             </div>
             
             <div className="flex flex-col md:flex-row px-5 md:px-12 mt-10 md:mt-28">
