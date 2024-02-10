@@ -8,7 +8,6 @@ const AboutUsPage = () => {
     return (
         <>
         <div>
-            {/* TODO ADD BG IMG WITHOUT REPEATING */}
             <div className="relative mt-4 md:py-28 bg-about-img2 bg-cover">
                 <div className="absolute inset-x-0 top-0 h-20">
                     <div className="h-full w-full bg-gradient-to-b from-white to-transparent"></div>
