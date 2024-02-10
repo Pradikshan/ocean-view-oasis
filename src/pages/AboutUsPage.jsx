@@ -7,7 +7,7 @@ import TextCard from "../components/TextCard";
 const AboutUsPage = () => {
     return (
         <>
-        <div className="mt-4 md:mt-28">
+        <div className="mt-4 md:mt-16">
             {/* TODO ADD BG IMG WITHOUT REPEATING */}
             <div className="flex flex-col md:flex-row relative bg-about-img">
                 <div className="flex flex-col md:w-1/2 py-12 md:py-72 px-5 md:px-12">
@@ -41,16 +41,9 @@ const AboutUsPage = () => {
                     </div>                     
                 </div>
                  )
-                 : null }
-
-
-
-                
-                 
-                  
+                 : null }     
             </div>
             
-
             <div className="flex flex-col md:flex-row px-5 md:px-12 mt-10 md:mt-28">
                 <div className="flex flex-col md:w-1/2">
                     <p className="text-2xl md:text-3xl font-bold">Our Mission</p>
@@ -113,8 +106,6 @@ const AboutUsPage = () => {
                 </div>
 
             </div>
-
-            {/* <div className="spacer layer"></div> */}
 
             <div className="px-5 md:px-12 mt-28 mb-32">
                 <p className="text-3xl font-bold">Our team</p>
