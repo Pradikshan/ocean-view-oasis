@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 import { fadeInLeft, fadeOutLeft } from 'react-animations';
+import HamburgerMenu from "./HamburgerMenu";
 // import Radium, { StyleRoot } from 'radium';
 
 const Navbar = () => {
@@ -67,6 +68,8 @@ const Navbar = () => {
                 <a href="#" className="bg-cta-color text-white p-3 rounded-full h-1/2 self-center">Discover Your New Home</a>
             </div>
         </div>
+
+        <HamburgerMenu />
         
         
         {/* <div className="relative">
