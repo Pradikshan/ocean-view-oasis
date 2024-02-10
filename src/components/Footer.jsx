@@ -5,7 +5,7 @@ const Footer = () => {
 
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 bg-secondary-color text-white mt-5 pt-6 md:pt-12 pb-2 px-2 md:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 bg-secondary-color text-white pt-6 md:pt-12 pb-2 px-2 md:px-8">
             <div>
                 <p className="text-xl font-bold">Ocean View Oasis</p>
                 <p>Ocean View Oasis: Where luxury meets tranquility. Experience the epitome of seaside living with breathtaking views, modern amenities, and a serene atmosphere. Your coastal haven awaits.</p>
