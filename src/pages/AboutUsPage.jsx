@@ -47,13 +47,6 @@ const AboutUsPage = () => {
                     : null }     
                 </div>
 
-                {/* <div className="absolute inset-x-0 bottom-0 h-20">
-                    <div className="h-full w-full bg-gradient-to-t from-white to-transparent"></div>
-                </div>
-            </div> */}
-            
-            
-
                 <div className="flex flex-col md:flex-row px-5 md:px-12 mt-10 md:pt-28">
                     <div className="flex flex-col md:w-1/2">
                         <p className="text-2xl md:text-3xl font-bold">Our Mission</p>
