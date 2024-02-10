@@ -5,7 +5,10 @@ const FAQPage = () => {
     return (
         <>
         <div className="relative bg-faq-img bg-cover">
-            <div className="pt-5">
+            <div className="absolute inset-x-0 top-0 h-20">
+                <div className="h-full w-full bg-gradient-to-b from-white from-1% to-transparent to-65%"></div>
+            </div>
+            <div className="pt-10">
             <p className="text-3xl font-bold text-center">FAQ</p>
             {/* <p className="text-xl font-bold text-center">We have got answers</p> */}
             </div>
@@ -72,7 +75,7 @@ const FAQPage = () => {
                 answer={"You can contact our customer support team by phone at +94-751542-123 or by email at oceanview@support.com. We're available Monday through Friday from 09.00am to 05.00pm."} />
             </div>        
 
-            <div className="mt-16 mx-10">
+            <div className="mt-16 mx-10 pb-16">
                 <p className="text-3xl font-bold mx-2">Services</p>
                 <FAQ 
                 question={"What services do you offer?"} 
