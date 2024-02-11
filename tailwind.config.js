@@ -17,7 +17,7 @@ module.exports = {
         "pricing-img": "url(../public/images/background-img-pricing.svg)",  
       },
       backgroundColor: {
-        "trans": "#000000e1",
+        "transparent": "#000000e1",
         "secondary-color": "#f5f5de",
         "cta-color": "#474838",
       },
