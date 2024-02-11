@@ -15,6 +15,8 @@ module.exports = {
         "contact-img": "url(../public/images/background-img-contact.svg)", 
         "floor-img": "url(../public/images/background-img-floor.svg)", 
         "pricing-img": "url(../public/images/background-img-pricing.svg)",  
+        "gradient": "url(../public/images/gradient_1.svg)",
+        "gradient-2": "url(../public/images/gradient_2.svg)",
       },
       backgroundColor: {
         "transparent": "#000000e1",
