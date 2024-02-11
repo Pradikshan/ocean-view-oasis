@@ -41,7 +41,7 @@ const FAQPage = () => {
             </div>
 
             <div className="my-16 mx-10">
-                <p className="text-3xl font-bold mx-2">Buying/Renting</p>
+                <p className="text-2xl font-bold mx-2">Buying/Renting</p>
                 <FAQ 
                 question={"What are the benefits of renting with your company?"} 
                 answer={"Renting with us offers several benefits including flexible lease terms, competitive pricing, and access to amenities such as laundry services and secure access."} />
@@ -69,14 +69,14 @@ const FAQPage = () => {
             </div>  
 
             <div className="my-16 mx-10">
-                <p className="text-3xl font-bold mx-2">Customer support</p>
+                <p className="text-2xl font-bold mx-2">Customer support</p>
                 <FAQ 
                 question={"How can I contact customer support?"} 
                 answer={"You can contact our customer support team by phone at +94-751542-123 or by email at oceanview@support.com. We're available Monday through Friday from 09.00am to 05.00pm."} />
             </div>        
 
             <div className="mt-16 mx-10 pb-16">
-                <p className="text-3xl font-bold mx-2">Services</p>
+                <p className="text-2xl font-bold mx-2">Services</p>
                 <FAQ 
                 question={"What services do you offer?"} 
                 answer={"We offer a variety of services including renting and buying options for apartments, as well as assistance with property management."} />
