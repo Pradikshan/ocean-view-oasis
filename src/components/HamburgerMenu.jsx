@@ -72,9 +72,6 @@ const HamburgerMenu = () => {
                                 <Link to="/pricing">Pricing</Link>
                             </li>
                             <li>
-                                <Link to="/photo_gallery">Photo gallery</Link> 
-                            </li>
-                            <li>
                                 <Link to="/faq">FAQ</Link>
                             </li>
                             <li>
