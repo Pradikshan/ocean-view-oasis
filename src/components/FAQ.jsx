@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa6";
+import { IoIosArrowDropdown, IoIosArrowDropup } from "react-icons/io";
 import { motion } from "framer-motion";
 
 const FAQ = ({ question, answer }) => {
@@ -12,7 +13,7 @@ const FAQ = ({ question, answer }) => {
         console.log(selected);
     }
 
-    const style ={fontSize: "1.25rem", marginLeft: "auto"};
+    const style ={fontSize: "1.4375rem", marginLeft: "auto"};
 
     const fadeIn = {
         hidden: {
@@ -35,8 +36,8 @@ const FAQ = ({ question, answer }) => {
             <div className="flex flex-row my-2">
                 <p className="text-md md:text-lg font-bold w-2/3 md:w-full">{question}</p>
                 {selected ? 
-                <FaMinus style={style}/> 
-                : <FaPlus style={style}/>}
+                <IoIosArrowDropup style={style} className="-rotate-180 transition ease-in-out duration-1000"/>
+                : <IoIosArrowDropup style={style} className="rotate-0 transition ease-in-out duration-1000"/>}
             </div>
             { selected ? 
             <motion.p 
