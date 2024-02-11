@@ -9,7 +9,7 @@ const FAQPage = () => {
                 <div className="h-full w-full bg-gradient-to-b from-white from-1% to-transparent to-65%"></div>
             </div>
             <div className="pt-10">
-            <p className="text-3xl font-bold text-center">FAQ</p>
+            <p className="text-2xl md:text-3xl font-bold text-center">FAQ</p>
             {/* <p className="text-xl font-bold text-center">We have got answers</p> */}
             </div>
 
@@ -22,7 +22,7 @@ const FAQPage = () => {
 
 
             <div className="mt-12 mb-16 mx-10">
-                <p className="text-3xl font-bold mx-2">Apartment</p>
+                <p className="text-2xl font-bold mx-2">Apartment</p>
                 <FAQ 
                 question={"Can I schedule a tour of available properties?"} 
                 answer={"Absolutely! You can schedule a tour of our available properties by contacting our leasing office. We'll be happy to show you around and answer any questions you may have."} />
