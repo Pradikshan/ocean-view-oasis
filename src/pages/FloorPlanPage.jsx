@@ -219,7 +219,7 @@ const FloorPlanPage = () => {
                         }
 
                         <div className="flex flex-col md:ms-8 mx-3 md:mx-0 py-3 md:py-0">
-                            <p className="text-2xl font-bold place-self-center md:place-self-start">Luxury Living in Our Grand 3-Bedroom Residence</p>
+                            <p className="text-2xl font-bold mb-3 md:mb-3 place-self-center md:place-self-start">Luxury Living in Our Grand 3-Bedroom Residence</p>
                             { 
                             window.innerWidth <= 768 ? (
                                 <ImageCard image_path={"../images/luxury.png"} />
