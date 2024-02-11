@@ -6,18 +6,6 @@ import IconText from "../components/IconText";
 
 
 const PricingPage = () => {
-
-
-    // const [selectedId, setSelectedId] = useState(null);
-    // const [isModalOpen, setIsModalOpen] = useState(false);
-
-    // const openModal = () => setIsModalOpen(true);
-   
-
-    // const closeModal = () => setIsModalOpen(false);
-
-
-
     return (
         // THIS IS THE OLD DESIGN FOR THIS PAGE
 
