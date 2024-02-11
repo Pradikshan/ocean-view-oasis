@@ -22,7 +22,7 @@ const FloorPlanPage = () => {
             <div className="absolute inset-x-0 top-0 h-20">
                 <div className="h-full w-full bg-gradient-to-b from-white from-10% to-transparent to-65%"></div>
             </div>
-            <div className="pt-7 mx-2 md:pt-16 text-center">
+            <div className="pt-9 mx-2 md:pt-16 text-center">
                 <p className="text-2xl md:text-3xl font-bold">Floor Plan</p>
                 <p className="text-lg md:text-xl">Explore our meticulously designed floor plans, tailored for your lifestyle and comfort</p>
             </div>
@@ -35,14 +35,14 @@ const FloorPlanPage = () => {
                         ) : null
                         }
 
-                        <div className="flex flex-col ms-8">
-                            <p className="text-2xl font-bold">Apartment floor plan</p>
+                        <div className="flex flex-col md:ms-8 mx-3 md:mx-0 py-3 md:py-0">
+                            <p className="text-2xl font-bold place-self-center md:place-self-start my-2">Apartment floor plan</p>
                             { 
                             window.innerWidth <= 768 ? (
                                 <ImageCard image_path={"../images/floor.png"} />
                             ) : null
                             }
-                            <p>Discover our floor plans, each hosting five carefully crafted apartments. Explore the spacious living areas, modern kitchens, well-appointed bedrooms, and more, all thoughtfully designed to create your ideal living space</p>
+                            <p className="mt-4 md:mt-0">Discover our floor plans, each hosting five carefully crafted apartments. Explore the spacious living areas, modern kitchens, well-appointed bedrooms, and more, all thoughtfully designed to create your ideal living space</p>
                             <p className="text-xl font-bold mt-4">Key features</p>
                             <IconText 
                             icon={<MdOutlineLiving />} 
