@@ -218,14 +218,14 @@ const FloorPlanPage = () => {
                         ) : null
                         }
 
-                        <div className="flex flex-col ms-8">
-                            <p className="text-2xl font-bold">Luxury Living in Our Grand 3-Bedroom Residence</p>
+                        <div className="flex flex-col md:ms-8 mx-3 md:mx-0 py-3 md:py-0">
+                            <p className="text-2xl font-bold place-self-center md:place-self-start">Luxury Living in Our Grand 3-Bedroom Residence</p>
                             { 
                             window.innerWidth <= 768 ? (
                                 <ImageCard image_path={"../images/luxury.png"} />
                             ) : null
                             }
-                            <p>Indulge in opulence with our grand 3-bedroom luxury apartment – an exquisite blend of sophisticated design, expansive living areas adorned with premium finishes, and an array of upscale amenities, crafting an unparalleled living experience for those who appreciate the finer things in life</p>
+                            <p className="mt-4 md:mt-0">Indulge in opulence with our grand 3-bedroom luxury apartment – an exquisite blend of sophisticated design, expansive living areas adorned with premium finishes, and an array of upscale amenities, crafting an unparalleled living experience for those who appreciate the finer things in life</p>
                             <p className="text-xl font-bold mt-4">Key features</p>
                             <IconText 
                             icon={<MdOutlineBedroomParent />} 
