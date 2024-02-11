@@ -13,7 +13,7 @@ const FAQPage = () => {
             {/* <p className="text-xl font-bold text-center">We have got answers</p> */}
             </div>
 
-            <div className="flex flex-col md:flex-row items-center justify-center">
+            <div className="grid grid-cols-2 md:flex md:flex-row items-center justify-center">
                 <Badge text={"Apartment"} />
                 <Badge text={"Customer service"} />
                 <Badge text={"Buying/Renting"} />
