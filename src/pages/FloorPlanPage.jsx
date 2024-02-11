@@ -137,30 +137,6 @@ const FloorPlanPage = () => {
                             }
                             <p>Discover our 2-bedroom floor plan – an inviting blend of thoughtful design, expansive living areas, contemporary kitchens, and two well-appointed bedrooms – crafting a warm and welcoming living space tailored just for you</p>
                             <p className="text-xl font-bold mt-4">Key features</p>
-                            {/* <IconText 
-                            icon={<MdOutlineBedroomParent />} 
-                            text={"Enjoy the luxury of two well-designed and spacious bedrooms"} />
-                            <IconText 
-                            icon={<MdOutlineKitchen />} 
-                            text={"A modern kitchen layout with high-end appliances"} />
-                            <IconText 
-                            icon={<MdOutlineBathroom />} 
-                            text={"Discover two thoughtfully crafted bathrooms, featuring dual vanity spaces"} />
-                            <IconText 
-                            icon={<MdOutlineBalcony />} 
-                            text={"Each bedroom opens up to a personal balcony, providing a serene and secluded outdoor escape"} />
-                            <IconText 
-                            icon={<MdOutlineLocalLaundryService />} 
-                            text={"Experience ultimate convenience with in-unit laundry facilities"} />
-                            <IconText 
-                            icon={<MdOutlineChair />} 
-                            text={"Embrace the flexibility of an open floor plan, allowing you to personalize your living space"} />
-                            <IconText 
-                            icon={<MdOutlineHeatPump />} 
-                            text={"Enjoy year-round comfort with energy-efficient heating and cooling systems, individually controlled for each bedroom"} />
-                            <IconText 
-                            icon={<BiCctv />} 
-                            text={"Feel secure with controlled access and 24/7 surveillance"} /> */}
                             <IconText 
                             icon={<MdOutlineBedroomParent />} 
                             text={"Two comfortable bedrooms"} />
