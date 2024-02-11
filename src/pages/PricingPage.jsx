@@ -318,10 +318,10 @@ const PricingPage = () => {
 
             <p className="text-center text-2xl md:text-[2.0625rem] font-bold mt-28">Buying options</p>
             <div className="mt-8 pb-28">
-                <div className="flex flex-row rounded-lg shadow-2xl mx-8 mb-16 bg-[#e9e9df]">    
-                    <img src="../images/1bed_buy-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
+                <div className="pricing-card">    
+                    <img src="../images/1bed_buy-min.jpg" alt="apartment" className="pricing-img" />
                     
-                    <div className="flex flex-col mx-5 p-3">
+                    <div className="pricing-text-section">
                         <p className="text-2xl font-bold">One bedroom apartment</p>
                         <p>Explore our 1-bedroom floor plan – a harmonious blend of thoughtful design, spacious living areas, modern kitchens, and a well-appointed bedroom – creating an inviting and cozy living space for you</p>
                         <p className="font-bold mt-3">What's included:</p>
