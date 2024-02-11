@@ -381,10 +381,10 @@ const PricingPage = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-row rounded-lg shadow-2xl mx-8 bg-[#e9e9df]">    
-                    <img src="../images/luxury_buy-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
+                <div className="pricing-card">    
+                    <img src="../images/luxury_buy-min.jpg" alt="apartment" className="pricing-img" />
                     
-                    <div className="flex flex-col mx-5 p-3">
+                    <div className="pricing-text-section">
                         <p className="text-2xl font-bold">Luxury apartment</p>
                         <p>Indulge in opulence with our grand 3-bedroom luxury apartment – an exquisite blend of sophisticated design, expansive living areas adorned with premium finishes, and an array of upscale amenities, crafting an unparalleled living experience for those who appreciate the finer things in life</p>
                         <p className="font-bold mt-3">What's included:</p>
