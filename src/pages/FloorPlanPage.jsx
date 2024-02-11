@@ -36,7 +36,7 @@ const FloorPlanPage = () => {
                         }
 
                         <div className="flex flex-col md:ms-8 mx-3 md:mx-0 py-3 md:py-0">
-                            <p className="text-2xl font-bold place-self-center md:place-self-start">Apartment floor plan</p>
+                            <p className="text-2xl font-bold mb-3 md:mb-3 place-self-center md:place-self-start">Apartment floor plan</p>
                             { 
                             window.innerWidth <= 768 ? (
                                 <ImageCard image_path={"../images/floor.png"} />
