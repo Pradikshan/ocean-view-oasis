@@ -241,14 +241,11 @@ const PricingPage = () => {
         //     </div>
         // </div>
 
-
-
-        
         <div className="relative bg-pricing-img bg-cover">
             <div className="absolute inset-x-0 top-0 h-20">
                 <div className="w-full h-full bg-gradient-to-b from-white 10% to-transparent to-65%"></div>
             </div>
-            <p className="text-center text-[2.0625rem] font-bold pt-16">Renting options</p>
+            <p className="text-center text-2xl md:text-[2.0625rem] font-bold pt-16">Renting options</p>
             <div className="mt-8">
                 <div className="flex flex-row rounded-lg shadow-2xl mx-8 mb-16 bg-[#e9e9df]">    
                     <img src="../images/1bed_ap-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
@@ -319,7 +316,7 @@ const PricingPage = () => {
 
             </div>
 
-            <p className="text-center text-[2.0625rem] font-bold mt-28">Buying options</p>
+            <p className="text-center text-2xl md:text-[2.0625rem] font-bold mt-28">Buying options</p>
             <div className="mt-8 pb-28">
                 <div className="flex flex-row rounded-lg shadow-2xl mx-8 mb-16 bg-[#e9e9df]">    
                     <img src="../images/1bed_buy-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
