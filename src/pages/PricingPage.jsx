@@ -241,10 +241,10 @@ const PricingPage = () => {
         //     </div>
         // </div>
 
-        <div className="relative bg-pricing-img bg-cover">
-            <div className="absolute inset-x-0 top-0 h-20">
-                <div className="w-full h-full bg-gradient-to-b from-white 10% to-transparent to-65%"></div>
-            </div>
+        <div className="bg-gradient-2 bg-cover">
+            {/* <div className="absolute inset-x-0 top-0 h-20">
+                <div className="w-full h-full bg-gradient-to-b from-white to-transparent"></div>
+            </div> */}
             <p className="text-center text-2xl md:text-[2.0625rem] font-bold pt-16">Renting options</p>
             <div className="mt-8">
                 <div className="pricing-card">    
