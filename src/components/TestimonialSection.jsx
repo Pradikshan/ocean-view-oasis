@@ -139,7 +139,7 @@ const TestimonialSection = () => {
                 <p className="text-xl md:text-2xl font-semibold">Discover what our residents have to say about Ocean View Oasis.</p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-4">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-2">
             <TestimonialCard 
             image={"../images/gandalf.jpg"}
             name={"Gandalf"} 
