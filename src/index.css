@@ -113,7 +113,7 @@ li a{
 } */
 
 .testimonial-card{
-    @apply flex flex-col rounded-3xl shadow-xl m-4 
+    @apply flex flex-col rounded-3xl shadow-xl m-4 bg-[#f7f7ec]
 }
 
 /* .testimonial-card.left{
@@ -122,7 +122,7 @@ li a{
 
 
 .testimonial-section{
-    @apply mt-12
+    @apply py-12
 }
 
 /* .testimonial-section .testimonial-card.show:nth-child(1){
