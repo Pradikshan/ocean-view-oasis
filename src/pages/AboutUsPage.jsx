@@ -110,7 +110,7 @@ const AboutUsPage = () => {
 
                 </div>
 
-                <div className="px-5 md:px-12 mt-28 pb-32">
+                <div className="px-5 md:px-12 mt-28 pb-12 md:pb-20">
                     <p className="text-3xl font-bold">Our team</p>
                     <p className="mt-2">Our dedicated team at Ocean View Oasis is committed to providing exceptional service and creating an unparalleled living experience for our residents, ensuring that every interaction is infused with warmth, professionalism, and genuine care.</p>
 
