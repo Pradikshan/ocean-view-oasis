@@ -12,7 +12,7 @@ const FAQ = ({ question, answer }) => {
         console.log(selected);
     }
 
-    const style ={fontSize: 20};
+    const style ={fontSize: "1.25rem", marginLeft: "auto"};
 
     const fadeIn = {
         hidden: {
@@ -31,9 +31,9 @@ const FAQ = ({ question, answer }) => {
 
     return (
         <>
-        <div className="mx-2 my-5 cursor-pointer" onClick={handleClick}>
-            <div className="flex flex-row justify-between my-2">
-                <p className="text-lg font-bold">{question}</p>
+        <div className="px-2 my-5 cursor-pointer" onClick={handleClick}>
+            <div className="flex flex-row my-2">
+                <p className="text-md md:text-lg font-bold w-2/3 md:w-full">{question}</p>
                 {selected ? 
                 <FaMinus style={style}/> 
                 : <FaPlus style={style}/>}
