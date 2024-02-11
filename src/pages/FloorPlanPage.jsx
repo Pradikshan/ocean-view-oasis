@@ -182,30 +182,6 @@ const FloorPlanPage = () => {
                             }
                             <p>Explore our 3-bedroom floor plan – a harmonious fusion of thoughtful design, expansive living areas, and three well-appointed bedrooms, creating a welcoming and spacious retreat tailored for your comfort</p>
                             <p className="text-xl font-bold mt-4">Key features</p>
-                            {/* <IconText 
-                            icon={<MdOutlineBedroomParent />} 
-                            text={"Experience the luxury of a generous living space with three well-designed bedrooms"} />
-                            <IconText 
-                            icon={<MdOutlineKitchen />} 
-                            text={"A modern kitchen layout with high-end appliances"} />
-                            <IconText 
-                            icon={<MdOutlineBathroom />} 
-                            text={" Enjoy the convenience of three thoughtfully crafted bathrooms"} />
-                            <IconText 
-                            icon={<MdOutlineBalcony />} 
-                            text={"Indulge in personal outdoor retreats as each bedroom opens up to its own private balcony"} />
-                            <IconText 
-                            icon={<MdOutlineLocalLaundryService />} 
-                            text={"Experience ultimate convenience with in-unit laundry facilities"} />
-                            <IconText 
-                            icon={<MdOutlineChair />} 
-                            text={"Embrace the flexibility of an open floor plan, allowing you to personalize your living space"} />
-                            <IconText 
-                            icon={<MdOutlineHeatPump />} 
-                            text={"Individualized comfort with energy-efficient heating and cooling systems, ensuring the perfect atmosphere in every bedroom"} />
-                            <IconText 
-                            icon={<BiCctv />} 
-                            text={"Feel secure with controlled access and 24/7 surveillance"} /> */}
                             <IconText 
                             icon={<MdOutlineBedroomParent />} 
                             text={"Spacious three-bedroom layout"} />
