@@ -162,7 +162,7 @@ li a{
 }
 
 .pricing-card {
-    @apply flex flex-col md:flex-row rounded-lg shadow-2xl mx-3 md:mx-8 mb-16 bg-[#e9e9df]
+    @apply flex flex-col md:flex-row rounded-lg shadow-2xl mx-3 md:mx-20 mb-16 bg-[#e9e9df]
 }
 
 .pricing-img {
