@@ -4,10 +4,7 @@ import FAQ from "../components/FAQ";
 const FAQPage = () => {
     return (
         <>
-        <div className="relative bg-faq-img bg-cover">
-            <div className="absolute inset-x-0 top-0 h-20">
-                <div className="h-full w-full bg-gradient-to-b from-white from-1% to-transparent to-65%"></div>
-            </div>
+        <div className="bg-gradient-2 bg-cover">
             <div className="pt-10">
             <p className="text-2xl md:text-3xl font-bold text-center">FAQ</p>
             {/* <p className="text-xl font-bold text-center">We have got answers</p> */}
