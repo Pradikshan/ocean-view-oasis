@@ -261,8 +261,8 @@ const PricingPage = () => {
                         <motion.a 
                         href="/floor_plan" 
                         className="pricing-btn" 
-                        whileHover={{ scale: 1.1}}
-                        whileTap={{ scale: 0.9}}>
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}>
                             See details
                         </motion.a>
                     </div>
