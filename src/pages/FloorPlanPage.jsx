@@ -22,9 +22,9 @@ const FloorPlanPage = () => {
             <div className="absolute inset-x-0 top-0 h-20">
                 <div className="h-full w-full bg-gradient-to-b from-white from-10% to-transparent to-65%"></div>
             </div>
-            <div className="pt-16 text-center">
+            <div className="pt-7 mx-2 md:pt-16 text-center">
                 <p className="text-2xl md:text-3xl font-bold">Floor Plan</p>
-                <p className="text-xl">Explore our meticulously designed floor plans, tailored for your lifestyle and comfort</p>
+                <p className="text-lg md:text-xl">Explore our meticulously designed floor plans, tailored for your lifestyle and comfort</p>
             </div>
             <div className="py-10">
                 <div className="m-2 md:mt-10 md:mx-36 rounded-xl shadow-xl bg-[#e9e9df]">
