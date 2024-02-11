@@ -137,9 +137,10 @@ const HomePage = () => {
                 </div>
             </SplitLayout>
         </div>
-
-        <TestimonialSection />
-
+        
+        <div className="bg-gradient-2 bg-cover">
+            <TestimonialSection />
+        </div>
         
 
         </>
