@@ -83,14 +83,14 @@ const FloorPlanPage = () => {
                         ) : null
                         }
 
-                        <div className="flex flex-col ms-8">
-                            <p className="text-2xl font-bold">1-Bedroom Living at Its Finest</p>
+                        <div className="flex flex-col md:ms-8 mx-3 md:mx-0 py-3 md:py-0">
+                            <p className="text-2xl font-bold place-self-center md:place-self-start my-2">1-Bedroom Living at Its Finest</p>
                             { 
                             window.innerWidth <= 768 ? (
                                 <ImageCard image_path={"../images/bed1.png"} />
                             ) : null
                             }
-                            <p>Explore our 1-bedroom floor plan – a harmonious blend of thoughtful design, spacious living areas, modern kitchens, and a well-appointed bedroom – creating an inviting and cozy living space for you</p>
+                            <p className="mt-4 md:mt-0">Explore our 1-bedroom floor plan – a harmonious blend of thoughtful design, spacious living areas, modern kitchens, and a well-appointed bedroom – creating an inviting and cozy living space for you</p>
                             <p className="text-xl font-bold mt-4">Key features</p>
                             <IconText 
                             icon={<MdOutlineBedroomParent />} 
