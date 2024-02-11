@@ -61,7 +61,7 @@ const HamburgerMenu = () => {
                         style={{fontSize: "30px"}}
                         className="ms-auto mx-1 mt-2" 
                         onClick={closeMenu} />
-                        <ul className="flex flex-col mt-5 mobile">
+                        <ul className="flex flex-col mt-5 mobile" onClick={closeMenu}>
                             <li>
                                 <Link to="/">Home</Link>
                             </li>
