@@ -339,10 +339,10 @@ const PricingPage = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-row rounded-lg shadow-2xl mx-8 mb-16 bg-[#e9e9df]">    
-                    <img src="../images/2bed_buy-min.jpg" alt="apartment" className="w-5/12 object-cover rounded-s-lg" />
+                <div className="pricing-card">    
+                    <img src="../images/2bed_buy-min.jpg" alt="apartment" className="pricing-img" />
                     
-                    <div className="flex flex-col mx-5 p-3">
+                    <div className="pricing-text-section">
                         <p className="text-2xl font-bold">Two bedroom apartment</p>
                         <p>Discover our 2-bedroom floor plan – an inviting blend of thoughtful design, expansive living areas, contemporary kitchens, and two well-appointed bedrooms – crafting a warm and welcoming living space tailored just for you</p>
                         <p className="font-bold mt-3">What's included:</p>
