@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { FaPlus, FaMinus } from "react-icons/fa6";
-import { IoIosArrowDropdown, IoIosArrowDropup } from "react-icons/io";
+import { IoIosArrowDropup } from "react-icons/io";
 import { motion } from "framer-motion";
 
 const FAQ = ({ question, answer }) => {
