@@ -1,5 +1,5 @@
 import IconText from "../components/IconText";
-import ImageOverlay from "../components/ImageOverlay";
+// import ImageOverlay from "../components/ImageOverlay";
 import { MdOutlineLiving, MdOutlineKitchen, MdOutlineBedroomParent, MdOutlineBathroom, MdOutlineBalcony, MdOutlineLocalLaundryService, MdOutlineChair, MdOutlineHeatPump, MdOutlineCleaningServices } from "react-icons/md";
 import { BiCctv } from "react-icons/bi";
 import { PiElevator } from "react-icons/pi";
