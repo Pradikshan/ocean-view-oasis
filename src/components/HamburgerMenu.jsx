@@ -31,6 +31,7 @@ const HamburgerMenu = () => {
 
     return (
         <>
+
         <div className="lg:hidden flex flex-row">
             <button className="ms-8 -mt-2" onClick={openMenu}>
                 <GiHamburgerMenu style={{ fontSize: 24 }}/>
@@ -47,7 +48,7 @@ const HamburgerMenu = () => {
             <AnimatePresence>
                 <Backdrop onClick={closeMenu}>
                     <motion.div 
-                    className="absolute z-10 w-3/4 h-full bg-secondary-color"
+                    className="absolute z-30 w-3/4 h-full bg-secondary-color"
                     onClick={(e) => e.stopPropagation()}
                     variants={slideIn}
                     initial="hidden"
