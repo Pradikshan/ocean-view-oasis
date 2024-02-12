@@ -28,7 +28,7 @@ li a{
 }
 
 .info-card-container:nth-child(even){
-    @apply bg-slate-100
+    @apply bg-[#ffffed]
 }
 
 .info-card{
