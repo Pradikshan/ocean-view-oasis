@@ -4,7 +4,7 @@ import FAQ from "../components/FAQ";
 const FAQPage = () => {
     return (
         <>
-        <div className="bg-gradient-2 bg-cover">
+        <div className="bg-faq-img bg-cover">
             <div className="pt-10">
             <p className="text-2xl md:text-3xl font-bold text-center">FAQ</p>
             {/* <p className="text-xl font-bold text-center">We have got answers</p> */}
