@@ -129,8 +129,8 @@ const TestimonialSection = () => {
             testimonial={"As the Dark Lord of Mordor, I can appreciate the finer things in life, and Ocean View Oasis does not disappoint. The breathtaking vistas of the sea remind me of the power and vastness of my domain. The luxurious interiors offer a taste of opulence fit for a ruler of Middle-earth. Ocean View Oasis is truly a haven worthy of one who seeks dominion over land and sea."} />
             </div> */}
 
-            <div className="flex flex-row">
-                <div className="flex flex-col w-1/4">
+            <div className="flex flex-col md:flex-row">
+                <div className="flex flex-col md:w-1/4">
                     <TestimonialCard 
                     image={"../images/gandalf.jpg"}
                     name={"Gandalf"} 
@@ -150,7 +150,7 @@ const TestimonialSection = () => {
                     testimonial={"Ocean View Oasis is a dwelling that befits both dwarf and elf alike. It stands as a testament to the unity of sea and mountain, offering a haven to revel in both the vastness of the ocean and the enduring strength of the stone."} />
                 </div>
 
-                <div className="flex flex-col w-1/2">
+                <div className="md:flex md:flex-col md:w-1/2">
                     <TestimonialCard 
                     className={""}
                     content_style={"md:text-xl md:font-bold"}
@@ -159,7 +159,7 @@ const TestimonialSection = () => {
                     title={"King of Gondor"}
                     testimonial={"In my journeys across realms and kingdoms, I have seldom found a residence as splendid as Ocean View Oasis. The majestic views of the vast ocean, the regal interiors, and the serene atmosphere create an abode fit for a king. Whether you seek respite or luxury, this apartment is a testament to the finer things in life."} />
 
-                    <div className="flex flex-row">
+                    <div className="md:flex md:flex-row">
                         <TestimonialCard
                         className={""}
                         image={"../images/merry.jpg"}
@@ -181,7 +181,7 @@ const TestimonialSection = () => {
                     testimonial={"As the Dark Lord of Mordor, I can appreciate the finer things in life, and Ocean View Oasis does not disappoint. The breathtaking vistas of the sea remind me of the power and vastness of my domain. The luxurious interiors offer a taste of opulence fit for a ruler of Middle-earth. Ocean View Oasis is truly a haven worthy of one who seeks dominion over land and sea."} />
                 </div>
 
-                <div className="flex flex-col w-1/4">
+                <div className="md:flex md:flex-col md:w-1/4">
                     <TestimonialCard
                     className={""}
                     image={"../images/sam.jpg"}
