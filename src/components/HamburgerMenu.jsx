@@ -32,14 +32,14 @@ const HamburgerMenu = () => {
     return (
         <>
 
-        <div className="lg:hidden flex flex-row">
+        <div className="lg:hidden flex flex-row bg-[#f5f5de]">
             <button className="ms-8 -mt-2" onClick={openMenu}>
                 <GiHamburgerMenu style={{ fontSize: 24 }}/>
             </button>
 
             <div className="flex flex-row ms-8">
             <img src="../images/logo.png" alt="logo" className="w-16 h-16"/>
-            <p className="self-center -ms-1 -mt-1 text-lg font-bold">OCEAN VIEW OASIS</p>
+            <p className="self-center  -mt-1 text-lg font-bold">OCEAN VIEW OASIS</p>
             </div>
         </div>
 
