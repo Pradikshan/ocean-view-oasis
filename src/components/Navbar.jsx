@@ -4,23 +4,6 @@ import HamburgerMenu from "./HamburgerMenu";
 
 const Navbar = () => {
 
-    const [isToggleMenu, setIsToggleMenu] = useState(false);
-
-    const toggleMenu = () => {
-        setIsToggleMenu(!isToggleMenu);
-    }
-
-    // const styles = {
-    //     fadeInLeft: {
-    //         animation: 'x 1s',
-    //         animationName: Radium.keyframes(fadeInLeft, 'fadeInLeft')
-    //     },
-    //     fadeOutLeft: {
-    //         animation: 'x 10s',
-    //         animationName: Radium.keyframes(fadeOutLeft, 'fadeOutLeft')
-    //     }
-    // }
-
     return (
         <>
         <div className="hidden lg:flex flex-row justify-between w-full px-4 py-2">
@@ -41,9 +24,6 @@ const Navbar = () => {
                     <li>
                         <Link to="/pricing">Pricing</Link>
                     </li>
-                    {/* <li>
-                        <Link to="/photo_gallery">Photo gallery</Link> 
-                    </li> */}
                     <li>
                         <Link to="/faq">FAQ</Link>
                     </li>
