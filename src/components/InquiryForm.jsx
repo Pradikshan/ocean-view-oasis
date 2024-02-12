@@ -1,8 +1,6 @@
 import { useRef } from "react";
 
 const InquiryForm = () => {
-    // TODO: Add a modal
-
     const formRef = useRef();
 
     const handleSubmit = (e) => {
