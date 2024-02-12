@@ -6,7 +6,7 @@ const Navbar = () => {
 
     return (
         <>
-        <div className="hidden lg:flex flex-row justify-between w-full px-4 py-2 bg-gradient-to-r from-[#f5f5de] to-[#f5f5de] ">
+        <div className="hidden lg:flex flex-row justify-between w-full px-4 py-2 bg-[#f5f5de]">
             <div className="flex flex-row">
                 <img src="../images/logo.png" alt="logo" className="w-24 h-24"/>
                 <p className="self-center text-3xl md:text-2xl font-bold">OCEAN VIEW OASIS</p>
