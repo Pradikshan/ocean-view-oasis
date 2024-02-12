@@ -5,7 +5,7 @@ import TestimonialCard from "./TestimonialCard";
 
 const TestimonialSection = () => {
 
-    const [ref, inView] = useInView();
+    // const [ref, inView] = useInView();
     return (
         // THIS IS THE CODE FOR THE OLD LAYOUT
         // <div className="testimonial-section" ref={ref}>
