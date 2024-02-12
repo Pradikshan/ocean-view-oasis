@@ -40,10 +40,6 @@ const HomePage = () => {
     const [ref2, inView2] = useInView();
     const [ref3, inView3] = useInView();
 
-
-    
-    
-
     return (
         <>
         <ImageOverlay 
