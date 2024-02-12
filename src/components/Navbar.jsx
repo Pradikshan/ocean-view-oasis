@@ -1,10 +1,6 @@
 import { useState } from "react";
 import { Link } from 'react-router-dom';
-import { GiHamburgerMenu } from "react-icons/gi";
-import { IoClose } from "react-icons/io5";
-import { fadeInLeft, fadeOutLeft } from 'react-animations';
 import HamburgerMenu from "./HamburgerMenu";
-// import Radium, { StyleRoot } from 'radium';
 
 const Navbar = () => {
 
