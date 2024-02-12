@@ -241,7 +241,7 @@ const PricingPage = () => {
         //     </div>
         // </div>
 
-        <div className="bg-gradient-2 bg-cover">
+        <div className="bg-pricing-img bg-cover">
             {/* <div className="absolute inset-x-0 top-0 h-20">
                 <div className="w-full h-full bg-gradient-to-b from-white to-transparent"></div>
             </div> */}
