@@ -198,7 +198,7 @@ const TestimonialSection = () => {
 
                     <TestimonialCard
                     image={"../images/saruman.jpg"}
-                    name={"Saru the White"}
+                    name={"Saruman the White"}
                     title={"Head of the Order of Wizards"}
                     testimonial={"As a wizard of great discernment, I can confidently attest that Ocean View Oasis exceeds all expectations. Its tranquil setting and elegant design make it a sanctuary fit for even the most discerning residents."} />
                 </div>
