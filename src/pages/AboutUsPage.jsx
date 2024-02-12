@@ -1,5 +1,5 @@
 import ImageTile from "../components/ImageTile";
-import ProfileCard from "../components/ProfileCard.jsx";
+import TeamMemberCard from "../components/TeamMemberCard.jsx";
 import StatsCard from "../components/StatsCard";
 import TextCard from "../components/TextCard";
 
@@ -113,52 +113,52 @@ const AboutUsPage = () => {
                     <p className="mt-2">Our dedicated team at Ocean View Oasis is committed to providing exceptional service and creating an unparalleled living experience for our residents, ensuring that every interaction is infused with warmth, professionalism, and genuine care.</p>
 
                     <div className="grid grid-cols-2 md:grid-cols-5 mt-12">
-                        <ProfileCard 
+                        <TeamMemberCard 
                         image_path={"../images/rust.jpg"} 
                         name={"Rustin Spencer Cohle"} 
                         position={"Community Manager"} />
 
-                        <ProfileCard 
+                        <TeamMemberCard 
                         image_path={"../images/marty.jpg"} 
                         name={"Martin Hart"} 
                         position={"Facilities Technician"} />   
 
-                        <ProfileCard 
+                        <TeamMemberCard 
                         image_path={"../images/django.jpg"} 
                         name={"Django Freeman"} 
                         position={"Maintenance Supervisor"} />
 
-                        <ProfileCard 
+                        <TeamMemberCard 
                         image_path={"../images/mills.jpg"} 
                         name={"David Mills"} 
                         position={"Leasing Consultant"} />
 
-                        <ProfileCard 
+                        <TeamMemberCard 
                         image_path={"../images/somerset.jpg"} 
                         name={"William Somerset"} 
                         position={"Operations Coordinator"} />
 
-                        <ProfileCard 
+                        <TeamMemberCard 
                         image_path={"../images/steve.jpg"} 
                         name={"Steve Harrington"} 
                         position={"Customer Experience Specialist"} />
 
-                        <ProfileCard 
+                        <TeamMemberCard 
                         image_path={"../images/fox.jpg"} 
                         name={"Fox Mulder"} 
                         position={"Sustainability Coordinator"} />
 
-                        <ProfileCard 
+                        <TeamMemberCard 
                         image_path={"../images/dana.jpg"} 
                         name={"Dana Scully"} 
                         position={"Administrative Assistant"} />     
 
-                        <ProfileCard 
+                        <TeamMemberCard 
                         image_path={"../images/aldo.jpg"} 
                         name={"Aldo Raine"} 
                         position={"Marketing Specilaist"} />
 
-                        <ProfileCard 
+                        <TeamMemberCard 
                         image_path={"../images/balrog.jpg"} 
                         name={"The Balrog"} 
                         position={"Human Resources Manager"} />
