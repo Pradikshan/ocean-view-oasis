@@ -1,7 +1,5 @@
 import SplitLayout from "../components/SplitLayout";
 import Inquiry from "../components/Inquiry";
-import ImageOverlay from "../components/ImageOverlay";
-
 
 const ContactUsPage = () => {
     return (
