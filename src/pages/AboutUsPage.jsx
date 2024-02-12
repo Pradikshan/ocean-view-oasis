@@ -8,7 +8,7 @@ const AboutUsPage = () => {
     return (
         <>
         <div>
-            <div className="mt-4 md:py-28 bg-gradient-2 bg-cover">
+            <div className="md:py-28 bg-about-img bg-cover">
                 
                 <div className="flex flex-col md:flex-row relative">
                     <div className="flex flex-col md:w-1/2 py-12 md:py-72 px-5 md:px-12">
@@ -154,8 +154,8 @@ const AboutUsPage = () => {
                         position={"Administrative Assistant"} />     
 
                         <ProfileCard 
-                        image_path={"../images/scooby.jpg"} 
-                        name={"Scooby Doo"} 
+                        image_path={"../images/aldo.jpg"} 
+                        name={"Aldo Raine"} 
                         position={"Marketing Specilaist"} />
 
                         <ProfileCard 
