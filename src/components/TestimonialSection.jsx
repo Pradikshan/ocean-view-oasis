@@ -1,6 +1,5 @@
 // import { motion, useSpring, useTransform, useMotionValue, useVelocity, useAnimationFrame } from "framer-motion";
 // import { wrap } from "@motionone/utils";
-import { useInView } from "react-intersection-observer";
 import TestimonialCard from "./TestimonialCard";
 
 const TestimonialSection = () => {
