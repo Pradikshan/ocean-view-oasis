@@ -174,11 +174,17 @@ const TestimonialSection = () => {
                         title={"Knight of Gondor"}
                         testimonial={"Ocean View Oasis is a merry abode where the sea's tales mingle with the laughter of friends. The lively interiors, like a Hobbit's haven, exude joy and comfort."} />
                     </div>
+
+                    <TestimonialCard
+                    image={"../images/sauron.jpg"}
+                    name={"Sauron the Deceiver"}
+                    title={"Dark lord of Mordor"}
+                    testimonial={"As the Dark Lord of Mordor, I can appreciate the finer things in life, and Ocean View Oasis does not disappoint. The breathtaking vistas of the sea remind me of the power and vastness of my domain. The luxurious interiors offer a taste of opulence fit for a ruler of Middle-earth. Ocean View Oasis is truly a haven worthy of one who seeks dominion over land and sea."} />
                 </div>
 
                 <div className="flex flex-col w-1/4">
                     <TestimonialCard
-                    className={"md:h-fit"}
+                    className={""}
                     image={"../images/sam.jpg"}
                     name={"Samwise Gamgee"}
                     title={"The faithful friend"}
@@ -188,13 +194,13 @@ const TestimonialSection = () => {
                     image={"../images/frodo.jpg"}
                     name={"Frodo Baggins"}
                     title={"The Ring-bearer"}
-                    testimonial={"Nestled by the ocean's edge, this haven offered me solace and serenity during my travels. The tranquil ambiance, combined with the gentle lullaby of the waves, provided the perfect backdrop for reflection and rejuvenation. With its cozy interiors and picturesque views, Ocean View Oasis felt like a haven in Middle-earth. I couldn't have asked for a more peaceful retreat."} />
+                    testimonial={"Combined with the gentle lullaby of the waves, provided the perfect backdrop for reflection and rejuvenation I couldn't have asked for a more peaceful retreat."} />
 
                     <TestimonialCard
-                    image={"../images/sauron.jpg"}
-                    name={"Sauron the Deceiver"}
-                    title={"Dark lord of Mordor"}
-                    testimonial={"As the Dark Lord of Mordor, I can appreciate the finer things in life, and Ocean View Oasis does not disappoint. The breathtaking vistas of the sea remind me of the power and vastness of my domain. The luxurious interiors offer a taste of opulence fit for a ruler of Middle-earth. Ocean View Oasis is truly a haven worthy of one who seeks dominion over land and sea."} />
+                    image={"../images/saruman.jpg"}
+                    name={"Saru the White"}
+                    title={"Head of the Order of Wizards"}
+                    testimonial={"As a wizard of great discernment, I can confidently attest that Ocean View Oasis exceeds all expectations. Its tranquil setting and elegant design make it a sanctuary fit for even the most discerning residents."} />
                 </div>
             </div>
 
