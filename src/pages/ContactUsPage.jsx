@@ -1,5 +1,5 @@
 import SplitLayout from "../components/SplitLayout";
-import Inquiry from "../components/Inquiry";
+import InquiryForm from "../components/InquiryForm";
 
 const ContactUsPage = () => {
     return (
@@ -32,7 +32,7 @@ const ContactUsPage = () => {
                     </div>
 
                     <div className="px-6 md:ps-20">
-                        <Inquiry />
+                        <InquiryForm />
                     </div>
                 </SplitLayout>
             </div>
