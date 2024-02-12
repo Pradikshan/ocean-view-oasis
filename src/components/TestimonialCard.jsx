@@ -17,7 +17,7 @@ const TestimonialCard = ({ className, content_style, image, name, title, testimo
                 <div className="flex flex-row mt-8">
                     <img src={image} alt="resident" className="rounded-full object-cover w-14 h-14" />
                     <div className="flex flex-col ms-5">
-                        <p className="text-xl font-bold">{name}</p>
+                        <p className="text-lg font-bold">{name}</p>
                         <p>{title}</p>
                     </div> 
                 </div>
