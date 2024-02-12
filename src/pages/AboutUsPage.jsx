@@ -1,5 +1,5 @@
 import ImageTile from "../components/ImageTile";
-import ProfileCard from "../components/ProfileCard";
+// import ProfileCard from "../components/ProfileCard";
 import StatsCard from "../components/StatsCard";
 import TextCard from "../components/TextCard";
 
@@ -108,7 +108,7 @@ const AboutUsPage = () => {
 
                 </div>
 
-                <div className="px-5 md:px-12 mt-28 pb-12 md:pb-20">
+                {/* <div className="px-5 md:px-12 mt-28 pb-12 md:pb-20">
                     <p className="text-3xl font-bold">Our team</p>
                     <p className="mt-2">Our dedicated team at Ocean View Oasis is committed to providing exceptional service and creating an unparalleled living experience for our residents, ensuring that every interaction is infused with warmth, professionalism, and genuine care.</p>
 
@@ -164,7 +164,7 @@ const AboutUsPage = () => {
                         position={"Human Resources Manager"} />
                     </div>
 
-                </div>
+                </div> */}
 
                 {/* <div className="absolute inset-x-0 bottom-0 h-20">
                     <div className="h-full w-full bg-gradient-to-t from-white to-transparent"></div>
