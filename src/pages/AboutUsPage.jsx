@@ -1,5 +1,5 @@
 import ImageTile from "../components/ImageTile";
-import ProfileCard from "../components/ProfileCard";
+import ProfileCard from "../components/ProfileCard.jsx";
 import StatsCard from "../components/StatsCard";
 import TextCard from "../components/TextCard";
 
