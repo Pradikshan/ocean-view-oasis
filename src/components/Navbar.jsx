@@ -6,7 +6,7 @@ const Navbar = () => {
 
     return (
         <>
-        <div className="hidden lg:flex flex-row justify-between w-full px-4 py-2 bg-floor-img bg-cover">
+        <div className="hidden lg:flex flex-row justify-between w-full px-4 py-2 bg-gradient-to-r from-[#f5f5de] to-[#f5f5de] ">
             <div className="flex flex-row">
                 <img src="../images/logo.png" alt="logo" className="w-24 h-24"/>
                 <p className="self-center text-3xl md:text-2xl font-bold">OCEAN VIEW OASIS</p>
@@ -36,7 +36,7 @@ const Navbar = () => {
                 </ul>
             </div>
 
-            <div className="flex flex-row self-center border-2 border-s-zinc-500 border-white py-5 ps-4">
+            <div className="flex flex-row self-center border-2 border-s-zinc-500 border-[#f5f5de] py-5 ps-4">
                 <div className="flex flex-col font-bold me-3">
                     <p>Schedule a tour :</p>
                     <p>+94-768521-069</p>
