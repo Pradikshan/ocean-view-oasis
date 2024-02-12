@@ -138,9 +138,8 @@ const HomePage = () => {
             </SplitLayout>
         </div>
         
-        <div className="bg-gradient-2 bg-cover">
-            <TestimonialSection />
-        </div>
+
+        <TestimonialSection />
         
 
         </>
