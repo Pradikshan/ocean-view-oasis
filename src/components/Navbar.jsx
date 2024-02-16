@@ -40,7 +40,7 @@ const Navbar = () => {
                     <p>Schedule a tour :</p>
                     <p>+94-768521-069</p>
                 </div>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="bg-cta-color text-white p-3 rounded-full h-1/2 self-center">Discover Your New Home</a>
+                <a href="#" className="bg-cta-color text-white p-3 rounded-full h-1/2 self-center">Discover Your New Home</a>
             </div>
         </div>
 
