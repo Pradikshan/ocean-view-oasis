@@ -1,6 +1,6 @@
 # About the project
 
-Welcome to Ocean View Oasis, your premier destination for luxury coastal living. Our project offers a unique blend of modern amenities, breathtaking ocean views, and a vibrant community atmosphere. Whether you're seeking a serene retreat or an active lifestyle by the sea, Ocean View Oasis has something for everyone.
+Ocean View Oasis is a website for an apartment complex.
 
 ## Technologies used
 
